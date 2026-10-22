@@ -1,0 +1,56 @@
+[
+  {
+    "kanji": "波",
+    "han_viet": "BA",
+    "meaning_vi": "Ba Lan",
+    "onyomi": [
+      "は"
+    ],
+    "kunyomi": [
+      "なみ"
+    ],
+    "strokes": 8,
+    "jlpt": "N2",
+    "lesson": 1,
+    "mnemonic": {
+      "image_url": "/images/custom/custom_1792694657487_u24ap.jpeg",
+      "story": ""
+    },
+    "examples": [
+      {
+        "word": "波",
+        "reading": "なみ",
+        "han_viet": "BA",
+        "meaning": "Con sóng, sóng"
+      },
+      {
+        "word": "津波",
+        "reading": "つなみ",
+        "han_viet": "TÂN BA",
+        "meaning": "Sóng thần"
+      },
+      {
+        "word": "電波",
+        "reading": "でんぱ",
+        "han_viet": "ĐIỆN BA",
+        "meaning": "Sóng điện từ, sóng điện thoại"
+      },
+      {
+        "word": "波及する",
+        "reading": "はきゅうする",
+        "han_viet": "BA CẬP",
+        "meaning": "Lan truyền, ảnh hưởng lan rộng"
+      },
+      {
+        "word": "難波",
+        "reading": "なにわ",
+        "han_viet": "NAN BA",
+        "meaning": "Naniwa (tên cổ của vùng Osaka)"
+      }
+    ],
+    "id": "custom-1792694619555",
+    "book": 3,
+    "number": 1,
+    "custom": true
+  }
+]
