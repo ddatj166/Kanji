@@ -27,10 +27,10 @@ export const KanjiCard: React.FC<KanjiCardProps> = ({
 
   const sourceLabel =
     kanji.book === 1
-      ? `Q1 • Bài ${kanji.lesson}`
+      ? `Q1 · B${kanji.lesson}`
       : kanji.book === 2
-      ? `Q2 • Bài ${kanji.lesson}`
-      : `Tự thêm • B${kanji.lesson}`;
+      ? `Q2 · B${kanji.lesson}`
+      : `Tự thêm · B${kanji.lesson}`;
 
   if (viewMode === 'compact') {
     const readings = [
@@ -70,15 +70,6 @@ export const KanjiCard: React.FC<KanjiCardProps> = ({
             {sourceLabel}
           </span>
 
-          {kanji.mnemonic.image_url && (
-            <img
-              src={kanji.mnemonic.image_url}
-              alt={kanji.kanji}
-              className="w-8 h-8 object-contain rounded-md bg-white border border-slate-100 p-0.5 hidden sm:block"
-              loading="lazy"
-            />
-          )}
-
           <button
             type="button"
             onClick={handleAudio}
@@ -105,15 +96,16 @@ export const KanjiCard: React.FC<KanjiCardProps> = ({
     );
   }
 
+  // Minimalist Grid Mode: Only Kanji prominently, no image
   return (
     <div
       onClick={onClick}
-      className="group relative flex flex-col justify-between bg-white border border-slate-200/80 hover:border-red-300 rounded-2xl p-3.5 cursor-pointer hover:shadow-lg hover:shadow-slate-900/5 transition-all duration-200"
+      className="group relative flex flex-col justify-between bg-white border border-slate-200/80 hover:border-red-300 hover:shadow-md hover:shadow-slate-900/5 rounded-2xl p-3 cursor-pointer transition-all duration-200"
     >
-      {/* Minimal Top Meta Row */}
-      <div className="flex items-center justify-between mb-2">
-        <span className="text-[11px] font-medium text-slate-400">
-          {sourceLabel} <span className="text-slate-300">#{kanji.number}</span>
+      {/* Subtle Top Meta */}
+      <div className="flex items-center justify-between text-[11px] text-slate-400">
+        <span className="font-medium text-slate-400">
+          {sourceLabel}
         </span>
 
         <button
@@ -126,40 +118,23 @@ export const KanjiCard: React.FC<KanjiCardProps> = ({
           }`}
           title={isBookmarked ? 'Bỏ lưu' : 'Lưu từ này'}
         >
-          <Star className={`w-4 h-4 ${isBookmarked ? 'fill-amber-400' : ''}`} />
+          <Star className={`w-3.5 h-3.5 ${isBookmarked ? 'fill-amber-400' : ''}`} />
         </button>
       </div>
 
-      {/* Unified Visual Stage: Kanji + Look & Learn Illustration */}
-      <div className="flex items-center justify-between gap-2 px-3 py-2.5 rounded-xl bg-slate-50/80 group-hover:bg-red-50/30 transition-colors">
-        <div className="flex-1 flex items-center justify-center">
-          <span className="text-5xl font-bold font-serif text-slate-900 group-hover:text-red-700 transition-colors select-none leading-none">
-            {kanji.kanji}
-          </span>
-        </div>
-
-        <div className="w-20 h-20 sm:w-[88px] sm:h-[88px] rounded-lg bg-white border border-slate-100 flex items-center justify-center p-1.5 shrink-0 overflow-hidden">
-          {kanji.mnemonic.image_url ? (
-            <img
-              src={kanji.mnemonic.image_url}
-              alt={kanji.kanji}
-              className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
-              loading="lazy"
-            />
-          ) : (
-            <span className="text-[10px] text-slate-300 italic text-center">
-              Chưa có ảnh
-            </span>
-          )}
-        </div>
+      {/* Prominent Minimalist Kanji Center */}
+      <div className="py-4 my-auto flex items-center justify-center">
+        <span className="text-5xl sm:text-6xl font-bold font-serif text-slate-900 group-hover:text-red-700 group-hover:scale-105 transition-all duration-200 select-none leading-none">
+          {kanji.kanji}
+        </span>
       </div>
 
-      {/* Clean Footer: Han Viet & Meaning */}
-      <div className="mt-2.5 pt-0.5">
-        <h3 className="text-sm font-bold text-red-700 tracking-wide uppercase truncate">
+      {/* Minimal Footer: Han Viet & Meaning */}
+      <div className="text-center pt-1 border-t border-slate-100">
+        <h3 className="text-xs font-bold text-red-700 tracking-wider uppercase truncate">
           {kanji.han_viet || '---'}
         </h3>
-        <p className="text-xs text-slate-600 mt-0.5 line-clamp-1">
+        <p className="text-[11px] text-slate-500 truncate mt-0.5">
           {kanji.meaning_vi || kanji.meaning_en || '---'}
         </p>
       </div>
