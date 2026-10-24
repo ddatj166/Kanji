@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, useRef } from 'react';
 import Fuse from 'fuse.js';
 import { Navbar } from '@/components/Navbar';
 import { FilterBar } from '@/components/FilterBar';
@@ -31,6 +31,18 @@ export default function HomePage() {
     text: string;
     item?: KanjiEntry;
   } | null>(null);
+  const toastTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const showToast = (msg: { text: string; item?: KanjiEntry }, durationMs = 3500) => {
+    if (toastTimeoutRef.current) {
+      clearTimeout(toastTimeoutRef.current);
+    }
+    setToastMessage(msg);
+    toastTimeoutRef.current = setTimeout(() => {
+      setToastMessage(null);
+      toastTimeoutRef.current = null;
+    }, durationMs);
+  };
 
   // Filter & Search states
   const [searchQuery, setSearchQuery] = useState('');
@@ -101,10 +113,34 @@ export default function HomePage() {
   const handleUpdateKanji = (updated: KanjiEntry) => {
     setAllKanji((prev) => prev.map((k) => (k.id === updated.id ? updated : k)));
     setActiveKanji(updated);
-    setToastMessage({
+    showToast({
       text: `Đã cập nhật chữ 「${updated.kanji}」`,
     });
-    setTimeout(() => setToastMessage(null), 3000);
+  };
+
+  // Reset modified book Kanji back to original
+  const handleResetKanji = async (target: KanjiEntry) => {
+    try {
+      const res = await fetch('/api/kanji', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'reset_to_original', id: target.id }),
+      });
+      if (!res.ok) throw new Error('Reset failed');
+      const data = await res.json();
+      if (data.item) {
+        setAllKanji((prev) => prev.map((k) => (k.id === target.id ? data.item : k)));
+        setActiveKanji(data.item);
+        showToast({
+          text: `Đã khôi phục chữ 「${data.item.kanji}」 về bản gốc`,
+        });
+      }
+    } catch (err) {
+      console.error('Reset error:', err);
+      showToast({
+        text: `Lỗi khi khôi phục chữ 「${target.kanji}」`,
+      });
+    }
   };
 
   // Open edit modal
@@ -118,35 +154,44 @@ export default function HomePage() {
   const handleKanjiAdded = (newKanji: KanjiEntry) => {
     setAllKanji((prev) => [newKanji, ...prev]);
     setActiveKanji(newKanji);
-    setToastMessage({
+    showToast({
       text: `Đã thêm chữ 「${newKanji.kanji}」 vào từ điển`,
     });
-    setTimeout(() => setToastMessage(null), 3000);
   };
 
-  // Delete Kanji
+  // Delete Kanji (Custom Kanji)
   const handleDeleteKanji = async (target: KanjiEntry, e?: React.MouseEvent) => {
     if (e) e.stopPropagation();
 
+    const prevList = allKanji;
     setAllKanji((prev) => prev.filter((k) => k.id !== target.id));
     if (activeKanji?.id === target.id) {
       setActiveKanji(null);
     }
 
     setRecentlyDeleted((prev) => [target, ...prev]);
-    setToastMessage({
-      text: `Đã xóa chữ 「${target.kanji}」`,
-      item: target,
-    });
+    showToast(
+      {
+        text: `Đã xóa chữ 「${target.kanji}」`,
+        item: target,
+      },
+      6000
+    );
 
     try {
-      await fetch('/api/kanji', {
+      const res = await fetch('/api/kanji', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ action: 'delete', id: target.id }),
       });
+      if (!res.ok) throw new Error('Delete failed');
     } catch (err) {
       console.error('Delete error:', err);
+      setAllKanji(prevList);
+      setRecentlyDeleted((prev) => prev.filter((k) => k.id !== target.id));
+      showToast({
+        text: `Không thể xóa chữ 「${target.kanji}」. Vui lòng thử lại.`,
+      });
     }
   };
 
@@ -159,19 +204,22 @@ export default function HomePage() {
     setRecentlyDeleted(remaining);
 
     setAllKanji((prev) => [itemToRestore, ...prev]);
-    setToastMessage({
+    showToast({
       text: `Đã khôi phục chữ 「${itemToRestore.kanji}」`,
     });
-    setTimeout(() => setToastMessage(null), 3000);
 
     try {
-      await fetch('/api/kanji', {
+      const res = await fetch('/api/kanji', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ action: 'restore', kanji: itemToRestore }),
       });
+      if (!res.ok) throw new Error('Restore failed');
     } catch (err) {
       console.error('Restore error:', err);
+      showToast({
+        text: `Lỗi khi khôi phục chữ 「${itemToRestore.kanji}」`,
+      });
     }
   };
 
@@ -240,7 +288,7 @@ export default function HomePage() {
     const query = searchQuery.trim();
     if (query) {
       const qNormalized = removeVietnameseTones(query);
-      const isNum = !isNaN(Number(query.replace('#', '')));
+      const isNum = /^#?\d+$/.test(query);
 
       const directMatches = allKanji.filter((k) => {
         if (isNum && k.number === Number(query.replace('#', ''))) return true;
@@ -446,6 +494,7 @@ export default function HomePage() {
         onToggleBookmark={(id) => handleToggleBookmark(id)}
         onUpdateKanji={handleUpdateKanji}
         onDeleteKanji={handleDeleteKanji}
+        onResetKanji={handleResetKanji}
         onEditKanji={handleOpenEditModal}
         hasPrev={activeKanjiIndex > 0}
         hasNext={activeKanjiIndex >= 0 && activeKanjiIndex < filteredKanji.length - 1}

@@ -2,8 +2,18 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    unoptimized: true
-  }
+    unoptimized: true,
+  },
+  async rewrites() {
+    return {
+      fallback: [
+        {
+          source: '/images/custom/:filename',
+          destination: '/api/upload?file=:filename',
+        },
+      ],
+    };
+  },
 };
 
 module.exports = nextConfig;

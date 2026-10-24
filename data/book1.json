@@ -870,8 +870,8 @@
     "lesson": 1,
     "number": 14,
     "kanji": "円",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "VIÊN",
+    "meaning_vi": "hình tròn, đồng Yên",
     "meaning_en": "Circle, Yen, Round",
     "onyomi": [
       "えん"
@@ -1522,8 +1522,8 @@
     "lesson": 2,
     "number": 24,
     "kanji": "曜",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "DIỆU",
+    "meaning_vi": "ngày trong tuần",
     "meaning_en": "Weekday",
     "onyomi": [
       "よう"
@@ -1775,8 +1775,8 @@
     "lesson": 2,
     "number": 28,
     "kanji": "寺",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "TỰ",
+    "meaning_vi": "ngôi chùa",
     "meaning_en": "Buddhist Temple",
     "onyomi": [
       "じ"
@@ -3008,7 +3008,7 @@
     "lesson": 3,
     "number": 48,
     "kanji": "北",
-    "han_viet": "",
+    "han_viet": "BẮC",
     "meaning_vi": "hướng bắc, phía bắc",
     "meaning_en": "North",
     "onyomi": [
@@ -3579,7 +3579,7 @@
     "lesson": 4,
     "number": 57,
     "kanji": "何",
-    "han_viet": "",
+    "han_viet": "HÀ",
     "meaning_vi": "cái gì",
     "meaning_en": "What",
     "onyomi": [
@@ -3880,8 +3880,8 @@
     "lesson": 4,
     "number": 62,
     "kanji": "毎",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "MỖI",
+    "meaning_vi": "mỗi (mỗi ngày, mỗi tháng)",
     "meaning_en": "Every",
     "onyomi": [
       "まい"
@@ -4196,7 +4196,7 @@
     "lesson": 5,
     "number": 67,
     "kanji": "米",
-    "han_viet": "",
+    "han_viet": "MỄ",
     "meaning_vi": "gạo",
     "meaning_en": "Rice, Usa, Metre",
     "onyomi": [
@@ -4376,8 +4376,8 @@
     "lesson": 5,
     "number": 70,
     "kanji": "食",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "THỰC",
+    "meaning_vi": "ăn, thức ăn",
     "meaning_en": "Eat, Food",
     "onyomi": [
       "しょく",
@@ -5476,8 +5476,8 @@
     "lesson": 6,
     "number": 88,
     "kanji": "気",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "KHÍ",
+    "meaning_vi": "tinh thần, không khí",
     "meaning_en": "Spirit, Mind, Air",
     "onyomi": [
       "き",
@@ -5662,8 +5662,8 @@
     "lesson": 6,
     "number": 91,
     "kanji": "広",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "QUẢNG",
+    "meaning_vi": "rộng, rộng rãi",
     "meaning_en": "Wide, Broad, Spacious",
     "onyomi": [
       "こう"
@@ -6255,7 +6255,7 @@
     "lesson": 7,
     "number": 100,
     "kanji": "町",
-    "han_viet": "",
+    "han_viet": "ĐINH",
     "meaning_vi": "thị trấn, con phố",
     "meaning_en": "Town, Village, Block",
     "onyomi": [
@@ -6424,8 +6424,8 @@
     "lesson": 7,
     "number": 103,
     "kanji": "電",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "ĐIỆN",
+    "meaning_vi": "điện",
     "meaning_en": "Electricity",
     "onyomi": [
       "でん"
@@ -6606,7 +6606,7 @@
     "lesson": 7,
     "number": 106,
     "kanji": "駅",
-    "han_viet": "",
+    "han_viet": "DỊCH",
     "meaning_vi": "ga, nhà ga",
     "meaning_en": "Station",
     "onyomi": [
@@ -7284,8 +7284,8 @@
     "lesson": 8,
     "number": 118,
     "kanji": "売",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "MẠI",
+    "meaning_vi": "bán, bán hàng",
     "meaning_en": "Sell",
     "onyomi": [
       "ばい"
@@ -7349,8 +7349,8 @@
     "lesson": 8,
     "number": 119,
     "kanji": "読",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "ĐỘC",
+    "meaning_vi": "đọc",
     "meaning_en": "Read",
     "onyomi": [
       "どく",
@@ -7467,8 +7467,8 @@
     "lesson": 8,
     "number": 121,
     "kanji": "帰",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "QUY",
+    "meaning_vi": "về, trở về",
     "meaning_en": "Homecoming, Arrive At, Lead To",
     "onyomi": [
       "き"
@@ -7913,7 +7913,7 @@
     "lesson": 9,
     "number": 129,
     "kanji": "春",
-    "han_viet": "",
+    "han_viet": "XUÂN",
     "meaning_vi": "mùa xuân",
     "meaning_en": "Springtime, Spring (season)",
     "onyomi": [
@@ -7972,7 +7972,7 @@
     "lesson": 9,
     "number": 130,
     "kanji": "夏",
-    "han_viet": "",
+    "han_viet": "HẠ",
     "meaning_vi": "mùa hè",
     "meaning_en": "Summer",
     "onyomi": [
@@ -8211,7 +8211,7 @@
     "lesson": 9,
     "number": 134,
     "kanji": "昼",
-    "han_viet": "",
+    "han_viet": "TRÚ",
     "meaning_vi": "trưa, buổi trưa",
     "meaning_en": "Daytime, Noon",
     "onyomi": [
@@ -8390,7 +8390,7 @@
     "lesson": 9,
     "number": 137,
     "kanji": "晩",
-    "han_viet": "",
+    "han_viet": "VÃN",
     "meaning_vi": "buổi tối, ban đêm",
     "meaning_en": "Nightfall, Night",
     "onyomi": [
@@ -9642,8 +9642,8 @@
     "lesson": 10,
     "number": 157,
     "kanji": "黒",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "HẮC",
+    "meaning_vi": "màu đen",
     "meaning_en": "Black",
     "onyomi": [
       "こく"
@@ -9829,7 +9829,7 @@
     "lesson": 10,
     "number": 160,
     "kanji": "犬",
-    "han_viet": "",
+    "han_viet": "KHUYỂN",
     "meaning_vi": "chó",
     "meaning_en": "Dog",
     "onyomi": [
@@ -10086,8 +10086,8 @@
     "lesson": 11,
     "number": 164,
     "kanji": "飯",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "PHẠN",
+    "meaning_vi": "cơm, bữa ăn",
     "meaning_en": "Meal, Boiled Rice",
     "onyomi": [
       "はん"
@@ -10204,7 +10204,7 @@
     "lesson": 11,
     "number": 166,
     "kanji": "豚",
-    "han_viet": "",
+    "han_viet": "ĐỒN",
     "meaning_vi": "heo",
     "meaning_en": "Pork, Pig",
     "onyomi": [
@@ -10307,7 +10307,7 @@
     "lesson": 11,
     "number": 168,
     "kanji": "肉",
-    "han_viet": "",
+    "han_viet": "NHỤC",
     "meaning_vi": "thịt",
     "meaning_en": "Meat",
     "onyomi": [
@@ -10555,8 +10555,8 @@
     "lesson": 11,
     "number": 172,
     "kanji": "菜",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "THÁI",
+    "meaning_vi": "rau, món ăn",
     "meaning_en": "Vegetable, Side Dish, Greens",
     "onyomi": [
       "さい"
@@ -10944,8 +10944,8 @@
     "lesson": 12,
     "number": 178,
     "kanji": "楽",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "LẠC, NHẠC",
+    "meaning_vi": "vui vẻ, âm nhạc",
     "meaning_en": "Music, Comfort, Ease",
     "onyomi": [
       "がく",
@@ -11134,8 +11134,8 @@
     "lesson": 12,
     "number": 181,
     "kanji": "転",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "CHUYỂN",
+    "meaning_vi": "chuyển động, xoay",
     "meaning_en": "Revolve, Turn Around, Change",
     "onyomi": [
       "てん"
@@ -11205,8 +11205,8 @@
     "lesson": 12,
     "number": 182,
     "kanji": "乗",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "THỪA",
+    "meaning_vi": "lên xe, cưỡi",
     "meaning_en": "Ride, Power, Multiplication",
     "onyomi": [
       "じょう",
@@ -12535,7 +12535,7 @@
     "lesson": 13,
     "number": 206,
     "kanji": "糸",
-    "han_viet": "",
+    "han_viet": "MỊCH, TY",
     "meaning_vi": "chỉ, sợi chỉ",
     "meaning_en": "Thread",
     "onyomi": [
@@ -13164,8 +13164,8 @@
     "lesson": 14,
     "number": 217,
     "kanji": "験",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "NGHIỆM",
+    "meaning_vi": "thử nghiệm, kỳ thi",
     "meaning_en": "Verification, Effect, Testing",
     "onyomi": [
       "けん",
@@ -13273,8 +13273,8 @@
     "lesson": 14,
     "number": 219,
     "kanji": "題",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "ĐỀ",
+    "meaning_vi": "chủ đề, đề bài",
     "meaning_en": "Topic, Subject",
     "onyomi": [
       "だい"
@@ -13519,8 +13519,8 @@
     "lesson": 14,
     "number": 223,
     "kanji": "問",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "VẤN",
+    "meaning_vi": "hỏi, vấn đề",
     "meaning_en": "Question, Ask, Problem",
     "onyomi": [
       "もん"
@@ -13775,8 +13775,8 @@
     "lesson": 15,
     "number": 227,
     "kanji": "者",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "GIẢ",
+    "meaning_vi": "người (học giả, tác giả)",
     "meaning_en": "Someone, Person",
     "onyomi": [
       "しゃ"
@@ -13839,8 +13839,8 @@
     "lesson": 15,
     "number": 228,
     "kanji": "暑",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "THỬ",
+    "meaning_vi": "nóng, oi bức",
     "meaning_en": "Sultry, Hot, Summer Heat",
     "onyomi": [
       "しょ"
@@ -14003,8 +14003,8 @@
     "lesson": 15,
     "number": 231,
     "kanji": "軽",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "KHINH",
+    "meaning_vi": "nhẹ, nhẹ nhàng",
     "meaning_en": "Lightly, Trifling, Unimportant",
     "onyomi": [
       "けい",
@@ -14179,8 +14179,8 @@
     "lesson": 15,
     "number": 234,
     "kanji": "悪",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "ÁC, Ố",
+    "meaning_vi": "xấu, ác",
     "meaning_en": "Bad, Vice, Rascal",
     "onyomi": [
       "あく",
@@ -14817,8 +14817,8 @@
     "lesson": 16,
     "number": 244,
     "kanji": "歩",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "BỘ",
+    "meaning_vi": "đi bộ, bước đi",
     "meaning_en": "Walk, Counter For Steps",
     "onyomi": [
       "ほ",
@@ -16246,7 +16246,7 @@
     "lesson": 17,
     "number": 267,
     "kanji": "薬",
-    "han_viet": "",
+    "han_viet": "DƯỢC",
     "meaning_vi": "thuốc",
     "meaning_en": "Medicine, Chemical, Enamel",
     "onyomi": [
@@ -16305,8 +16305,8 @@
     "lesson": 17,
     "number": 268,
     "kanji": "働",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "ĐỘNG",
+    "meaning_vi": "làm việc, lao động",
     "meaning_en": "Work, (kokuji)",
     "onyomi": [
       "どう"
@@ -16612,8 +16612,8 @@
     "lesson": 18,
     "number": 273,
     "kanji": "図",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "ĐỒ",
+    "meaning_vi": "bản đồ, hình vẽ",
     "meaning_en": "Map, Drawing, Plan",
     "onyomi": [
       "ず",
@@ -16977,8 +16977,8 @@
     "lesson": 18,
     "number": 279,
     "kanji": "貸",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "THẢI",
+    "meaning_vi": "cho mượn, cho vay",
     "meaning_en": "Lend",
     "onyomi": [
       "たい"
@@ -18501,8 +18501,8 @@
     "lesson": 19,
     "number": 304,
     "kanji": "以",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "DĨ",
+    "meaning_vi": "lấy làm mốc (trở lên, trở xuống)",
     "meaning_en": "By Means Of, Because, In View Of",
     "onyomi": [
       "い"
@@ -18625,7 +18625,7 @@
     "lesson": 20,
     "number": 306,
     "kanji": "戸",
-    "han_viet": "",
+    "han_viet": "HỘ",
     "meaning_vi": "cửa",
     "meaning_en": "Door, Counter For Houses, Door Radical (no. 63)",
     "onyomi": [
@@ -18917,8 +18917,8 @@
     "lesson": 20,
     "number": 311,
     "kanji": "県",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "HUYỆN",
+    "meaning_vi": "tỉnh (của Nhật)",
     "meaning_en": "Prefecture",
     "onyomi": [
       "けん"
@@ -19074,8 +19074,8 @@
     "lesson": 20,
     "number": 314,
     "kanji": "発",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "PHÁT",
+    "meaning_vi": "xuất phát, phát âm",
     "meaning_en": "Departure, Discharge, Publish",
     "onyomi": [
       "はつ",
@@ -19884,7 +19884,7 @@
     "lesson": 21,
     "number": 327,
     "kanji": "卵",
-    "han_viet": "",
+    "han_viet": "NOÃN",
     "meaning_vi": "trứng; quả trứng",
     "meaning_en": "Egg, Ovum, Spawn",
     "onyomi": [
@@ -19982,8 +19982,8 @@
     "lesson": 21,
     "number": 329,
     "kanji": "酒",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "TỬU",
+    "meaning_vi": "rượu",
     "meaning_en": "Sake, Alcohol",
     "onyomi": [
       "しゅ"
@@ -20042,7 +20042,7 @@
     "lesson": 21,
     "number": 330,
     "kanji": "塩",
-    "han_viet": "",
+    "han_viet": "DIÊM",
     "meaning_vi": "muối",
     "meaning_en": "Salt",
     "onyomi": [
@@ -20229,8 +20229,8 @@
     "lesson": 21,
     "number": 333,
     "kanji": "焼",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "THIÊU",
+    "meaning_vi": "nướng, đốt cháy",
     "meaning_en": "Bake, Burning",
     "onyomi": [
       "しょう"
@@ -20462,8 +20462,8 @@
     "lesson": 22,
     "number": 337,
     "kanji": "笑",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "TIẾU",
+    "meaning_vi": "cười, mỉm cười",
     "meaning_en": "Laugh",
     "onyomi": [
       "しょう"
@@ -20839,8 +20839,8 @@
     "lesson": 22,
     "number": 344,
     "kanji": "恥",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "SỈ",
+    "meaning_vi": "xấu hổ, ngượng",
     "meaning_en": "Shame, Dishonor",
     "onyomi": [
       "ち"
@@ -21358,8 +21358,8 @@
     "lesson": 23,
     "number": 353,
     "kanji": "覚",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "GIÁC",
+    "meaning_vi": "nhớ, cảm giác",
     "meaning_en": "Memorize, Learn, Remember",
     "onyomi": [
       "かく"
@@ -22510,8 +22510,8 @@
     "lesson": 24,
     "number": 373,
     "kanji": "荷",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "HÀ",
+    "meaning_vi": "hành lý, đồ đạc",
     "meaning_en": "Baggage, Shoulder-pole Load, Bear (a Burden)",
     "onyomi": [
       "か"
@@ -22616,8 +22616,8 @@
     "lesson": 24,
     "number": 375,
     "kanji": "届",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "GIỚI",
+    "meaning_vi": "gửi đến, chuyển đến",
     "meaning_en": "Deliver, Reach, Arrive",
     "onyomi": [
       "かい"
@@ -22779,8 +22779,8 @@
     "lesson": 24,
     "number": 378,
     "kanji": "濯",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "TRẠC",
+    "meaning_vi": "giặt giũ",
     "meaning_en": "Laundry, Wash, Pour On",
     "onyomi": [
       "たく"
@@ -22819,8 +22819,8 @@
     "lesson": 24,
     "number": 379,
     "kanji": "寝",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "TẨM",
+    "meaning_vi": "ngủ, nằm nghỉ",
     "meaning_en": "Lie Down, Sleep, Rest",
     "onyomi": [
       "しん"
@@ -22877,8 +22877,8 @@
     "lesson": 24,
     "number": 380,
     "kanji": "踊",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "DŨNG",
+    "meaning_vi": "nhảy múa, khiêu vũ",
     "meaning_en": "Jump, Dance, Leap",
     "onyomi": [
       "よう"
@@ -23042,8 +23042,8 @@
     "lesson": 24,
     "number": 383,
     "kanji": "宅",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "TRẠCH",
+    "meaning_vi": "nhà ở",
     "meaning_en": "Home, House, Residence",
     "onyomi": [
       "たく"
@@ -23284,8 +23284,8 @@
     "lesson": 25,
     "number": 387,
     "kanji": "戦",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "CHIẾN",
+    "meaning_vi": "chiến đấu, chiến tranh",
     "meaning_en": "War, Battle, Match",
     "onyomi": [
       "せん"
@@ -23531,8 +23531,8 @@
     "lesson": 25,
     "number": 391,
     "kanji": "経",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "KINH",
+    "meaning_vi": "trải qua, kinh tế",
     "meaning_en": "Sutra, Longitude, Pass Thru",
     "onyomi": [
       "けい",
@@ -23601,8 +23601,8 @@
     "lesson": 25,
     "number": 392,
     "kanji": "済",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "TẾ",
+    "meaning_vi": "hoàn tất, kinh tế",
     "meaning_en": "Settle (debt, Etc.), Relieve (burden), Finish",
     "onyomi": [
       "さい",
@@ -23791,8 +23791,8 @@
     "lesson": 25,
     "number": 395,
     "kanji": "際",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "TẾ",
+    "meaning_vi": "quốc tế, dịp",
     "meaning_en": "Occasion, Side, Edge",
     "onyomi": [
       "さい"
@@ -23851,8 +23851,8 @@
     "lesson": 25,
     "number": 396,
     "kanji": "関",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "QUAN",
+    "meaning_vi": "quan hệ, liên quan",
     "meaning_en": "Connection, Barrier, Gateway",
     "onyomi": [
       "かん"
@@ -24095,8 +24095,8 @@
     "lesson": 25,
     "number": 400,
     "kanji": "党",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "ĐẢNG",
+    "meaning_vi": "đảng phái, chính đảng",
     "meaning_en": "Party, Faction, Clique",
     "onyomi": [
       "とう"
@@ -24186,8 +24186,8 @@
     "lesson": 26,
     "number": 402,
     "kanji": "泳",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "VỊNH",
+    "meaning_vi": "bơi, bơi lội",
     "meaning_en": "Swim",
     "onyomi": [
       "えい"
@@ -24276,8 +24276,8 @@
     "lesson": 26,
     "number": 404,
     "kanji": "暖",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "NOÃN",
+    "meaning_vi": "ấm áp",
     "meaning_en": "Warmth",
     "onyomi": [
       "だん",
@@ -24383,8 +24383,8 @@
     "lesson": 26,
     "number": 406,
     "kanji": "静",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "TĨNH",
+    "meaning_vi": "yên tĩnh, thanh bình",
     "meaning_en": "Quiet",
     "onyomi": [
       "せい",
@@ -24560,8 +24560,8 @@
     "lesson": 26,
     "number": 409,
     "kanji": "込",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "NHẬP",
+    "meaning_vi": "đông đúc, bao gồm",
     "meaning_en": "Crowded, Mixture, In Bulk",
     "onyomi": [],
     "kunyomi": [
@@ -25166,8 +25166,8 @@
     "lesson": 27,
     "number": 419,
     "kanji": "婚",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "HÔN",
+    "meaning_vi": "kết hôn, hôn nhân",
     "meaning_en": "Marriage",
     "onyomi": [
       "こん"
@@ -25353,8 +25353,8 @@
     "lesson": 27,
     "number": 422,
     "kanji": "両",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "LƯỠNG",
+    "meaning_vi": "cả hai, hai bên",
     "meaning_en": "Both, Old Japanese Coin, Counter For Carriages (e.g., In A Train)",
     "onyomi": [
       "りょう"
@@ -26751,12 +26751,12 @@
     "lesson": 28,
     "number": 447,
     "kanji": "々",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "ĐỒNG",
+    "meaning_vi": "dấu lặp chữ Hán",
     "meaning_en": "",
     "onyomi": [],
     "kunyomi": [],
-    "strokes": 0,
+    "strokes": 3,
     "jlpt": "N4",
     "mnemonic": {
       "image_url": "/images/book1/b1_28_15.png",
@@ -26979,8 +26979,8 @@
     "lesson": 29,
     "number": 451,
     "kanji": "賛",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "TÁN",
+    "meaning_vi": "tán thành, khen ngợi",
     "meaning_en": "Approve, Praise, Title Or Inscription On Picture",
     "onyomi": [
       "さん"
@@ -27147,8 +27147,8 @@
     "lesson": 29,
     "number": 454,
     "kanji": "対",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "ĐỐI",
+    "meaning_vi": "đối diện, phản đối",
     "meaning_en": "Vis-a-vis, Opposite, Even",
     "onyomi": [
       "たい",
@@ -27212,8 +27212,8 @@
     "lesson": 29,
     "number": 455,
     "kanji": "続",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "TỤC",
+    "meaning_vi": "tiếp tục, liên tục",
     "meaning_en": "Continue, Series, Sequel",
     "onyomi": [
       "ぞく",
@@ -27692,7 +27692,7 @@
     "lesson": 29,
     "number": 463,
     "kanji": "夢",
-    "han_viet": "",
+    "han_viet": "MỘNG",
     "meaning_vi": "giấc mơ; ước mơ",
     "meaning_en": "Dream, Vision, Illusion",
     "onyomi": [
@@ -27998,8 +27998,8 @@
     "lesson": 30,
     "number": 468,
     "kanji": "鉄",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "THIẾT",
+    "meaning_vi": "sắt, thép",
     "meaning_en": "Iron",
     "onyomi": [
       "てつ"
@@ -28114,8 +28114,8 @@
     "lesson": 30,
     "number": 470,
     "kanji": "遅",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "TRÌ",
+    "meaning_vi": "muộn, chậm trễ",
     "meaning_en": "Slow, Late, Back",
     "onyomi": [
       "ち"
@@ -28371,7 +28371,7 @@
     "lesson": 30,
     "number": 475,
     "kanji": "席",
-    "han_viet": "",
+    "han_viet": "TỊCH",
     "meaning_vi": "chỗ ngồi",
     "meaning_en": "Seat, Mat, Occasion",
     "onyomi": [
@@ -28695,8 +28695,8 @@
     "lesson": 31,
     "number": 481,
     "kanji": "申",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "THÂN",
+    "meaning_vi": "thưa, trình bày",
     "meaning_en": "Have The Honor To, Sign Of The Monkey, 3-5pm",
     "onyomi": [
       "しん"
@@ -28813,8 +28813,8 @@
     "lesson": 31,
     "number": 483,
     "kanji": "様",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "DẠNG",
+    "meaning_vi": "ngài, hình dạng",
     "meaning_en": "Esq., Way, Manner",
     "onyomi": [
       "よう",
@@ -29003,8 +29003,8 @@
     "lesson": 31,
     "number": 486,
     "kanji": "査",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "TRA",
+    "meaning_vi": "điều tra, kiểm tra",
     "meaning_en": "Investigate",
     "onyomi": [
       "さ"
@@ -29467,7 +29467,7 @@
     "lesson": 31,
     "number": 494,
     "kanji": "雪",
-    "han_viet": "",
+    "han_viet": "TUYẾT",
     "meaning_vi": "tuyết",
     "meaning_en": "Snow",
     "onyomi": [
@@ -29596,8 +29596,8 @@
     "lesson": 31,
     "number": 496,
     "kanji": "直",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "TRỰC",
+    "meaning_vi": "sửa chữa, thẳng",
     "meaning_en": "Straightaway, Honesty, Frankness",
     "onyomi": [
       "ちょく",
@@ -29723,8 +29723,8 @@
     "lesson": 32,
     "number": 498,
     "kanji": "険",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "HIỂM",
+    "meaning_vi": "nguy hiểm, hiểm trở",
     "meaning_en": "Precipitous, Inaccessible Place, Impregnable Position",
     "onyomi": [
       "けん"
@@ -29851,8 +29851,8 @@
     "lesson": 32,
     "number": 501,
     "kanji": "戻",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "LỆ",
+    "meaning_vi": "quay lại, trả lại",
     "meaning_en": "Re-, Return, Revert",
     "onyomi": [
       "れい"
@@ -30019,8 +30019,8 @@
     "lesson": 32,
     "number": 504,
     "kanji": "変",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "BIẾN",
+    "meaning_vi": "thay đổi, kỳ lạ",
     "meaning_en": "Unusual, Change, Strange",
     "onyomi": [
       "へん"
@@ -30080,7 +30080,7 @@
     "lesson": 32,
     "number": 505,
     "kanji": "歯",
-    "han_viet": "",
+    "han_viet": "XỈ",
     "meaning_vi": "răng",
     "meaning_en": "Tooth, Cog",
     "onyomi": [
@@ -30132,7 +30132,7 @@
     "lesson": 32,
     "number": 506,
     "kanji": "髪",
-    "han_viet": "",
+    "han_viet": "PHÁT",
     "meaning_vi": "tóc",
     "meaning_en": "Hair Of The Head",
     "onyomi": [
@@ -30196,7 +30196,7 @@
     "lesson": 32,
     "number": 507,
     "kanji": "絵",
-    "han_viet": "",
+    "han_viet": "HỘI",
     "meaning_vi": "bức tranh; tranh",
     "meaning_en": "Picture, Drawing, Painting",
     "onyomi": [
@@ -30377,8 +30377,8 @@
     "lesson": 32,
     "number": 510,
     "kanji": "伝",
-    "han_viet": "",
-    "meaning_vi": "",
+    "han_viet": "TRUYỀN",
+    "meaning_vi": "truyền đạt, giúp đỡ",
     "meaning_en": "Transmit, Go Along, Walk Along",
     "onyomi": [
       "でん",

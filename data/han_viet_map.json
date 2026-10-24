@@ -19566,5 +19566,633 @@
   "龢": {
     "han_viet": "HOÀ",
     "meaning_vi": "biến thể cũ của 和[he2]"
+  },
+  "円": {
+    "han_viet": "VIÊN",
+    "meaning_vi": "hình tròn, đồng Yên"
+  },
+  "曜": {
+    "han_viet": "DIỆU",
+    "meaning_vi": "ngày trong tuần"
+  },
+  "寺": {
+    "han_viet": "TỰ",
+    "meaning_vi": "ngôi chùa"
+  },
+  "北": {
+    "han_viet": "BẮC",
+    "meaning_vi": "hướng bắc, phía bắc"
+  },
+  "何": {
+    "han_viet": "HÀ",
+    "meaning_vi": "cái gì"
+  },
+  "毎": {
+    "han_viet": "MỖI",
+    "meaning_vi": "mỗi (mỗi ngày, mỗi tháng)"
+  },
+  "米": {
+    "han_viet": "MỄ",
+    "meaning_vi": "gạo, nước Mỹ"
+  },
+  "食": {
+    "han_viet": "THỰC",
+    "meaning_vi": "ăn, thức ăn"
+  },
+  "気": {
+    "han_viet": "KHÍ",
+    "meaning_vi": "tinh thần, không khí"
+  },
+  "広": {
+    "han_viet": "QUẢNG",
+    "meaning_vi": "rộng, rộng rãi"
+  },
+  "町": {
+    "han_viet": "ĐINH",
+    "meaning_vi": "thị trấn, con phố"
+  },
+  "電": {
+    "han_viet": "ĐIỆN",
+    "meaning_vi": "điện"
+  },
+  "駅": {
+    "han_viet": "DỊCH",
+    "meaning_vi": "ga, nhà ga"
+  },
+  "売": {
+    "han_viet": "MẠI",
+    "meaning_vi": "bán, bán hàng"
+  },
+  "読": {
+    "han_viet": "ĐỘC",
+    "meaning_vi": "đọc"
+  },
+  "帰": {
+    "han_viet": "QUY",
+    "meaning_vi": "về, trở về"
+  },
+  "春": {
+    "han_viet": "XUÂN",
+    "meaning_vi": "mùa xuân"
+  },
+  "夏": {
+    "han_viet": "HẠ",
+    "meaning_vi": "mùa hè"
+  },
+  "昼": {
+    "han_viet": "TRÚ",
+    "meaning_vi": "buổi trưa"
+  },
+  "晩": {
+    "han_viet": "VÃN",
+    "meaning_vi": "buổi tối, ban đêm"
+  },
+  "黒": {
+    "han_viet": "HẮC",
+    "meaning_vi": "màu đen"
+  },
+  "犬": {
+    "han_viet": "KHUYỂN",
+    "meaning_vi": "con chó"
+  },
+  "飯": {
+    "han_viet": "PHẠN",
+    "meaning_vi": "cơm, bữa ăn"
+  },
+  "豚": {
+    "han_viet": "ĐỒN",
+    "meaning_vi": "con heo, lợn"
+  },
+  "肉": {
+    "han_viet": "NHỤC",
+    "meaning_vi": "thịt"
+  },
+  "菜": {
+    "han_viet": "THÁI",
+    "meaning_vi": "rau, món ăn"
+  },
+  "楽": {
+    "han_viet": "LẠC, NHẠC",
+    "meaning_vi": "vui vẻ, âm nhạc"
+  },
+  "転": {
+    "han_viet": "CHUYỂN",
+    "meaning_vi": "chuyển động, xoay"
+  },
+  "乗": {
+    "han_viet": "THỪA",
+    "meaning_vi": "lên xe, cưỡi"
+  },
+  "糸": {
+    "han_viet": "MỊCH, TY",
+    "meaning_vi": "chỉ, sợi chỉ"
+  },
+  "験": {
+    "han_viet": "NGHIỆM",
+    "meaning_vi": "thử nghiệm, kỳ thi"
+  },
+  "題": {
+    "han_viet": "ĐỀ",
+    "meaning_vi": "chủ đề, đề bài"
+  },
+  "問": {
+    "han_viet": "VẤN",
+    "meaning_vi": "hỏi, vấn đề"
+  },
+  "者": {
+    "han_viet": "GIẢ",
+    "meaning_vi": "người (học giả, tác giả)"
+  },
+  "暑": {
+    "han_viet": "THỬ",
+    "meaning_vi": "nóng, oi bức"
+  },
+  "軽": {
+    "han_viet": "KHINH",
+    "meaning_vi": "nhẹ, nhẹ nhàng"
+  },
+  "悪": {
+    "han_viet": "ÁC, Ố",
+    "meaning_vi": "xấu, ác"
+  },
+  "歩": {
+    "han_viet": "BỘ",
+    "meaning_vi": "đi bộ, bước đi"
+  },
+  "薬": {
+    "han_viet": "DƯỢC",
+    "meaning_vi": "thuốc"
+  },
+  "働": {
+    "han_viet": "ĐỘNG",
+    "meaning_vi": "làm việc, lao động"
+  },
+  "図": {
+    "han_viet": "ĐỒ",
+    "meaning_vi": "bản đồ, hình vẽ"
+  },
+  "貸": {
+    "han_viet": "THẢI",
+    "meaning_vi": "cho mượn, cho vay"
+  },
+  "以": {
+    "han_viet": "DĨ",
+    "meaning_vi": "lấy làm mốc (trở lên, trở xuống)"
+  },
+  "戸": {
+    "han_viet": "HỘ",
+    "meaning_vi": "cánh cửa, hộ gia đình"
+  },
+  "県": {
+    "han_viet": "HUYỆN",
+    "meaning_vi": "tỉnh (của Nhật)"
+  },
+  "発": {
+    "han_viet": "PHÁT",
+    "meaning_vi": "xuất phát, phát âm"
+  },
+  "卵": {
+    "han_viet": "NOÃN",
+    "meaning_vi": "trứng, quả trứng"
+  },
+  "酒": {
+    "han_viet": "TỬU",
+    "meaning_vi": "rượu"
+  },
+  "塩": {
+    "han_viet": "DIÊM",
+    "meaning_vi": "muối"
+  },
+  "焼": {
+    "han_viet": "THIÊU",
+    "meaning_vi": "nướng, đốt cháy"
+  },
+  "笑": {
+    "han_viet": "TIẾU",
+    "meaning_vi": "cười, mỉm cười"
+  },
+  "恥": {
+    "han_viet": "SỈ",
+    "meaning_vi": "xấu hổ, ngượng"
+  },
+  "覚": {
+    "han_viet": "GIÁC",
+    "meaning_vi": "nhớ, cảm giác"
+  },
+  "荷": {
+    "han_viet": "HÀ",
+    "meaning_vi": "hành lý, đồ đạc"
+  },
+  "届": {
+    "han_viet": "GIỚI",
+    "meaning_vi": "gửi đến, chuyển đến"
+  },
+  "濯": {
+    "han_viet": "TRẠC",
+    "meaning_vi": "giặt giũ"
+  },
+  "寝": {
+    "han_viet": "TẨM",
+    "meaning_vi": "ngủ, nằm nghỉ"
+  },
+  "踊": {
+    "han_viet": "DŨNG",
+    "meaning_vi": "nhảy múa, khiêu vũ"
+  },
+  "宅": {
+    "han_viet": "TRẠCH",
+    "meaning_vi": "nhà ở"
+  },
+  "戦": {
+    "han_viet": "CHIẾN",
+    "meaning_vi": "chiến đấu, chiến tranh"
+  },
+  "経": {
+    "han_viet": "KINH",
+    "meaning_vi": "trải qua, kinh tế"
+  },
+  "済": {
+    "han_viet": "TẾ",
+    "meaning_vi": "hoàn tất, kinh tế"
+  },
+  "際": {
+    "han_viet": "TẾ",
+    "meaning_vi": "quốc tế, dịp"
+  },
+  "関": {
+    "han_viet": "QUAN",
+    "meaning_vi": "quan hệ, liên quan"
+  },
+  "党": {
+    "han_viet": "ĐẢNG",
+    "meaning_vi": "đảng phái, chính đảng"
+  },
+  "泳": {
+    "han_viet": "VỊNH",
+    "meaning_vi": "bơi, bơi lội"
+  },
+  "暖": {
+    "han_viet": "NOÃN",
+    "meaning_vi": "ấm áp"
+  },
+  "静": {
+    "han_viet": "TĨNH",
+    "meaning_vi": "yên tĩnh, thanh bình"
+  },
+  "込": {
+    "han_viet": "NHẬP",
+    "meaning_vi": "đông đúc, bao gồm"
+  },
+  "婚": {
+    "han_viet": "HÔN",
+    "meaning_vi": "kết hôn, hôn nhân"
+  },
+  "両": {
+    "han_viet": "LƯỠNG",
+    "meaning_vi": "cả hai, hai bên"
+  },
+  "々": {
+    "han_viet": "ĐỒNG",
+    "meaning_vi": "dấu lặp chữ Hán"
+  },
+  "賛": {
+    "han_viet": "TÁN",
+    "meaning_vi": "tán thành, khen ngợi"
+  },
+  "対": {
+    "han_viet": "ĐỐI",
+    "meaning_vi": "đối diện, phản đối"
+  },
+  "続": {
+    "han_viet": "TỤC",
+    "meaning_vi": "tiếp tục, liên tục"
+  },
+  "夢": {
+    "han_viet": "MỘNG",
+    "meaning_vi": "giấc mơ, ước mơ"
+  },
+  "鉄": {
+    "han_viet": "THIẾT",
+    "meaning_vi": "sắt, thép"
+  },
+  "遅": {
+    "han_viet": "TRÌ",
+    "meaning_vi": "muộn, chậm trễ"
+  },
+  "席": {
+    "han_viet": "TỊCH",
+    "meaning_vi": "chỗ ngồi, tham dự"
+  },
+  "申": {
+    "han_viet": "THÂN",
+    "meaning_vi": "thưa, trình bày"
+  },
+  "様": {
+    "han_viet": "DẠNG",
+    "meaning_vi": "ngài, hình dạng"
+  },
+  "査": {
+    "han_viet": "TRA",
+    "meaning_vi": "điều tra, kiểm tra"
+  },
+  "雪": {
+    "han_viet": "TUYẾT",
+    "meaning_vi": "tuyết"
+  },
+  "直": {
+    "han_viet": "TRỰC",
+    "meaning_vi": "sửa chữa, thẳng"
+  },
+  "険": {
+    "han_viet": "HIỂM",
+    "meaning_vi": "nguy hiểm, hiểm trở"
+  },
+  "戻": {
+    "han_viet": "LỆ",
+    "meaning_vi": "quay lại, trả lại"
+  },
+  "変": {
+    "han_viet": "BIẾN",
+    "meaning_vi": "thay đổi, kỳ lạ"
+  },
+  "歯": {
+    "han_viet": "XỈ",
+    "meaning_vi": "răng"
+  },
+  "髪": {
+    "han_viet": "PHÁT",
+    "meaning_vi": "tóc"
+  },
+  "絵": {
+    "han_viet": "HỘI",
+    "meaning_vi": "bức tranh, hội họa"
+  },
+  "伝": {
+    "han_viet": "TRUYỀN",
+    "meaning_vi": "truyền đạt, giúp đỡ"
+  },
+  "拠": {
+    "han_viet": "CỨ",
+    "meaning_vi": "căn cứ, chiếm cứ"
+  },
+  "処": {
+    "han_viet": "XỬ, XỨ",
+    "meaning_vi": "cư xử, xử trí, xử lí; nơi chỗ"
+  },
+  "辺": {
+    "han_viet": "BIÊN",
+    "meaning_vi": "biên, biên giới"
+  },
+  "庁": {
+    "han_viet": "SẢNH",
+    "meaning_vi": "đại sảnh"
+  },
+  "並": {
+    "han_viet": "TỊNH",
+    "meaning_vi": "xếp hàng"
+  },
+  "仏": {
+    "han_viet": "PHẬT",
+    "meaning_vi": "phật giáo"
+  },
+  "仲": {
+    "han_viet": "TRỌNG",
+    "meaning_vi": "trọng tài"
+  },
+  "償": {
+    "han_viet": "THƯỜNG",
+    "meaning_vi": "bồi thường"
+  },
+  "児": {
+    "han_viet": "NHI",
+    "meaning_vi": "nhi đồng, hài nhi"
+  },
+  "剣": {
+    "han_viet": "KIẾM",
+    "meaning_vi": "thanh kiếm"
+  },
+  "勧": {
+    "han_viet": "KHUYẾN",
+    "meaning_vi": "khuyến cáo"
+  },
+  "囲": {
+    "han_viet": "VI",
+    "meaning_vi": "chu vi, bao vây"
+  },
+  "圧": {
+    "han_viet": "ÁP",
+    "meaning_vi": "áp lực, trấn áp"
+  },
+  "堀": {
+    "han_viet": "QUẬT",
+    "meaning_vi": "mương"
+  },
+  "専": {
+    "han_viet": "CHUYÊN",
+    "meaning_vi": "chuyên môn, chuyên quyền"
+  },
+  "崩": {
+    "han_viet": "BĂNG",
+    "meaning_vi": "băng hoại"
+  },
+  "巻": {
+    "han_viet": "QUYỂN",
+    "meaning_vi": "quyển sách"
+  },
+  "幕": {
+    "han_viet": "MẠC",
+    "meaning_vi": "khai mạc, bế mạc"
+  },
+  "弁": {
+    "han_viet": "BIỆN",
+    "meaning_vi": "hùng biện, biện luận"
+  },
+  "従": {
+    "han_viet": "TÙNG",
+    "meaning_vi": "phục tùng, tùy tùng, tòng thuận"
+  },
+  "抜": {
+    "han_viet": "BẠT",
+    "meaning_vi": "rút ra"
+  },
+  "択": {
+    "han_viet": "TRẠCH",
+    "meaning_vi": "tuyển trạch"
+  },
+  "挙": {
+    "han_viet": "CỬ",
+    "meaning_vi": "tuyển cử, cử động, cử hành"
+  },
+  "捜": {
+    "han_viet": "SƯU",
+    "meaning_vi": "sưu tầm, sưu tập"
+  },
+  "撃": {
+    "han_viet": "KÍCH",
+    "meaning_vi": "công kích, tập kích"
+  },
+  "改": {
+    "han_viet": "CẢI",
+    "meaning_vi": "cải cách, cải chính"
+  },
+  "旬": {
+    "han_viet": "TUẦN",
+    "meaning_vi": ".. ngày"
+  },
+  "昭": {
+    "han_viet": "CHIÊU",
+    "meaning_vi": "sáng"
+  },
+  "析": {
+    "han_viet": "TÍCH",
+    "meaning_vi": "phân tích"
+  },
+  "栄": {
+    "han_viet": "VINH",
+    "meaning_vi": "vinh quang, vinh hạnh"
+  },
+  "検": {
+    "han_viet": "KIỂM",
+    "meaning_vi": "kiểm tra"
+  },
+  "構": {
+    "han_viet": "CẤU",
+    "meaning_vi": "cấu tạo, cấu thành, cơ cấu"
+  },
+  "歓": {
+    "han_viet": "HOAN",
+    "meaning_vi": "hoan nghênh"
+  },
+  "浴": {
+    "han_viet": "DỤC",
+    "meaning_vi": "tắm"
+  },
+  "湾": {
+    "han_viet": "LOAN",
+    "meaning_vi": "vịnh"
+  },
+  "満": {
+    "han_viet": "MÃN",
+    "meaning_vi": "thỏa mãn, bất mãn, mãn nguyện"
+  },
+  "爆": {
+    "han_viet": "BỘC",
+    "meaning_vi": "bộc phát"
+  },
+  "疑": {
+    "han_viet": "NGHI",
+    "meaning_vi": "nghi ngờ, nghi vấn, tình nghi"
+  },
+  "面": {
+    "han_viet": "DIỆN",
+    "meaning_vi": "phản diện, chính diện"
+  },
+  "競": {
+    "han_viet": "CẠNH",
+    "meaning_vi": "cạnh tranh"
+  },
+  "緩": {
+    "han_viet": "HOÃN",
+    "meaning_vi": "hòa hoãn"
+  },
+  "縄": {
+    "han_viet": "THẰNG",
+    "meaning_vi": "sợi dây"
+  },
+  "聴": {
+    "han_viet": "THÍNH",
+    "meaning_vi": "thính giả"
+  },
+  "肩": {
+    "han_viet": "KIÊN",
+    "meaning_vi": "vai"
+  },
+  "脳": {
+    "han_viet": "NÃO",
+    "meaning_vi": "bộ não, đầu não"
+  },
+  "芸": {
+    "han_viet": "NGHỆ",
+    "meaning_vi": "nghệ thuật, nghệ nhân"
+  },
+  "裂": {
+    "han_viet": "LIỆT",
+    "meaning_vi": "rách"
+  },
+  "覧": {
+    "han_viet": "LÃM",
+    "meaning_vi": "triển lãm"
+  },
+  "観": {
+    "han_viet": "QUAN",
+    "meaning_vi": "quan sát, tham quan"
+  },
+  "訳": {
+    "han_viet": "DỊCH",
+    "meaning_vi": "thông dịch, phiên dịch"
+  },
+  "識": {
+    "han_viet": "THỨC",
+    "meaning_vi": "nhận thức, kiến thức, tri thức"
+  },
+  "販": {
+    "han_viet": "PHÁN",
+    "meaning_vi": "bán, phán mại"
+  },
+  "貿": {
+    "han_viet": "MẬU",
+    "meaning_vi": "mậu dịch, trao đổi"
+  },
+  "賠": {
+    "han_viet": "BỒI",
+    "meaning_vi": "bồi thường"
+  },
+  "購": {
+    "han_viet": "CẤU",
+    "meaning_vi": "mua"
+  },
+  "郵": {
+    "han_viet": "BƯU",
+    "meaning_vi": "bưu điện"
+  },
+  "闘": {
+    "han_viet": "ĐẤU",
+    "meaning_vi": "đấu tranh, chiến đấu"
+  },
+  "隣": {
+    "han_viet": "LÂN",
+    "meaning_vi": "lân bang, lân cận"
+  },
+  "魅": {
+    "han_viet": "MỊ",
+    "meaning_vi": "mị lực, mộng mị"
+  },
+  "鳴": {
+    "han_viet": "MINH",
+    "meaning_vi": "hót"
+  },
+  "齢": {
+    "han_viet": "LINH",
+    "meaning_vi": "tuổi"
+  },
+  "厚": {
+    "han_viet": "HẬU",
+    "meaning_vi": "nồng hậu, hậu tạ"
+  },
+  "廃": {
+    "han_viet": "PHẾ",
+    "meaning_vi": "tàn phế, hoang phế"
+  },
+  "懸": {
+    "han_viet": "HUYỀN",
+    "meaning_vi": "treo ken,"
+  },
+  "歴": {
+    "han_viet": "LỊCH",
+    "meaning_vi": "lí lịch, lịch sử, kinh lịch"
+  },
+  "盟": {
+    "han_viet": "MINH",
+    "meaning_vi": "đồng minh, gia minh"
   }
 }

@@ -27,6 +27,7 @@ export interface KanjiEntry {
   mnemonic: KanjiMnemonic;
   examples: ExampleWord[];
   custom?: boolean;
+  isModified?: boolean;
 }
 
 export type BookFilter = 'all' | 'book1' | 'book2' | 'custom' | 'bookmarked';

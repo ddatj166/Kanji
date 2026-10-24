@@ -96,8 +96,8 @@
       {
         "word": "抑え付ける",
         "reading": "おさえつける",
-        "han_viet": "NGHÊNH",
-        "meaning": "dẹp 迎"
+        "han_viet": "ỨC PHÓ",
+        "meaning": "dẹp"
       }
     ]
   },
@@ -108,7 +108,7 @@
     "number": 2,
     "kanji": "迎",
     "han_viet": "NGHÊNH",
-    "meaning_vi": "hoan nghênh, nghênh",
+    "meaning_vi": "hoan nghênh, nghênh tiếp",
     "meaning_en": "Welcome, Meet, Greet",
     "onyomi": [
       "ゲイ"
@@ -120,7 +120,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0002_迎.jpg",
-      "story": "tiếp    gei Những cánh quạt quay quay như hoan nghênh người đi đường"
+      "story": "Những cánh quạt quay quay như hoan nghênh người đi đường"
     },
     "examples": [
       {
@@ -260,8 +260,8 @@
       {
         "word": "尿路",
         "reading": "にょうろ",
-        "han_viet": "LẠC",
-        "meaning": "Đường tiết niệu . 絡"
+        "han_viet": "NIỆU LỘ",
+        "meaning": "Đường tiết niệu"
       }
     ]
   },
@@ -271,7 +271,7 @@
     "lesson": 1,
     "number": 4,
     "kanji": "絡",
-    "han_viet": "RẠC",
+    "han_viet": "LẠC",
     "meaning_vi": "liên lạc",
     "meaning_en": "Entwine, Coil Around, Get Caught In",
     "onyomi": [
@@ -368,7 +368,7 @@
     "lesson": 1,
     "number": 5,
     "kanji": "拠",
-    "han_viet": "",
+    "han_viet": "CỨ",
     "meaning_vi": "căn cứ, chiếm cứ",
     "meaning_en": "Foothold, Based On, Follow",
     "onyomi": [
@@ -466,8 +466,8 @@
       {
         "word": "証拠",
         "reading": "しょうこ",
-        "han_viet": "XỬ",
-        "meaning": "CHỨNG CỨ bằng cớ 処"
+        "han_viet": "",
+        "meaning": "CHỨNG CỨ bằng cớ"
       }
     ]
   },
@@ -477,8 +477,8 @@
     "lesson": 1,
     "number": 6,
     "kanji": "処",
-    "han_viet": "",
-    "meaning_vi": "cư xử, xử trí, xử lí; nơi",
+    "han_viet": "XỬ, XỨ",
+    "meaning_vi": "cư xử, xử trí, xử lí; nơi chỗ",
     "meaning_en": "Dispose, Manage, Deal With",
     "onyomi": [
       "ショ"
@@ -492,7 +492,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0006_処.jpg",
-      "story": "chỗ    sho Mang kẻ trộm bàn ra xử lý"
+      "story": "Mang kẻ trộm bàn ra xử lý"
     },
     "examples": [
       {
@@ -566,6 +566,12 @@
         "reading": "しょだん",
         "han_viet": "XỨ ĐOẠN",
         "meaning": "sự xét xử"
+      },
+      {
+        "word": "処方",
+        "reading": "しょほう",
+        "han_viet": "",
+        "meaning": "XỨ PHƯƠNG phương thuốc"
       }
     ]
   },
@@ -575,7 +581,7 @@
     "lesson": 1,
     "number": 7,
     "kanji": "転",
-    "han_viet": "",
+    "han_viet": "CHUYỂN",
     "meaning_vi": "chuyển động",
     "meaning_en": "Revolve, Turn Around, Change",
     "onyomi": [
@@ -649,8 +655,8 @@
       {
         "word": "転写",
         "reading": "てんしゃ",
-        "han_viet": "LUÂN",
-        "meaning": "CHUYỂN TẢ Sao chép lại 輪"
+        "han_viet": "",
+        "meaning": "CHUYỂN TẢ Sao chép lại"
       }
     ]
   },
@@ -818,8 +824,8 @@
       {
         "word": "載積",
         "reading": "のせき",
-        "han_viet": "TRUY",
-        "meaning": "sự chất hàng (lên xe 追"
+        "han_viet": "TÁI TÍCH",
+        "meaning": "sự chất hàng (lên xe"
       }
     ]
   },
@@ -830,7 +836,7 @@
     "number": 10,
     "kanji": "追",
     "han_viet": "TRUY",
-    "meaning_vi": "truy lùng, truy nã, truy",
+    "meaning_vi": "truy lùng, truy nã, truy cầu",
     "meaning_en": "Chase, Drive Away, Follow",
     "onyomi": [
       "ツイ"
@@ -842,7 +848,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0010_追.jpg",
-      "story": "cầu    tsui Truy nã kẻ quay mông vào thủ tướng"
+      "story": "Truy nã kẻ quay mông vào thủ tướng"
     },
     "examples": [
       {
@@ -1019,8 +1025,8 @@
       {
         "word": "逆子",
         "reading": "さかご",
-        "han_viet": "TRIỆU",
-        "meaning": "NGHỊCH TỬ ngôi ngược . 兆"
+        "han_viet": "",
+        "meaning": "NGHỊCH TỬ ngôi ngược"
       }
     ]
   },
@@ -1031,7 +1037,7 @@
     "number": 12,
     "kanji": "兆",
     "han_viet": "TRIỆU",
-    "meaning_vi": "triệu chứng, triệu triệu (..",
+    "meaning_vi": "triệu chứng, triệu triệu (.. mũ ..)",
     "meaning_en": "Portent, 10**12, Trillion",
     "onyomi": [
       "チョウ"
@@ -1044,7 +1050,7 @@
     "jlpt": "N2",
     "mnemonic": {
       "image_url": "/images/book2/b2_0012_兆.jpg",
-      "story": "mũ ..)    choo Những người tâm thần có triệu chứng là chạy nhảy lung tung"
+      "story": "Những người tâm thần có triệu chứng là chạy nhảy lung tung"
     },
     "examples": [
       {
@@ -1106,6 +1112,18 @@
         "reading": "ちょうみん",
         "han_viet": "",
         "meaning": ""
+      },
+      {
+        "word": "衰兆",
+        "reading": "SUY TRIỆU chim ở nước (mòng két",
+        "han_viet": "",
+        "meaning": ""
+      },
+      {
+        "word": "不吉の兆有り",
+        "reading": "ふきつのちょうあり",
+        "han_viet": "BẤT CÁT TRIỆU HỮU",
+        "meaning": "có triệu chứng ốm"
       }
     ]
   },
@@ -1115,7 +1133,7 @@
     "lesson": 1,
     "number": 13,
     "kanji": "辺",
-    "han_viet": "",
+    "han_viet": "BIÊN",
     "meaning_vi": "biên, biên giới",
     "meaning_en": "Environs, Boundary, Border",
     "onyomi": [
@@ -1172,8 +1190,8 @@
       {
         "word": "辺地",
         "reading": "へんち",
-        "han_viet": "THOÁI",
-        "meaning": "vùng xa xôi hẻo lánh; nơi khỉ ho cò gáy . 退"
+        "han_viet": "BIÊN ĐỊA",
+        "meaning": "vùng xa xôi hẻo lánh; nơi khỉ ho cò gáy"
       }
     ]
   },
@@ -1370,8 +1388,8 @@
       {
         "word": "減免",
         "reading": "げんめん",
-        "han_viet": "ĐÀO",
-        "meaning": "GIẢM MIỄN sự miễn giảm; miễn giảm 逃"
+        "han_viet": "",
+        "meaning": "GIẢM MIỄN sự miễn giảm; miễn giảm"
       }
     ]
   },
@@ -1577,8 +1595,8 @@
       {
         "word": "肉迫",
         "reading": "にくはく",
-        "han_viet": "TỐC",
-        "meaning": "NHỤC BÁCH sự tiến đến gần (kẻ thù); sự uy hiếp (kẻ thù) . 速"
+        "han_viet": "",
+        "meaning": "NHỤC BÁCH sự tiến đến gần (kẻ thù); sự uy hiếp (kẻ thù)"
       }
     ]
   },
@@ -1654,6 +1672,18 @@
         "reading": "そくしゃ",
         "han_viet": "TỐC TẢ",
         "meaning": "ảnh chụp nhanh"
+      },
+      {
+        "word": "速力",
+        "reading": "そくりょく",
+        "han_viet": "",
+        "meaning": "tốc lực; tốc độ"
+      },
+      {
+        "word": "加速",
+        "reading": "かそく",
+        "han_viet": "GIA TỐC",
+        "meaning": "sự gia tốc; sự làm nhanh thêm"
       }
     ]
   },
@@ -1754,8 +1784,8 @@
       {
         "word": "帰途",
         "reading": "きと",
-        "han_viet": "DƯ",
-        "meaning": "trên đường về; giữa đường; trên chặng về 余"
+        "han_viet": "",
+        "meaning": "trên đường về; giữa đường; trên chặng về"
       }
     ]
   },
@@ -1819,6 +1849,24 @@
         "reading": "よせい",
         "han_viet": "DƯ THẾ",
         "meaning": "động lượng"
+      },
+      {
+        "word": "余人",
+        "reading": "よにん",
+        "han_viet": "DƯ NHÂN",
+        "meaning": "đại từ"
+      },
+      {
+        "word": "余光",
+        "reading": "よこう",
+        "han_viet": "",
+        "meaning": "DƯ QUANG ánh hồng ban chiếu"
+      },
+      {
+        "word": "余分",
+        "reading": "よぶん",
+        "han_viet": "DƯ PHÂN",
+        "meaning": "phần thừa; phần thêm"
       }
     ]
   },
@@ -1890,8 +1938,8 @@
       {
         "word": "巡歴",
         "reading": "じゅんれき",
-        "han_viet": "MÊ",
-        "meaning": "迷"
+        "han_viet": "",
+        "meaning": ""
       }
     ]
   },
@@ -1988,6 +2036,24 @@
         "reading": "まよわす",
         "han_viet": "MÊ",
         "meaning": "sự bối rối"
+      },
+      {
+        "word": "昏迷",
+        "reading": "こんめい",
+        "han_viet": "HÔN MÊ",
+        "meaning": "tình trạng u mê"
+      },
+      {
+        "word": "混迷",
+        "reading": "こんめい",
+        "han_viet": "HỖN MÊ",
+        "meaning": "sự hôn mê"
+      },
+      {
+        "word": "迷答",
+        "reading": "MÊ ĐÁP",
+        "han_viet": "",
+        "meaning": "lầm lỗi; sự sai lầm ngớ ngẩn"
       }
     ]
   },
@@ -1997,7 +2063,7 @@
     "lesson": 2,
     "number": 23,
     "kanji": "占",
-    "han_viet": "CHIÊM",
+    "han_viet": "CHIÊM, CHIẾM",
     "meaning_vi": "chiếm cứ",
     "meaning_en": "Fortune-telling, Divining, Forecasting",
     "onyomi": [
@@ -2077,8 +2143,8 @@
       {
         "word": "占拠",
         "reading": "せんきょ",
-        "han_viet": "SÀNG",
-        "meaning": "chiếm lấy . 床"
+        "han_viet": "CHIÊM CỨ",
+        "meaning": "chiếm lấy"
       }
     ]
   },
@@ -2161,7 +2227,7 @@
     "lesson": 2,
     "number": 25,
     "kanji": "庁",
-    "han_viet": "",
+    "han_viet": "SẢNH",
     "meaning_vi": "đại sảnh",
     "meaning_en": "Government Office",
     "onyomi": [
@@ -2211,8 +2277,8 @@
       {
         "word": "都庁",
         "reading": "とちょう",
-        "han_viet": "TRƯỢNG",
-        "meaning": "tòa đô chính 丈"
+        "han_viet": "ĐÔ SẢNH",
+        "meaning": "tòa đô chính"
       }
     ]
   },
@@ -2273,7 +2339,100 @@
         "word": "丈夫な",
         "reading": "じょうぶな TRƯỢNG PHU",
         "han_viet": "",
-        "meaning": "bền 与 DỮ, DỰ 27. 与    dữ, dự    cấp dữ, tham dự    yo Những người tham dự đều được cho ngồi chờ"
+        "meaning": "bền"
+      }
+    ]
+  },
+  {
+    "id": "b2-02-027",
+    "book": 2,
+    "lesson": 2,
+    "number": 27,
+    "kanji": "与",
+    "han_viet": "DỮ, DỰ",
+    "meaning_vi": "cấp dữ, tham dự",
+    "meaning_en": "Bestow, Participate In, Give",
+    "onyomi": [
+      "ヨ"
+    ],
+    "kunyomi": [
+      "あた.える",
+      "あずか.る",
+      "くみ.する",
+      "ともに"
+    ],
+    "strokes": 3,
+    "jlpt": "N3",
+    "mnemonic": {
+      "image_url": "/images/book2/b2_0027_与.jpg",
+      "story": "Những người tham dự đều được cho ngồi chờ"
+    },
+    "examples": [
+      {
+        "word": "与え",
+        "reading": "あたえ",
+        "han_viet": "DỮ",
+        "meaning": "sự ban cho"
+      },
+      {
+        "word": "付与",
+        "reading": "ふよ",
+        "han_viet": "",
+        "meaning": "sự cho"
+      },
+      {
+        "word": "与件",
+        "reading": "よけん",
+        "han_viet": "DỮ KIỆN",
+        "meaning": "định đề"
+      },
+      {
+        "word": "供与",
+        "reading": "きょうよ",
+        "han_viet": "CUNG DỮ",
+        "meaning": "sự cung ứng; sự cung cấp; cung ứng; cung cấp; cấp"
+      },
+      {
+        "word": "与党",
+        "reading": "よとう",
+        "han_viet": "DỮ ĐẢNG",
+        "meaning": "Đảng cầm quyền"
+      },
+      {
+        "word": "分与",
+        "reading": "ぶんよ",
+        "han_viet": "PHÂN DỮ",
+        "meaning": "sự phân bổ"
+      },
+      {
+        "word": "参与",
+        "reading": "さんよ",
+        "han_viet": "THAM DỮ",
+        "meaning": "sự tham gia"
+      },
+      {
+        "word": "与国",
+        "reading": "よこく",
+        "han_viet": "DỮ QUỐC",
+        "meaning": "hòn bi"
+      },
+      {
+        "word": "与圧",
+        "reading": "DỮ ÁP",
+        "han_viet": "",
+        "meaning": "sự gây sức ép"
+      },
+      {
+        "word": "天与",
+        "reading": "てんよ",
+        "han_viet": "THIÊN DỮ",
+        "meaning": "Của trời cho; của thiên phú; quà của Thượng đế"
+      },
+      {
+        "word": "与太",
+        "reading": "よた",
+        "han_viet": "",
+        "meaning": "lời nói vô lý"
       }
     ]
   },
@@ -2283,7 +2442,7 @@
     "lesson": 2,
     "number": 28,
     "kanji": "並",
-    "han_viet": "",
+    "han_viet": "TỊNH",
     "meaning_vi": "xếp hàng",
     "meaning_en": "Row, And, Besides",
     "onyomi": [
@@ -2452,8 +2611,8 @@
       {
         "word": "久遠",
         "reading": "くおん",
-        "han_viet": "NHŨ",
-        "meaning": "sự bất diệt; sự tồn tại mãi mãi; sự vĩnh viễn 乳"
+        "han_viet": "CỬU VIỄN",
+        "meaning": "sự bất diệt; sự tồn tại mãi mãi; sự vĩnh viễn"
       }
     ]
   },
@@ -2463,7 +2622,7 @@
     "lesson": 2,
     "number": 30,
     "kanji": "乳",
-    "han_viet": "VÚ",
+    "han_viet": "NHŨ",
     "meaning_vi": "nhũ mẫu",
     "meaning_en": "Milk, Breasts",
     "onyomi": [
@@ -2566,7 +2725,7 @@
     "lesson": 2,
     "number": 31,
     "kanji": "乾",
-    "han_viet": "KIỀN",
+    "han_viet": "CAN",
     "meaning_vi": "khô",
     "meaning_en": "Drought, Dry, Dessicate",
     "onyomi": [
@@ -2644,8 +2803,8 @@
       {
         "word": "乾かす",
         "reading": "かわかす",
-        "han_viet": "TRANH",
-        "meaning": "KIỀN phơi khô; hong khô; sấy khô 争"
+        "han_viet": "",
+        "meaning": "KIỀN phơi khô; hong khô; sấy khô"
       }
     ]
   },
@@ -2656,7 +2815,7 @@
     "number": 32,
     "kanji": "争",
     "han_viet": "TRANH",
-    "meaning_vi": "đấu tranh, chiến tranh,",
+    "meaning_vi": "đấu tranh, chiến tranh, tranh luận, cạnh tranh",
     "meaning_en": "Contend, Dispute, Argue",
     "onyomi": [
       "ソウ"
@@ -2669,7 +2828,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0032_争.jpg",
-      "story": "luận, cạnh tranh    soo Dân chúng bị áp bức bóc lột đã cầm dao đứng lên đấu tranh"
+      "story": "Dân chúng bị áp bức bóc lột đã cầm dao đứng lên đấu tranh"
     },
     "examples": [
       {
@@ -2850,8 +3009,8 @@
       {
         "word": "御互い",
         "reading": "ごたがい",
-        "han_viet": "PHẬT",
-        "meaning": "lẫn nhau 仏"
+        "han_viet": "NGỰ HỖ",
+        "meaning": "lẫn nhau"
       }
     ]
   },
@@ -2861,7 +3020,7 @@
     "lesson": 3,
     "number": 34,
     "kanji": "仏",
-    "han_viet": "",
+    "han_viet": "PHẬT",
     "meaning_vi": "phật giáo",
     "meaning_en": "Buddha, The Dead, France",
     "onyomi": [
@@ -3032,8 +3191,8 @@
       {
         "word": "仕手",
         "reading": "して",
-        "han_viet": "TIÊN",
-        "meaning": "vai chính; người giữ vai trò chủ đạo . 仙"
+        "han_viet": "",
+        "meaning": "vai chính; người giữ vai trò chủ đạo"
       }
     ]
   },
@@ -3126,7 +3285,7 @@
     "lesson": 3,
     "number": 37,
     "kanji": "以",
-    "han_viet": "",
+    "han_viet": "DĨ",
     "meaning_vi": "dĩ tiền, dĩ vãng",
     "meaning_en": "By Means Of, Because, In View Of",
     "onyomi": [
@@ -3217,8 +3376,8 @@
       {
         "word": "前以て",
         "reading": "TIỀN DĨ",
-        "han_viet": "TRỌNG",
-        "meaning": "sẵn sàng trước 仲"
+        "han_viet": "",
+        "meaning": "sẵn sàng trước"
       }
     ]
   },
@@ -3228,7 +3387,7 @@
     "lesson": 3,
     "number": 38,
     "kanji": "仲",
-    "han_viet": "",
+    "han_viet": "TRỌNG",
     "meaning_vi": "trọng tài",
     "meaning_en": "Go-between, Relationship",
     "onyomi": [
@@ -3405,8 +3564,8 @@
       {
         "word": "帰休",
         "reading": "ききゅう",
-        "han_viet": "VỊ",
-        "meaning": "phép nghỉ 位"
+        "han_viet": "QUY HƯU",
+        "meaning": "phép nghỉ"
       }
     ]
   },
@@ -3501,7 +3660,7 @@
     "lesson": 3,
     "number": 41,
     "kanji": "低",
-    "han_viet": "ĐÂY",
+    "han_viet": "ĐÊ",
     "meaning_vi": "thấp, đê hèn, đê tiện",
     "meaning_en": "Lower, Short, Humble",
     "onyomi": [
@@ -3516,7 +3675,7 @@
     "jlpt": "N2",
     "mnemonic": {
       "image_url": "/images/book2/b2_0041_低.jpg",
-      "story": "Cô gái bên đường vì sao ngồi khóc Có chồng đê tiện chả khóc thì sao"
+      "story": "Có chồng đê tiện chả khóc thì sao"
     },
     "examples": [
       {
@@ -3686,6 +3845,18 @@
         "reading": "そくしんざい",
         "han_viet": "",
         "meaning": "XÖC TIẾN TỄ chất làm phản ứng hoá học xuất hiện nhanh hơn"
+      },
+      {
+        "word": "督促状",
+        "reading": "とくそくじょう",
+        "han_viet": "",
+        "meaning": "ĐỐC XÖC TRẠNG thư yêu cầu; thư nhắc nhở"
+      },
+      {
+        "word": "促進する",
+        "reading": "そくしん",
+        "han_viet": "",
+        "meaning": "XÖC TIẾN thúc đẩy"
       }
     ]
   },
@@ -3760,8 +3931,8 @@
       {
         "word": "凡俗",
         "reading": "ぼんぞく",
-        "han_viet": "TU",
-        "meaning": "PHÀM TỤC phàm tục . 修"
+        "han_viet": "",
+        "meaning": "PHÀM TỤC phàm tục"
       }
     ]
   },
@@ -3772,7 +3943,7 @@
     "number": 44,
     "kanji": "修",
     "han_viet": "TU",
-    "meaning_vi": "tu sửa, tu chính, tu",
+    "meaning_vi": "tu sửa, tu chính, tu luyện",
     "meaning_en": "Discipline, Conduct Oneself Well, Study",
     "onyomi": [
       "シュウ",
@@ -3786,7 +3957,7 @@
     "jlpt": "N1",
     "mnemonic": {
       "image_url": "/images/book2/b2_0044_修.jpg",
-      "story": "luyện    shuu, shu Hàng ngày tập tành tu luyện để trở thành cầu thủ bóng chày chuyên nghiệp"
+      "story": "Hàng ngày tập tành tu luyện để trở thành cầu thủ bóng chày chuyên nghiệp"
     },
     "examples": [
       {
@@ -3946,8 +4117,8 @@
       {
         "word": "倍率",
         "reading": "ばいりつ",
-        "han_viet": "LUÂN",
-        "meaning": "bội số phóng đại; số lần phóng đại 倫"
+        "han_viet": "BỘI SUẤT",
+        "meaning": "bội số phóng đại; số lần phóng đại"
       }
     ]
   },
@@ -4122,8 +4293,8 @@
       {
         "word": "負債",
         "reading": "ふさい",
-        "han_viet": "THƯỜNG",
-        "meaning": "sự mắc nợ; nợ nần 償"
+        "han_viet": "PHỤ TRÁI",
+        "meaning": "sự mắc nợ; nợ nần"
       }
     ]
   },
@@ -4133,7 +4304,7 @@
     "lesson": 3,
     "number": 48,
     "kanji": "償",
-    "han_viet": "",
+    "han_viet": "THƯỜNG",
     "meaning_vi": "bồi thường",
     "meaning_en": "Reparation, Make Up For, Recompense",
     "onyomi": [
@@ -4214,6 +4385,18 @@
         "reading": "ばいしょう",
         "han_viet": "",
         "meaning": "sự bồi thường"
+      },
+      {
+        "word": "償還",
+        "reading": "しょうかん",
+        "han_viet": "",
+        "meaning": "sự trả lại"
+      },
+      {
+        "word": "償金",
+        "reading": "しょうきん",
+        "han_viet": "",
+        "meaning": "sự sửa chữa"
       }
     ]
   },
@@ -4224,7 +4407,7 @@
     "number": 49,
     "kanji": "光",
     "han_viet": "QUANG",
-    "meaning_vi": "ánh sáng, nhật quang,",
+    "meaning_vi": "ánh sáng, nhật quang, quang minh",
     "meaning_en": "Ray, Light",
     "onyomi": [
       "コウ"
@@ -4303,8 +4486,8 @@
       {
         "word": "单光",
         "reading": "なんこう",
-        "han_viet": "NHI",
-        "meaning": "Nam cực quang 児"
+        "han_viet": "NAM QUANG",
+        "meaning": "Nam cực quang"
       }
     ]
   },
@@ -4314,7 +4497,7 @@
     "lesson": 4,
     "number": 50,
     "kanji": "児",
-    "han_viet": "",
+    "han_viet": "NHI",
     "meaning_vi": "nhi đồng, hài nhi",
     "meaning_en": "Newborn Babe, Child, Young Of Animals",
     "onyomi": [
@@ -4464,8 +4647,8 @@
       {
         "word": "兵力",
         "reading": "へいりょく",
-        "han_viet": "ĐIỂN",
-        "meaning": "binh lực . 典"
+        "han_viet": "",
+        "meaning": "binh lực"
       }
     ]
   },
@@ -4619,8 +4802,8 @@
       {
         "word": "暖冬",
         "reading": "だんとう",
-        "han_viet": "ĐỐNG",
-        "meaning": "mùa đông ấm áp 凍"
+        "han_viet": "NOÃN ĐÔNG",
+        "meaning": "mùa đông ấm áp"
       }
     ]
   },
@@ -4825,8 +5008,8 @@
       {
         "word": "凶宅",
         "reading": "きょうたく",
-        "han_viet": "SAN",
-        "meaning": "vật gửi 刊 KHAN,"
+        "han_viet": "",
+        "meaning": "vật gửi"
       }
     ]
   },
@@ -5003,8 +5186,8 @@
       {
         "word": "冥利",
         "reading": "みょうり",
-        "han_viet": "KHẮC",
-        "meaning": "sự lo xa 刻"
+        "han_viet": "MINH LỢI",
+        "meaning": "sự lo xa"
       }
     ]
   },
@@ -5166,8 +5349,8 @@
       {
         "word": "校則",
         "reading": "こうそく",
-        "han_viet": "TƯỚC",
-        "meaning": "quy tắc của trường học 削"
+        "han_viet": "GIÁO TẮC",
+        "meaning": "quy tắc của trường học"
       }
     ]
   },
@@ -5281,7 +5464,7 @@
     "lesson": 4,
     "number": 61,
     "kanji": "剣",
-    "han_viet": "",
+    "han_viet": "KIẾM",
     "meaning_vi": "thanh kiếm",
     "meaning_en": "Sabre, Sword, Blade",
     "onyomi": [
@@ -5348,8 +5531,8 @@
       {
         "word": "懐剣",
         "reading": "かいけん",
-        "han_viet": "TRỢ",
-        "meaning": "HOÀI KIẾM dao găm . 助"
+        "han_viet": "",
+        "meaning": "HOÀI KIẾM dao găm"
       }
     ]
   },
@@ -5360,7 +5543,7 @@
     "number": 62,
     "kanji": "助",
     "han_viet": "TRỢ",
-    "meaning_vi": "hộ trợ, trợ giúp, viện trợ,",
+    "meaning_vi": "hộ trợ, trợ giúp, viện trợ, cứu trợ",
     "meaning_en": "Help, Rescue, Assist",
     "onyomi": [
       "ジョ"
@@ -5375,7 +5558,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0062_助.jpg",
-      "story": "cứu trợ    jo Đến hỗ trợ người đang phải khuân 3 viên đá to"
+      "story": "Đến hỗ trợ người đang phải khuân 3 viên đá to"
     },
     "examples": [
       {
@@ -5531,8 +5714,8 @@
       {
         "word": "労務",
         "reading": "ろうむ",
-        "han_viet": "CẦN",
-        "meaning": "công việc . 勤"
+        "han_viet": "LAO VỤ",
+        "meaning": "công việc"
       }
     ]
   },
@@ -5630,7 +5813,7 @@
     "lesson": 5,
     "number": 65,
     "kanji": "勧",
-    "han_viet": "",
+    "han_viet": "KHUYẾN",
     "meaning_vi": "khuyến cáo",
     "meaning_en": "Persuade, Recommend, Advise",
     "onyomi": [
@@ -5710,8 +5893,8 @@
       {
         "word": "勧進",
         "reading": "かんじん",
-        "han_viet": "BAO",
-        "meaning": "sự hướng thiện (phật giáo) . 包"
+        "han_viet": "KHUYẾN TIẾN",
+        "meaning": "sự hướng thiện (phật giáo)"
       }
     ]
   },
@@ -5887,8 +6070,8 @@
       {
         "word": "医家",
         "reading": "いか",
-        "han_viet": "CẬP",
-        "meaning": "及"
+        "han_viet": "",
+        "meaning": ""
       }
     ]
   },
@@ -6049,8 +6232,8 @@
       {
         "word": "無双",
         "reading": "むそう",
-        "han_viet": "PHIÊN",
-        "meaning": "có một không hai 反 PHẢN,"
+        "han_viet": "VÔ SONG",
+        "meaning": "có một không hai"
       }
     ]
   },
@@ -6080,7 +6263,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0070_反.jpg",
-      "story": "hon, tan Nắm tay dựng ngược chính là một biểu hiện phản đối"
+      "story": "Nắm tay dựng ngược chính là một biểu hiện phản đối"
     },
     "examples": [
       {
@@ -6246,8 +6429,8 @@
       {
         "word": "女史",
         "reading": "じょし",
-        "han_viet": "QUÂN",
-        "meaning": "bà 君"
+        "han_viet": "NỮ SỬ",
+        "meaning": "bà"
       }
     ]
   },
@@ -6258,7 +6441,7 @@
     "number": 72,
     "kanji": "君",
     "han_viet": "QUÂN",
-    "meaning_vi": "quân chủ, quân",
+    "meaning_vi": "quân chủ, quân vương",
     "meaning_en": "Mister, You, Ruler",
     "onyomi": [
       "クン"
@@ -6271,7 +6454,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0072_君.jpg",
-      "story": "vương    kun Vị quân vương bị ép uống thuốc độc"
+      "story": "Vị quân vương bị ép uống thuốc độc"
     },
     "examples": [
       {
@@ -6331,7 +6514,7 @@
     "number": 73,
     "kanji": "含",
     "han_viet": "HÀM",
-    "meaning_vi": "hàm ý, hàm nghĩa, hàm",
+    "meaning_vi": "hàm ý, hàm nghĩa, hàm súc",
     "meaning_en": "Contain, Include, Hold In The Mouth",
     "onyomi": [
       "ガン"
@@ -6344,7 +6527,7 @@
     "jlpt": "N2",
     "mnemonic": {
       "image_url": "/images/book2/b2_0073_含.jpg",
-      "story": "súc    gan Cái hộp bên trong có con ma nhảy ra dọa, sợ sái cả quai hàm"
+      "story": "Cái hộp bên trong có con ma nhảy ra dọa, sợ sái cả quai hàm"
     },
     "examples": [
       {
@@ -6422,8 +6605,8 @@
       {
         "word": "含蓄",
         "reading": "がんちく",
-        "han_viet": "HẤP",
-        "meaning": "HÀM SÖC sự hàm súc; hàm súc; xúc tích 吸"
+        "han_viet": "",
+        "meaning": "HÀM SÖC sự hàm súc; hàm súc; xúc tích"
       }
     ]
   },
@@ -6433,7 +6616,7 @@
     "lesson": 5,
     "number": 74,
     "kanji": "吸",
-    "han_viet": "CỘP",
+    "han_viet": "HẤP",
     "meaning_vi": "hô hấp, hấp thu",
     "meaning_en": "Suck, Imbibe, Inhale",
     "onyomi": [
@@ -6512,8 +6695,8 @@
       {
         "word": "吸い口",
         "reading": "すいぐち",
-        "han_viet": "",
-        "meaning": "HẤP KHẨU miệng (kèn"
+        "han_viet": "XUY,",
+        "meaning": "HẤP KHẨU miệng (kèn 吹 XÖY"
       }
     ]
   },
@@ -6523,7 +6706,7 @@
     "lesson": 5,
     "number": 75,
     "kanji": "吹",
-    "han_viet": "XUY",
+    "han_viet": "XÚY",
     "meaning_vi": "thổi, cổ xúy",
     "meaning_en": "Blow, Breathe, Puff",
     "onyomi": [
@@ -6609,7 +6792,7 @@
         "word": "吹替え",
         "reading": "ふきかえ",
         "han_viet": "XUY THẾ",
-        "meaning": "sự phong tước hiệp sĩ 呼 HÔ, HÁ"
+        "meaning": "sự phong tước hiệp sĩ"
       }
     ]
   },
@@ -6620,7 +6803,7 @@
     "number": 76,
     "kanji": "呼",
     "han_viet": "HÔ",
-    "meaning_vi": "gọi tên, hô hoán, hô hấp, hô",
+    "meaning_vi": "gọi tên, hô hoán, hô hấp, hô hào",
     "meaning_en": "Call, Call Out To, Invite",
     "onyomi": [
       "コ"
@@ -6632,7 +6815,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0076_呼.jpg",
-      "story": "hào    ko Há miệng thấy răng hô"
+      "story": "Há miệng thấy răng hô"
     },
     "examples": [
       {
@@ -6700,6 +6883,12 @@
         "reading": "こしょう",
         "han_viet": "HÔ XƯNG",
         "meaning": "gọi bằng tên"
+      },
+      {
+        "word": "称呼",
+        "reading": "しょうこ",
+        "han_viet": "XƯNG HÔ",
+        "meaning": "tên"
       }
     ]
   },
@@ -6710,7 +6899,7 @@
     "number": 77,
     "kanji": "商",
     "han_viet": "THƯƠNG",
-    "meaning_vi": "thương mại, thương",
+    "meaning_vi": "thương mại, thương số",
     "meaning_en": "Make A Deal, Selling, Dealing In",
     "onyomi": [
       "ショウ"
@@ -6722,7 +6911,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0077_商.jpg",
-      "story": "số    shoo"
+      "story": ""
     },
     "examples": [
       {
@@ -6800,8 +6989,8 @@
       {
         "word": "商売",
         "reading": "しょうばい",
-        "han_viet": "KHÍ",
-        "meaning": "bán buôn 器"
+        "han_viet": "",
+        "meaning": "bán buôn"
       }
     ]
   },
@@ -6874,6 +7063,18 @@
         "reading": "りき",
         "han_viet": "",
         "meaning": "sức mạnh"
+      },
+      {
+        "word": "原器",
+        "reading": "げんき",
+        "han_viet": "NGUYÊN KHÍ",
+        "meaning": "sự điệu bộ"
+      },
+      {
+        "word": "古器",
+        "reading": "こうつわ",
+        "han_viet": "CỔ KHÍ",
+        "meaning": "cổ"
       }
     ]
   },
@@ -6883,7 +7084,7 @@
     "lesson": 5,
     "number": 79,
     "kanji": "囲",
-    "han_viet": "",
+    "han_viet": "VI",
     "meaning_vi": "chu vi, bao vây",
     "meaning_en": "Surround, Besiege, Store",
     "onyomi": [
@@ -6976,8 +7177,8 @@
       {
         "word": "胸囲",
         "reading": "きょうい",
-        "han_viet": "ĐỒ",
-        "meaning": "vòng ngực 図"
+        "han_viet": "HUNG VI",
+        "meaning": "vòng ngực"
       }
     ]
   },
@@ -6987,7 +7188,7 @@
     "lesson": 5,
     "number": 80,
     "kanji": "図",
-    "han_viet": "",
+    "han_viet": "ĐỒ",
     "meaning_vi": "bản đồ, đồ án, địa đồ",
     "meaning_en": "Map, Drawing, Plan",
     "onyomi": [
@@ -7061,7 +7262,7 @@
     "lesson": 6,
     "number": 81,
     "kanji": "圧",
-    "han_viet": "",
+    "han_viet": "ÁP",
     "meaning_vi": "áp lực, trấn áp",
     "meaning_en": "Pressure, Push, Overwhelm",
     "onyomi": [
@@ -7139,8 +7340,8 @@
       {
         "word": "圧力",
         "reading": "あつりょく",
-        "han_viet": "PHẢN",
-        "meaning": "áp lực; sức ép 坂"
+        "han_viet": "",
+        "meaning": "áp lực; sức ép"
       }
     ]
   },
@@ -7150,7 +7351,7 @@
     "lesson": 6,
     "number": 82,
     "kanji": "坂",
-    "han_viet": "PHẲNG",
+    "han_viet": "PHẢN",
     "meaning_vi": "cái dốc",
     "meaning_en": "Slope, Incline, Hill",
     "onyomi": [
@@ -7313,8 +7514,8 @@
       {
         "word": "均質",
         "reading": "きんしつ",
-        "han_viet": "MAI",
-        "meaning": "QUÂN CHẤT đồng nhất; đồng đều; thuần nhất; bình bình 埋"
+        "han_viet": "",
+        "meaning": "QUÂN CHẤT đồng nhất; đồng đều; thuần nhất; bình bình"
       }
     ]
   },
@@ -7392,6 +7593,18 @@
         "reading": "まいぞう",
         "han_viet": "",
         "meaning": "MAI TÀNG sự chôn giấu; sự ẩn chứa"
+      },
+      {
+        "word": "埋もれる",
+        "reading": "うもれる",
+        "han_viet": "MAI",
+        "meaning": "bị chôn; bị chôn giấu; ẩn dật; bị bao phủ; bị nhận chìm"
+      },
+      {
+        "word": "埋め木",
+        "reading": "うめき",
+        "han_viet": "MAI MỘC",
+        "meaning": "chốt gỗ"
       }
     ]
   },
@@ -7402,7 +7615,7 @@
     "number": 85,
     "kanji": "城",
     "han_viet": "THÀNH",
-    "meaning_vi": "thành phố, thành",
+    "meaning_vi": "thành phố, thành quách",
     "meaning_en": "Castle",
     "onyomi": [
       "ジョウ"
@@ -7414,7 +7627,7 @@
     "jlpt": "N2",
     "mnemonic": {
       "image_url": "/images/book2/b2_0085_城.jpg",
-      "story": "quách    joo Trồng cây trên dấu tích thành quách cũ"
+      "story": "Trồng cây trên dấu tích thành quách cũ"
     },
     "examples": [
       {
@@ -7468,8 +7681,8 @@
       {
         "word": "城塞",
         "reading": "じょうさい",
-        "han_viet": "VỰC",
-        "meaning": "域"
+        "han_viet": "",
+        "meaning": ""
       }
     ]
   },
@@ -7555,7 +7768,7 @@
     "lesson": 6,
     "number": 87,
     "kanji": "堀",
-    "han_viet": "",
+    "han_viet": "QUẬT",
     "meaning_vi": "mương",
     "meaning_en": "Ditch, Moat, Canal",
     "onyomi": [
@@ -7628,8 +7841,8 @@
       {
         "word": "堀り鼠",
         "reading": "ほりりねずみ",
-        "han_viet": "ĐƯỜNG",
-        "meaning": "QUẬT THỬ chuột túi 堂"
+        "han_viet": "",
+        "meaning": "QUẬT THỬ chuột túi"
       }
     ]
   },
@@ -7640,7 +7853,7 @@
     "number": 88,
     "kanji": "堂",
     "han_viet": "ĐƯỜNG",
-    "meaning_vi": "thực đường, thiên",
+    "meaning_vi": "thực đường, thiên đường",
     "meaning_en": "Public Chamber, Hall",
     "onyomi": [
       "ドウ"
@@ -7650,7 +7863,7 @@
     "jlpt": "N4",
     "mnemonic": {
       "image_url": "/images/book2/b2_0088_堂.jpg",
-      "story": "đường    doo Thực đường là nơi để chén uống nước"
+      "story": "Thực đường là nơi để chén uống nước"
     },
     "examples": [
       {
@@ -7709,7 +7922,7 @@
     "lesson": 6,
     "number": 89,
     "kanji": "塩",
-    "han_viet": "",
+    "han_viet": "DIÊM",
     "meaning_vi": "muối",
     "meaning_en": "Salt",
     "onyomi": [
@@ -7788,8 +8001,8 @@
       {
         "word": "塩梅",
         "reading": "あんばい",
-        "han_viet": "GIÁ",
-        "meaning": "trạng thái; tình hình; tình trạng 夏 HẠ, GIẠ,"
+        "han_viet": "DIÊM MAI",
+        "meaning": "trạng thái; tình hình; tình trạng"
       }
     ]
   },
@@ -7799,7 +8012,7 @@
     "lesson": 6,
     "number": 90,
     "kanji": "夏",
-    "han_viet": "",
+    "han_viet": "HẠ",
     "meaning_vi": "mùa hè",
     "meaning_en": "Summer",
     "onyomi": [
@@ -7868,7 +8081,7 @@
     "number": 91,
     "kanji": "夜",
     "han_viet": "DẠ",
-    "meaning_vi": "ban đêm, dạ cảnh, dạ",
+    "meaning_vi": "ban đêm, dạ cảnh, dạ quang",
     "meaning_en": "Night, Evening",
     "onyomi": [
       "ヤ"
@@ -7941,8 +8154,8 @@
       {
         "word": "初夜",
         "reading": "しょや",
-        "han_viet": "THÁI",
-        "meaning": "SƠ DẠ đêm biểu diễn đầu tiên 太"
+        "han_viet": "",
+        "meaning": "SƠ DẠ đêm biểu diễn đầu tiên"
       }
     ]
   },
@@ -8103,8 +8316,8 @@
       {
         "word": "中央委員会",
         "reading": "ちゅうおういいんかい",
-        "han_viet": "THẤT",
-        "meaning": "ủy ban trung ương . 失"
+        "han_viet": "TRUNG ƯƠNG ỦY VIÊN HỘI",
+        "meaning": "ủy ban trung ương"
       }
     ]
   },
@@ -8115,7 +8328,7 @@
     "number": 94,
     "kanji": "失",
     "han_viet": "THẤT",
-    "meaning_vi": "thất nghiệp, thất",
+    "meaning_vi": "thất nghiệp, thất bại",
     "meaning_en": "Lose, Error, Fault",
     "onyomi": [
       "シツ"
@@ -8128,7 +8341,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0094_失.jpg",
-      "story": "bại    shitsu Người thất nghiệp cầm khan lau nước mắt"
+      "story": "Người thất nghiệp cầm khan lau nước mắt"
     },
     "examples": [
       {
@@ -8199,8 +8412,8 @@
     "lesson": 6,
     "number": 95,
     "kanji": "好",
-    "han_viet": "HÁO",
-    "meaning_vi": "hữu hảo; hiếu",
+    "han_viet": "HẢO, HIẾU",
+    "meaning_vi": "hữu hảo; hiếu sắc",
     "meaning_en": "Fond, Pleasing, Like Something",
     "onyomi": [
       "コウ"
@@ -8215,7 +8428,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0095_好.jpg",
-      "story": "sắc    koo Lúc nào mẹ về là con trai lại chạy ra đón, thật là người con hiếu hảo"
+      "story": "Lúc nào mẹ về là con trai lại chạy ra đón, thật là người con hiếu hảo"
     },
     "examples": [
       {
@@ -8287,8 +8500,8 @@
       {
         "word": "友好",
         "reading": "ゆうこう",
-        "han_viet": "THỎA",
-        "meaning": "bạn 妥"
+        "han_viet": "HỮU HẢO",
+        "meaning": "bạn"
       }
     ]
   },
@@ -8298,7 +8511,7 @@
     "lesson": 6,
     "number": 96,
     "kanji": "妥",
-    "han_viet": "THOẢ",
+    "han_viet": "THỎA",
     "meaning_vi": "thỏa hiệp",
     "meaning_en": "Gentle, Peace, Depravity",
     "onyomi": [
@@ -8441,8 +8654,8 @@
       {
         "word": "荷姿",
         "reading": "にすがた",
-        "han_viet": "TỒN",
-        "meaning": "kiểu cách đóng gói . 存"
+        "han_viet": "HÀ TƯ",
+        "meaning": "kiểu cách đóng gói"
       }
     ]
   },
@@ -8453,7 +8666,7 @@
     "number": 98,
     "kanji": "存",
     "han_viet": "TỒN",
-    "meaning_vi": "tồn tại, bảo tồn, ôn",
+    "meaning_vi": "tồn tại, bảo tồn, ôn tồn",
     "meaning_en": "Exist, Suppose, Be Aware Of",
     "onyomi": [
       "ソン",
@@ -8469,7 +8682,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0098_存.jpg",
-      "story": "tồn    son, zon Cha làm hết sức mình để cho sự tồn tại của con trẻ"
+      "story": "Cha làm hết sức mình để cho sự tồn tại của con trẻ"
     },
     "examples": [
       {
@@ -8540,7 +8753,7 @@
     "lesson": 7,
     "number": 99,
     "kanji": "季",
-    "han_viet": "QUÍ",
+    "han_viet": "QUÝ",
     "meaning_vi": "mùa",
     "meaning_en": "Seasons",
     "onyomi": [
@@ -8599,8 +8812,8 @@
       {
         "word": "春季",
         "reading": "しゅんき",
-        "han_viet": "TRẠCH",
-        "meaning": "XUÂN QUÝ xuân tiết . 宅"
+        "han_viet": "",
+        "meaning": "XUÂN QUÝ xuân tiết"
       }
     ]
   },
@@ -8610,7 +8823,7 @@
     "lesson": 7,
     "number": 100,
     "kanji": "宅",
-    "han_viet": "",
+    "han_viet": "TRẠCH",
     "meaning_vi": "nhà ở",
     "meaning_en": "Home, House, Residence",
     "onyomi": [
@@ -8759,8 +8972,8 @@
       {
         "word": "家宝",
         "reading": "かほう",
-        "han_viet": "CUNG",
-        "meaning": "gia bảo; đồ gia bảo; vật gia truyền; của gia truyền; đồ gia truyền; vật gia bảo 宮"
+        "han_viet": "GIA BẢO",
+        "meaning": "gia bảo; đồ gia bảo; vật gia truyền; của gia truyền; đồ gia truyền; vật gia bảo"
       }
     ]
   },
@@ -8786,7 +8999,7 @@
     "jlpt": "N1",
     "mnemonic": {
       "image_url": "/images/book2/b2_0102_宮.jpg",
-      "story": "guu, ku Cung điện nhà vua có 2 tầng"
+      "story": "Cung điện nhà vua có 2 tầng"
     },
     "examples": [
       {
@@ -8840,7 +9053,7 @@
     "number": 103,
     "kanji": "家",
     "han_viet": "GIA",
-    "meaning_vi": "gia đình, chuyên",
+    "meaning_vi": "gia đình, chuyên gia",
     "meaning_en": "House, Home, Family",
     "onyomi": [
       "カ",
@@ -8855,7 +9068,7 @@
     "jlpt": "N4",
     "mnemonic": {
       "image_url": "/images/book2/b2_0103_家.jpg",
-      "story": "ka, ke Gia đình nuôi lợn ở dưới sàn nhà"
+      "story": "Gia đình nuôi lợn ở dưới sàn nhà"
     },
     "examples": [
       {
@@ -8915,7 +9128,7 @@
     "number": 104,
     "kanji": "富",
     "han_viet": "PHÚ",
-    "meaning_vi": "giàu, phú hào, phú",
+    "meaning_vi": "giàu, phú hào, phú hộ, phong phú",
     "meaning_en": "Wealth, Enrich, Abundant",
     "onyomi": [
       "フ",
@@ -8929,7 +9142,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0104_富.jpg",
-      "story": "hộ, phong phú    fu, fuu Phú hào là người có nhà to và nhiều ruộng"
+      "story": "Phú hào là người có nhà to và nhiều ruộng"
     },
     "examples": [
       {
@@ -8983,9 +9196,32 @@
       {
         "word": "富籤",
         "reading": "とみくじ",
-        "han_viet": "PHONG",
-        "meaning": "PHÖ THIÊM cuộc xổ số 封 105. 封    phong    phong tỏa    fuu, hoo Toàn bộ khu vực này đã bị niêm phong và có người canh giữ 訓: 音: フウ,  ホウ"
-      },
+        "han_viet": "",
+        "meaning": "PHÖ THIÊM cuộc xổ số"
+      }
+    ]
+  },
+  {
+    "id": "b2-07-105",
+    "book": 2,
+    "lesson": 7,
+    "number": 105,
+    "kanji": "封",
+    "han_viet": "PHONG",
+    "meaning_vi": "phong tỏa",
+    "meaning_en": "Seal, Closing",
+    "onyomi": [
+      "フウ",
+      "ホウ"
+    ],
+    "kunyomi": [],
+    "strokes": 9,
+    "jlpt": "N2",
+    "mnemonic": {
+      "image_url": "/images/book2/b2_0105_封.jpg",
+      "story": "Toàn bộ khu vực này đã bị niêm phong và có người canh giữ"
+    },
+    "examples": [
       {
         "word": "封",
         "reading": "ふう PHONG",
@@ -8997,6 +9233,42 @@
         "reading": "いちふう",
         "han_viet": "NHẤT PHONG",
         "meaning": "sự rào lại"
+      },
+      {
+        "word": "封入",
+        "reading": "ふうにゅう",
+        "han_viet": "",
+        "meaning": "sự bỏ kèm (vào thư); sự gửi kèm (theo thư)"
+      },
+      {
+        "word": "分封",
+        "reading": "ぶんぽう",
+        "han_viet": "PHÂN PHONG",
+        "meaning": "ngữ pháp"
+      },
+      {
+        "word": "封印",
+        "reading": "ふういん",
+        "han_viet": "",
+        "meaning": "PHONG ẤN niêm phong"
+      },
+      {
+        "word": "同封",
+        "reading": "どうふう",
+        "han_viet": "ĐỒNG PHONG",
+        "meaning": "sự gửi kèm theo"
+      },
+      {
+        "word": "封土",
+        "reading": "ほうど",
+        "han_viet": "",
+        "meaning": "PHONG THỔ thái ấp"
+      },
+      {
+        "word": "封地",
+        "reading": "ほうち",
+        "han_viet": "",
+        "meaning": "PHONG ĐỊA thái ấp"
       }
     ]
   },
@@ -9006,8 +9278,8 @@
     "lesson": 7,
     "number": 106,
     "kanji": "専",
-    "han_viet": "",
-    "meaning_vi": "chuyên môn,",
+    "han_viet": "CHUYÊN",
+    "meaning_vi": "chuyên môn, chuyên quyền",
     "meaning_en": "Specialty, Exclusive, Mainly",
     "onyomi": [
       "セン"
@@ -9019,7 +9291,7 @@
     "jlpt": "N2",
     "mnemonic": {
       "image_url": "/images/book2/b2_0106_専.jpg",
-      "story": "chuyên quyền    sen Những kẻ cầm súng chuyên quyền khiến ai cũng kêu than"
+      "story": "Những kẻ cầm súng chuyên quyền khiến ai cũng kêu than"
     },
     "examples": [
       {
@@ -9091,8 +9363,8 @@
       {
         "word": "専有",
         "reading": "せんゆう",
-        "han_viet": "XẠ",
-        "meaning": "độc quyền; vật độc chiếm 射"
+        "han_viet": "CHUYÊN HỮU",
+        "meaning": "độc quyền; vật độc chiếm"
       }
     ]
   },
@@ -9106,12 +9378,12 @@
     "meaning_vi": "xạ thủ",
     "meaning_en": "Shoot, Shine Into, Onto",
     "onyomi": [
-      "しゃ"
+      "シャ"
     ],
     "kunyomi": [
       "い.る",
       "さ.す",
-      "う.つ1射すさすXẠchích"
+      "う.つ"
     ],
     "strokes": 10,
     "jlpt": "N1",
@@ -9119,7 +9391,74 @@
       "image_url": "/images/book2/b2_0107_射.jpg",
       "story": "Xạ thủ dùng súng dễ dàng hạ gục đối thủ dùng kiếm"
     },
-    "examples": []
+    "examples": [
+      {
+        "word": "射つ",
+        "reading": "うつ",
+        "han_viet": "",
+        "meaning": "sự tấn công"
+      },
+      {
+        "word": "射る",
+        "reading": "いる",
+        "han_viet": "",
+        "meaning": "bắn trúng"
+      },
+      {
+        "word": "乱射",
+        "reading": "らんしゃ",
+        "han_viet": "LOẠN XẠ",
+        "meaning": "loạn xạ"
+      },
+      {
+        "word": "射倖",
+        "reading": "しゃこう",
+        "han_viet": "XẠ HÃNH",
+        "meaning": "sự suy xét"
+      },
+      {
+        "word": "入射",
+        "reading": "にゅうしゃ",
+        "han_viet": "",
+        "meaning": "Tới (tia) (vật lý)"
+      },
+      {
+        "word": "全射",
+        "reading": "ぜんい",
+        "han_viet": "TOÀN XẠ",
+        "meaning": "toàn cấu"
+      },
+      {
+        "word": "射出",
+        "reading": "しゃしゅつ",
+        "han_viet": "",
+        "meaning": "sự bắn"
+      },
+      {
+        "word": "卖射",
+        "reading": "たんい",
+        "han_viet": "ĐƠN XẠ",
+        "meaning": "phép đơn cấu"
+      },
+      {
+        "word": "双射",
+        "reading": "そうい",
+        "han_viet": "SONG XẠ",
+        "meaning": "nhạc sĩ biểu diễn"
+      },
+      {
+        "word": "反射",
+        "reading": "はんしゃ",
+        "han_viet": "PHẢN XẠ",
+        "meaning": "phản chiếu"
+      },
+      {
+        "word": "噴射",
+        "reading": "ふんしゃ",
+        "han_viet": "",
+        "meaning": "PHÖN XẠ sự phun ra; sự phụt ra"
+      }
+    ]
   },
   {
     "id": "b2-07-108",
@@ -9197,8 +9536,8 @@
       {
         "word": "尊厳",
         "reading": "そんげん",
-        "han_viet": "VĨ",
-        "meaning": "sự tôn nghiêm 尾"
+        "han_viet": "TÔN NGHIÊM",
+        "meaning": "sự tôn nghiêm"
       }
     ]
   },
@@ -9247,6 +9586,48 @@
         "reading": "せつび",
         "han_viet": "TIẾP VĨ",
         "meaning": "hậu tố"
+      },
+      {
+        "word": "末尾",
+        "reading": "まつび",
+        "han_viet": "MẠT VĨ",
+        "meaning": "sự kết thúc"
+      },
+      {
+        "word": "尾根",
+        "reading": "おね",
+        "han_viet": "",
+        "meaning": "đinh thúc ngựa"
+      },
+      {
+        "word": "尾灯",
+        "reading": "びとう",
+        "han_viet": "VĨ ĐĂNG",
+        "meaning": "đèn hậu"
+      },
+      {
+        "word": "尾燈",
+        "reading": "びとう",
+        "han_viet": "VĨ ĐĂNG",
+        "meaning": "Đèn hậu"
+      },
+      {
+        "word": "尾状",
+        "reading": "おじょう",
+        "han_viet": "VĨ TRẠNG",
+        "meaning": "đuôi (thú vật"
+      },
+      {
+        "word": "尾籠",
+        "reading": "びろう",
+        "han_viet": "VĨ LUNG",
+        "meaning": "không đứng dắn"
+      },
+      {
+        "word": "結尾",
+        "reading": "けつび",
+        "han_viet": "KẾT VĨ",
+        "meaning": "giới hạn"
       }
     ]
   },
@@ -9257,7 +9638,7 @@
     "number": 110,
     "kanji": "岩",
     "han_viet": "NHAM",
-    "meaning_vi": "đá tảng, nham",
+    "meaning_vi": "đá tảng, nham thạch",
     "meaning_en": "Boulder, Rock, Cliff",
     "onyomi": [
       "ガン"
@@ -9269,7 +9650,7 @@
     "jlpt": "N2",
     "mnemonic": {
       "image_url": "/images/book2/b2_0110_岩.jpg",
-      "story": "thạch    gan Nham thạch từ 3 ngọn núi đông đặc lại thành hòn đá to"
+      "story": "Nham thạch từ 3 ngọn núi đông đặc lại thành hòn đá to"
     },
     "examples": [
       {
@@ -9323,8 +9704,8 @@
       {
         "word": "岩棚",
         "reading": "いわたな",
-        "han_viet": "ĐẢO",
-        "meaning": "gờ 島"
+        "han_viet": "NHAM BẰNG",
+        "meaning": "gờ"
       }
     ]
   },
@@ -9397,6 +9778,30 @@
         "reading": "れっとう",
         "han_viet": "LIỆT ĐẢO",
         "meaning": "quần đảo"
+      },
+      {
+        "word": "半島",
+        "reading": "はんとう",
+        "han_viet": "BÁN ĐẢO",
+        "meaning": "bán đảo"
+      },
+      {
+        "word": "島司",
+        "reading": "しまつかさ",
+        "han_viet": "",
+        "meaning": "chiến đấu"
+      },
+      {
+        "word": "島国",
+        "reading": "とうごく",
+        "han_viet": "",
+        "meaning": "ĐẢO QUỐC đảo quốc"
+      },
+      {
+        "word": "島国",
+        "reading": "しまぐに",
+        "han_viet": "",
+        "meaning": "ĐẢO QUỐC quốc đảo"
       }
     ]
   },
@@ -9406,7 +9811,7 @@
     "lesson": 7,
     "number": 112,
     "kanji": "崩",
-    "han_viet": "",
+    "han_viet": "BĂNG",
     "meaning_vi": "băng hoại",
     "meaning_en": "Crumble, Die, Demolish",
     "onyomi": [
@@ -9494,7 +9899,7 @@
         "word": "突崩す",
         "reading": "ĐỘT BĂNG sự ép",
         "han_viet": "",
-        "meaning": "左 TẢ, TÁ"
+        "meaning": ""
       }
     ]
   },
@@ -9505,7 +9910,7 @@
     "number": 113,
     "kanji": "左",
     "han_viet": "TẢ",
-    "meaning_vi": "bên trái, tả hữu, cánh",
+    "meaning_vi": "bên trái, tả hữu, cánh tả",
     "meaning_en": "Left",
     "onyomi": [
       "サ",
@@ -9518,7 +9923,7 @@
     "jlpt": "N5",
     "mnemonic": {
       "image_url": "/images/book2/b2_0113_左.jpg",
-      "story": "tả    sa       CX"
+      "story": ""
     },
     "examples": [
       {
@@ -9562,6 +9967,30 @@
         "reading": "ひだりとし",
         "han_viet": "",
         "meaning": "sự thuận tay trái"
+      },
+      {
+        "word": "左右",
+        "reading": "さゆう",
+        "han_viet": "TẢ HỮU",
+        "meaning": "phải trái; bên phải và bên trái; sự trên dưới (tuổi tác)"
+      },
+      {
+        "word": "左官",
+        "reading": "さかん",
+        "han_viet": "TẢ QUAN",
+        "meaning": "thợ trát vữa"
+      },
+      {
+        "word": "左岸",
+        "reading": "さがん",
+        "han_viet": "TẢ NGẠN",
+        "meaning": "tả ngạn"
+      },
+      {
+        "word": "左手",
+        "reading": "ひだりて",
+        "han_viet": "TẢ THỦ",
+        "meaning": "tay trái"
       }
     ]
   },
@@ -9647,8 +10076,8 @@
       {
         "word": "利己主義",
         "reading": "りこしゅぎ LỢI KỈ CHỦ NGHĨA chủ nghĩa vị kỷ; chủ",
-        "han_viet": "QUYỂN",
-        "meaning": "nghĩa cá nhân 巻"
+        "han_viet": "",
+        "meaning": "nghĩa cá nhân"
       }
     ]
   },
@@ -9658,7 +10087,7 @@
     "lesson": 8,
     "number": 115,
     "kanji": "巻",
-    "han_viet": "",
+    "han_viet": "QUYỂN",
     "meaning_vi": "quyển sách",
     "meaning_en": "Scroll, Volume, Book",
     "onyomi": [
@@ -9712,6 +10141,30 @@
         "reading": "ちゅうかん",
         "han_viet": "",
         "meaning": "quyển thứ hai (trong tập ba quyển sách)"
+      },
+      {
+        "word": "右巻",
+        "reading": "みぎまき",
+        "han_viet": "",
+        "meaning": "HỮU QUYỂN theo chiều kim đồng hồ"
+      },
+      {
+        "word": "圧巻",
+        "reading": "あっかん",
+        "han_viet": "",
+        "meaning": "ÁP QUYỂN chỗ nổi bật nhất"
+      },
+      {
+        "word": "寝巻",
+        "reading": "ねまき",
+        "han_viet": "",
+        "meaning": "TẨM QUYỂN quần áo ngủ"
+      },
+      {
+        "word": "巻尺",
+        "reading": "まきじゃく",
+        "han_viet": "",
+        "meaning": "thước cuốn"
       }
     ]
   },
@@ -9800,8 +10253,8 @@
       {
         "word": "帄布",
         "reading": "ほぬの",
-        "han_viet": "QUY",
-        "meaning": "buồm 帰"
+        "han_viet": "PHÀM BỐ",
+        "meaning": "buồm"
       }
     ]
   },
@@ -9811,7 +10264,7 @@
     "lesson": 8,
     "number": 117,
     "kanji": "帰",
-    "han_viet": "",
+    "han_viet": "QUY",
     "meaning_vi": "hồi quy",
     "meaning_en": "Homecoming, Arrive At, Lead To",
     "onyomi": [
@@ -9871,6 +10324,24 @@
         "reading": "ききゅう",
         "han_viet": "QUY HƯU",
         "meaning": "phép nghỉ"
+      },
+      {
+        "word": "帰依",
+        "reading": "きえ",
+        "han_viet": "",
+        "meaning": "sự quy y; quy y"
+      },
+      {
+        "word": "再帰",
+        "reading": "さいき",
+        "han_viet": "TÁI QUY",
+        "meaning": "đệ quy"
+      },
+      {
+        "word": "帰化",
+        "reading": "きか",
+        "han_viet": "",
+        "meaning": "sự làm hợp với thủy thổ (cây cối); du nhập"
       }
     ]
   },
@@ -9953,8 +10424,8 @@
       {
         "word": "帳付け",
         "reading": "ちょうづけ TRƯỚNG PHÓ",
-        "han_viet": "MẠC",
-        "meaning": "người giữ sổ sách; sự giữ sổ sách . 幕"
+        "han_viet": "",
+        "meaning": "người giữ sổ sách; sự giữ sổ sách"
       }
     ]
   },
@@ -9964,8 +10435,8 @@
     "lesson": 8,
     "number": 119,
     "kanji": "幕",
-    "han_viet": "",
-    "meaning_vi": "khai mạc, bế",
+    "han_viet": "MẠC",
+    "meaning_vi": "khai mạc, bế mạc",
     "meaning_en": "Curtain, Bunting, Act Of Play",
     "onyomi": [
       "マク",
@@ -9978,7 +10449,7 @@
     "jlpt": "N1",
     "mnemonic": {
       "image_url": "/images/book2/b2_0119_幕.jpg",
-      "story": "mạc    maku, baku Buổi lễ khai mạc trong một ngày mặt trời lên cao"
+      "story": "Buổi lễ khai mạc trong một ngày mặt trời lên cao"
     },
     "examples": [
       {
@@ -10037,8 +10508,8 @@
     "lesson": 8,
     "number": 120,
     "kanji": "弁",
-    "han_viet": "",
-    "meaning_vi": "hùng biện, biện",
+    "han_viet": "BIỆN",
+    "meaning_vi": "hùng biện, biện luận",
     "meaning_en": "Valve, Petal, Braid",
     "onyomi": [
       "ベン",
@@ -10055,7 +10526,7 @@
     "jlpt": "N1",
     "mnemonic": {
       "image_url": "/images/book2/b2_0120_弁.jpg",
-      "story": "luận    ben CX"
+      "story": "CX"
     },
     "examples": [
       {
@@ -10133,8 +10604,8 @@
       {
         "word": "奇弁",
         "reading": "きべん",
-        "han_viet": "THỨC",
-        "meaning": "phép nguỵ biện 式"
+        "han_viet": "KÌ BIỆN",
+        "meaning": "phép nguỵ biện"
       }
     ]
   },
@@ -10145,7 +10616,7 @@
     "number": 121,
     "kanji": "式",
     "han_viet": "THỨC",
-    "meaning_vi": "hình thức, phương",
+    "meaning_vi": "hình thức, phương thức, công thức",
     "meaning_en": "Style, Ceremony, Rite",
     "onyomi": [
       "シキ"
@@ -10155,7 +10626,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0121_式.jpg",
-      "story": "thức, công thức    shiki Người Nhật luyện tập cả hình thức ngồi khi họp hay phỏng vấn"
+      "story": "Người Nhật luyện tập cả hình thức ngồi khi họp hay phỏng vấn"
     },
     "examples": [
       {
@@ -10318,8 +10789,8 @@
       {
         "word": "浮彫り",
         "reading": "うきぼりり PHÙ ĐIÊU",
-        "han_viet": "ĐỒ",
-        "meaning": "sự giảm nhẹ 徒"
+        "han_viet": "",
+        "meaning": "sự giảm nhẹ"
       }
     ]
   },
@@ -10411,6 +10882,18 @@
         "reading": "ひと",
         "han_viet": "",
         "meaning": "Kẻ cướp"
+      },
+      {
+        "word": "博徒",
+        "reading": "ばくと",
+        "han_viet": "BÁC ĐỒ",
+        "meaning": "người đánh bạc"
+      },
+      {
+        "word": "反徒",
+        "reading": "はんと",
+        "han_viet": "PHẢN ĐỒ",
+        "meaning": "loạn tặc"
       }
     ]
   },
@@ -10420,8 +10903,8 @@
     "lesson": 8,
     "number": 124,
     "kanji": "従",
-    "han_viet": "",
-    "meaning_vi": "phục tùng, tùy tùng,",
+    "han_viet": "TÙNG",
+    "meaning_vi": "phục tùng, tùy tùng, tòng thuận",
     "meaning_en": "Accompany, Obey, Submit To",
     "onyomi": [
       "ジュウ",
@@ -10437,7 +10920,7 @@
     "jlpt": "N1",
     "mnemonic": {
       "image_url": "/images/book2/b2_0124_従.jpg",
-      "story": "tòng thuận    juu, shoo, ju Tất cả các vận động viên phục tùng mệnh lệnh của trọng tài đứng vào vị trí chạy"
+      "story": "Tất cả các vận động viên phục tùng mệnh lệnh của trọng tài đứng vào vị trí chạy"
     },
     "examples": [
       {
@@ -10497,8 +10980,8 @@
       {
         "word": "従容",
         "reading": "しょうよう",
-        "han_viet": "TRIỆT",
-        "meaning": "徹"
+        "han_viet": "",
+        "meaning": ""
       }
     ]
   },
@@ -10581,6 +11064,18 @@
         "reading": "てっていする",
         "han_viet": "TRIỆT ĐỂ",
         "meaning": "làm triệt để"
+      },
+      {
+        "word": "徹底的",
+        "reading": "てっていてき",
+        "han_viet": "TRIỆT ĐỂ ĐÍCH",
+        "meaning": "có tính triệt để; thấu đáo; toàn diện"
+      },
+      {
+        "word": "透徹した",
+        "reading": "とうてつした",
+        "han_viet": "",
+        "meaning": "THẤU TRIỆT trong"
       }
     ]
   },
@@ -10591,7 +11086,7 @@
     "number": 126,
     "kanji": "忠",
     "han_viet": "TRUNG",
-    "meaning_vi": "trung thành, trung",
+    "meaning_vi": "trung thành, trung thực",
     "meaning_en": "Loyalty, Fidelity, Faithfulness",
     "onyomi": [
       "チュウ"
@@ -10601,7 +11096,7 @@
     "jlpt": "N1",
     "mnemonic": {
       "image_url": "/images/book2/b2_0126_忠.jpg",
-      "story": "thực    chuu Lòng trung thành xuất phát từ giữa tim"
+      "story": ""
     },
     "examples": [
       {
@@ -10673,8 +11168,8 @@
       {
         "word": "忠烈",
         "reading": "ちゅうれつ",
-        "han_viet": "SỈ",
-        "meaning": "恥"
+        "han_viet": "",
+        "meaning": ""
       }
     ]
   },
@@ -10684,7 +11179,7 @@
     "lesson": 8,
     "number": 127,
     "kanji": "恥",
-    "han_viet": "",
+    "han_viet": "SỈ",
     "meaning_vi": "sỉ nhục",
     "meaning_en": "Shame, Dishonor",
     "onyomi": [
@@ -10762,6 +11257,30 @@
         "reading": "はじらい",
         "han_viet": "SỈ",
         "meaning": "tính nhút nhát"
+      },
+      {
+        "word": "恥じらう",
+        "reading": "はじらう",
+        "han_viet": "SỈ",
+        "meaning": "cảm thấy xấu hổ; ngượng ngùng"
+      },
+      {
+        "word": "恥さらし",
+        "reading": "はじさらし SỈ",
+        "han_viet": "",
+        "meaning": "nhục nhã; hổ thẹn"
+      },
+      {
+        "word": "恥晒し",
+        "reading": "はじさらし SỈ SÁI sự ô nhục",
+        "han_viet": "",
+        "meaning": ""
+      },
+      {
+        "word": "恥曝し",
+        "reading": "はじさらし SỈ BỘC",
+        "han_viet": "",
+        "meaning": "tình trạng bị ghét bỏ"
       }
     ]
   },
@@ -10771,8 +11290,8 @@
     "lesson": 8,
     "number": 128,
     "kanji": "悪",
-    "han_viet": "",
-    "meaning_vi": "hung ác, độc ác;",
+    "han_viet": "ÁC, Ố",
+    "meaning_vi": "hung ác, độc ác; tăng ố",
     "meaning_en": "Bad, Vice, Rascal",
     "onyomi": [
       "アク",
@@ -10793,7 +11312,7 @@
     "jlpt": "N4",
     "mnemonic": {
       "image_url": "/images/book2/b2_0128_悪.jpg",
-      "story": "tăng ố    aku, o Những kẻ có bộ mặt ác ôn có trái tim bằng đá"
+      "story": "Những kẻ có bộ mặt ác ôn có trái tim bằng đá"
     },
     "examples": [
       {
@@ -10853,8 +11372,8 @@
       {
         "word": "兇悪",
         "reading": "きょうあく",
-        "han_viet": "BI",
-        "meaning": "hung bạo 悲"
+        "han_viet": "",
+        "meaning": "hung bạo"
       }
     ]
   },
@@ -10940,6 +11459,30 @@
         "reading": "かなしさ",
         "han_viet": "BI",
         "meaning": "sự buồn bã"
+      },
+      {
+        "word": "悲しみ",
+        "reading": "かなしみ",
+        "han_viet": "BI",
+        "meaning": "sầu"
+      },
+      {
+        "word": "悲しむ",
+        "reading": "かなしむ",
+        "han_viet": "BI",
+        "meaning": "bi ai; bi thống; thương tâm"
+      },
+      {
+        "word": "悲惨",
+        "reading": "ひさん",
+        "han_viet": "BI THẢM",
+        "meaning": "bi thảm"
+      },
+      {
+        "word": "悲愁",
+        "reading": "ひしゅう",
+        "han_viet": "BI SẦU",
+        "meaning": "Sự đau buồn"
       }
     ]
   },
@@ -10966,7 +11509,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0130_愛.jpg",
-      "story": "CX"
+      "story": ""
     },
     "examples": [
       {
@@ -11044,8 +11587,8 @@
       {
         "word": "愛吟",
         "reading": "あいぎん",
-        "han_viet": "NGÃ",
-        "meaning": "Bài thơ hay bài hát được ưa thích; người yêu thích thơ ca . 我"
+        "han_viet": "ÁI NGÂM",
+        "meaning": "Bài thơ hay bài hát được ưa thích; người yêu thích thơ ca"
       }
     ]
   },
@@ -11115,6 +11658,24 @@
         "reading": "わがまま",
         "han_viet": "NGÃ TẬN",
         "meaning": "tính ích kỷ"
+      },
+      {
+        "word": "我儘",
+        "reading": "わがまま",
+        "han_viet": "NGÃ TẪN",
+        "meaning": "tính ích kỷ"
+      },
+      {
+        "word": "我利",
+        "reading": "がり",
+        "han_viet": "",
+        "meaning": "lợi ích bản thân; tư lợi; lợi ích cá nhân"
+      },
+      {
+        "word": "我執",
+        "reading": "がしゅう",
+        "han_viet": "",
+        "meaning": "NGÃ CHẤP thuyết ta là nhất"
       }
     ]
   },
@@ -11197,8 +11758,8 @@
       {
         "word": "暖房",
         "reading": "だんぼう",
-        "han_viet": "ĐẢ",
-        "meaning": "hệ thống sưởi; sự sưởi nóng 打"
+        "han_viet": "NOÃN PHÕNG",
+        "meaning": "hệ thống sưởi; sự sưởi nóng"
       }
     ]
   },
@@ -11297,7 +11858,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0134_投.jpg",
-      "story": "CX"
+      "story": ""
     },
     "examples": [
       {
@@ -11345,8 +11906,8 @@
       {
         "word": "投売",
         "reading": "なげうり",
-        "han_viet": "ĐỀ",
-        "meaning": "bán đại hạ giá 折 CHIẾT,"
+        "han_viet": "ĐẦU MẠI",
+        "meaning": "bán đại hạ giá"
       }
     ]
   },
@@ -11357,7 +11918,7 @@
     "number": 135,
     "kanji": "折",
     "han_viet": "CHIẾT",
-    "meaning_vi": "bẻ gãy, chiết",
+    "meaning_vi": "bẻ gãy, chiết suất",
     "meaning_en": "Fold, Break, Fracture",
     "onyomi": [
       "セツ"
@@ -11373,7 +11934,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0135_折.jpg",
-      "story": "suất    setsu  CX"
+      "story": ""
     },
     "examples": [
       {
@@ -11432,7 +11993,7 @@
     "lesson": 9,
     "number": 136,
     "kanji": "抜",
-    "han_viet": "",
+    "han_viet": "BẠT",
     "meaning_vi": "rút ra",
     "meaning_en": "Slip Out, Extract, Pull Out",
     "onyomi": [
@@ -11524,8 +12085,8 @@
       {
         "word": "抜擢",
         "reading": "ばってき",
-        "han_viet": "TRẠCH",
-        "meaning": "sự lựa chọn 択"
+        "han_viet": "BẠT TRẠC",
+        "meaning": "sự lựa chọn"
       }
     ]
   },
@@ -11535,7 +12096,7 @@
     "lesson": 9,
     "number": 137,
     "kanji": "択",
-    "han_viet": "",
+    "han_viet": "TRẠCH",
     "meaning_vi": "tuyển trạch",
     "meaning_en": "Choose, Select, Elect",
     "onyomi": [
@@ -11622,6 +12183,12 @@
         "reading": "しゅしゃせんたく THỦ XÁ TUYỂN TRẠCH sự lựa",
         "han_viet": "",
         "meaning": "chọn"
+      },
+      {
+        "word": "選択洗剤",
+        "reading": "せんたくせんざい TUYỂN TRẠCH TẨY TỄ",
+        "han_viet": "",
+        "meaning": "bột giặt"
       }
     ]
   },
@@ -11702,8 +12269,8 @@
       {
         "word": "押える",
         "reading": "おさえる",
-        "han_viet": "CỬ",
-        "meaning": "sự ngừng lại 挙"
+        "han_viet": "ÁP",
+        "meaning": "sự ngừng lại"
       }
     ]
   },
@@ -11713,8 +12280,8 @@
     "lesson": 9,
     "number": 139,
     "kanji": "挙",
-    "han_viet": "",
-    "meaning_vi": "tuyển cử, cử động, cử",
+    "han_viet": "CỬ",
+    "meaning_vi": "tuyển cử, cử động, cử hành",
     "meaning_en": "Raise, Plan, Project",
     "onyomi": [
       "キョ"
@@ -11728,7 +12295,7 @@
     "jlpt": "N1",
     "mnemonic": {
       "image_url": "/images/book2/b2_0139_挙.jpg",
-      "story": "hành    kyo Người trúng cử được trao giấy chứng nhận"
+      "story": "Người trúng cử được trao giấy chứng nhận"
     },
     "examples": [
       {
@@ -11787,7 +12354,7 @@
     "lesson": 9,
     "number": 140,
     "kanji": "捕",
-    "han_viet": "BÕ",
+    "han_viet": "BỘ",
     "meaning_vi": "bắt, đãi bộ",
     "meaning_en": "Catch, Capture",
     "onyomi": [
@@ -11872,8 +12439,8 @@
       {
         "word": "捕獲",
         "reading": "ほかく",
-        "han_viet": "SƯU",
-        "meaning": "BỘ HOẠCH sự bắt được 捜"
+        "han_viet": "",
+        "meaning": "BỘ HOẠCH sự bắt được"
       }
     ]
   },
@@ -11883,8 +12450,8 @@
     "lesson": 9,
     "number": 141,
     "kanji": "捜",
-    "han_viet": "",
-    "meaning_vi": "sưu tầm, sưu",
+    "han_viet": "SƯU",
+    "meaning_vi": "sưu tầm, sưu tập",
     "meaning_en": "Search, Look For, Locate",
     "onyomi": [
       "ソウ",
@@ -11898,7 +12465,7 @@
     "jlpt": "N2",
     "mnemonic": {
       "image_url": "/images/book2/b2_0141_捜.jpg",
-      "story": "tập    soo Đốt đèn ban đêm đi tìm sưu tầm cổ vật"
+      "story": "Đốt đèn ban đêm đi tìm sưu tầm cổ vật"
     },
     "examples": [
       {
@@ -11952,7 +12519,7 @@
     "number": 142,
     "kanji": "探",
     "han_viet": "THÁM",
-    "meaning_vi": "do thám, thám",
+    "meaning_vi": "do thám, thám hiểm",
     "meaning_en": "Grope, Search, Look For",
     "onyomi": [
       "タン"
@@ -11965,7 +12532,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0142_探.jpg",
-      "story": "hiểm    tan Bắt được kẻ do thám núp trong lùm cây trước cửa hang"
+      "story": "Bắt được kẻ do thám núp trong lùm cây trước cửa hang"
     },
     "examples": [
       {
@@ -12037,8 +12604,8 @@
       {
         "word": "探究",
         "reading": "たんきゅう",
-        "han_viet": "TIẾP",
-        "meaning": "接"
+        "han_viet": "",
+        "meaning": ""
       }
     ]
   },
@@ -12049,7 +12616,7 @@
     "number": 143,
     "kanji": "接",
     "han_viet": "TIẾP",
-    "meaning_vi": "nối tiếp, tiếp đãi, tiếp",
+    "meaning_vi": "nối tiếp, tiếp đãi, tiếp xúc",
     "meaning_en": "Touch, Contact, Adjoin",
     "onyomi": [
       "セツ",
@@ -12062,7 +12629,7 @@
     "jlpt": "N2",
     "mnemonic": {
       "image_url": "/images/book2/b2_0143_接.jpg",
-      "story": "xúc    setsu Không được dùng tay tiếp xúc trực tiếp với phụ nữ"
+      "story": "Không được dùng tay tiếp xúc trực tiếp với phụ nữ"
     },
     "examples": [
       {
@@ -12139,8 +12706,8 @@
     "lesson": 9,
     "number": 144,
     "kanji": "推",
-    "han_viet": "SUY",
-    "meaning_vi": "giới thiệu, thôi",
+    "han_viet": "THÔI",
+    "meaning_vi": "giới thiệu, thôi tiến",
     "meaning_en": "Conjecture, Infer, Guess",
     "onyomi": [
       "スイ"
@@ -12152,7 +12719,7 @@
     "jlpt": "N1",
     "mnemonic": {
       "image_url": "/images/book2/b2_0144_推.jpg",
-      "story": "tiến    sui Giới thiệu một loại chim quý"
+      "story": "Giới thiệu một loại chim quý"
     },
     "examples": [
       {
@@ -12236,8 +12803,8 @@
       {
         "word": "推知",
         "reading": "すいち",
-        "han_viet": "ĐỀ",
-        "meaning": "sự phỏng đoán 提"
+        "han_viet": "THÔI TRI",
+        "meaning": "sự phỏng đoán"
       }
     ]
   },
@@ -12248,7 +12815,7 @@
     "number": 145,
     "kanji": "提",
     "han_viet": "ĐỀ",
-    "meaning_vi": "cung cấp, đề",
+    "meaning_vi": "cung cấp, đề cung",
     "meaning_en": "Propose, Take Along, Carry In Hand",
     "onyomi": [
       "テイ",
@@ -12324,6 +12891,30 @@
         "reading": "ちょうちん",
         "han_viet": "",
         "meaning": "đèn lồng"
+      },
+      {
+        "word": "提琴",
+        "reading": "ていきん",
+        "han_viet": "ĐỀ CẦM",
+        "meaning": "đàn viôlông"
+      },
+      {
+        "word": "提督",
+        "reading": "ていとく",
+        "han_viet": "ĐỀ ĐỐC",
+        "meaning": "Đô đốc; đô đốc hải quân; đề đốc"
+      },
+      {
+        "word": "提示",
+        "reading": "ていじ",
+        "han_viet": "",
+        "meaning": "ĐỀ KÌ sự bày ra"
+      },
+      {
+        "word": "菩提",
+        "reading": "ぼだい",
+        "han_viet": "",
+        "meaning": "BỒ ĐỀ bồ đề"
       }
     ]
   },
@@ -12414,8 +13005,8 @@
       {
         "word": "昂揚",
         "reading": "こうよう",
-        "han_viet": "VIỆN",
-        "meaning": "sự làm tang 援"
+        "han_viet": "NGANG DƯƠNG",
+        "meaning": "sự làm tang"
       }
     ]
   },
@@ -12480,6 +13071,54 @@
         "reading": "こうえん",
         "han_viet": "HẬU VIÊN",
         "meaning": "sự ủng hộ; sự tiếp tế; sự tiếp trợ; sự viện trợ; sự bảo trợ; sự đỡ đầu; ủng hộ; tiếp tế; tiếp trợ; viện trợ; bảo trợ; đỡ đầu; ủng hộ; hậu thuẫn"
+      },
+      {
+        "word": "応援",
+        "reading": "おうえん",
+        "han_viet": "ỨNG VIÊN",
+        "meaning": "cổ vũ; hỗ trợ; ủng hộ; giúp đỡ; khích lệ; cổ động"
+      },
+      {
+        "word": "支援",
+        "reading": "しえん",
+        "han_viet": "CHI VIÊN",
+        "meaning": "chi viện"
+      },
+      {
+        "word": "救援",
+        "reading": "きゅうえん",
+        "han_viet": "",
+        "meaning": "sự cứu viện; sự cứu tế; sự cứu trợ; cứu viện; cứu tế; cứu trợ"
+      },
+      {
+        "word": "来援",
+        "reading": "らいえん",
+        "han_viet": "LAI VIÊN",
+        "meaning": "sự giúp đỡ"
+      },
+      {
+        "word": "無援",
+        "reading": "むえん",
+        "han_viet": "VÔ VIÊN",
+        "meaning": "không tự lo liệu được"
+      },
+      {
+        "word": "援用",
+        "reading": "えんよう",
+        "han_viet": "",
+        "meaning": "VIÊN DỤNG sự đòi"
+      },
+      {
+        "word": "義援",
+        "reading": "ぎえん",
+        "han_viet": "",
+        "meaning": "NGHĨA VIÊN sự tặng"
+      },
+      {
+        "word": "援護",
+        "reading": "えんご",
+        "han_viet": "VIÊN HỘ",
+        "meaning": "sự trợ giúp"
       }
     ]
   },
@@ -12489,8 +13128,8 @@
     "lesson": 10,
     "number": 148,
     "kanji": "損",
-    "han_viet": "TỐN",
-    "meaning_vi": "tổn hại, tổn",
+    "han_viet": "TỔN",
+    "meaning_vi": "tổn hại, tổn thương",
     "meaning_en": "Damage, Loss, Disadvantage",
     "onyomi": [
       "ソン"
@@ -12506,7 +13145,7 @@
     "jlpt": "N2",
     "mnemonic": {
       "image_url": "/images/book2/b2_0148_損.jpg",
-      "story": "thương    son CX Cảm thấy tổn thương vì không nhận được đồng tiền đền bù nào"
+      "story": "đền bù nào"
     },
     "examples": [
       {
@@ -12572,8 +13211,8 @@
       {
         "word": "損得",
         "reading": "そんとく",
-        "han_viet": "KÍCH",
-        "meaning": "sự lỗ lãi; việc được mất; cái mất và cái được . 撃"
+        "han_viet": "TỔN ĐẮC",
+        "meaning": "sự lỗ lãi; việc được mất; cái mất và cái được"
       }
     ]
   },
@@ -12583,11 +13222,11 @@
     "lesson": 10,
     "number": 149,
     "kanji": "撃",
-    "han_viet": "",
-    "meaning_vi": "công kích, tập",
+    "han_viet": "KÍCH",
+    "meaning_vi": "công kích, tập kích",
     "meaning_en": "Beat, Attack, Defeat",
     "onyomi": [
-      "げき"
+      "ゲキ"
     ],
     "kunyomi": [
       "う.つ"
@@ -12596,9 +13235,76 @@
     "jlpt": "N1",
     "mnemonic": {
       "image_url": "/images/book2/b2_0149_撃.jpg",
-      "story": "kích    geki Tướng quân ra lệnh quân lính tập kích"
+      "story": "Tướng quân ra lệnh quân lính tập kích"
     },
-    "examples": []
+    "examples": [
+      {
+        "word": "撃つ",
+        "reading": "うつ",
+        "han_viet": "",
+        "meaning": ""
+      },
+      {
+        "word": "一撃",
+        "reading": "いちげき",
+        "han_viet": "",
+        "meaning": "NHẤT KÍCH cú đánh đòn"
+      },
+      {
+        "word": "出撃",
+        "reading": "しゅつげき",
+        "han_viet": "",
+        "meaning": ""
+      },
+      {
+        "word": "撃剣",
+        "reading": "げっけん",
+        "han_viet": "",
+        "meaning": "KÍCH KIẾM sự rào dậu"
+      },
+      {
+        "word": "反撃",
+        "reading": "はんげき",
+        "han_viet": "",
+        "meaning": "PHẢN KÍCH sự phản kích"
+      },
+      {
+        "word": "撃墜",
+        "reading": "げきつい",
+        "han_viet": "",
+        "meaning": "KÍCH TRỤY sự bắn rơi máy bay; bắn rơi máy bay"
+      },
+      {
+        "word": "射撃",
+        "reading": "しゃげき",
+        "han_viet": "XẠ KÍCH",
+        "meaning": "hỏa mai"
+      },
+      {
+        "word": "打撃",
+        "reading": "だげき",
+        "han_viet": "ĐẢ KÍCH",
+        "meaning": "đòn đánh; cú sốc; sự thiệt hại; cú đánh (bóng chuyền)"
+      },
+      {
+        "word": "挟撃",
+        "reading": "きょうげき",
+        "han_viet": "",
+        "meaning": "thế gọng kìm; cuộc tiến công gọng kìm"
+      },
+      {
+        "word": "排撃",
+        "reading": "はいげき",
+        "han_viet": "BÀI KÍCH",
+        "meaning": "kịch sĩ"
+      },
+      {
+        "word": "攻撃",
+        "reading": "こうげき",
+        "han_viet": "",
+        "meaning": "CÔNG KÍCH sự công kích; sự tấn công; sự chỉ trích"
+      }
+    ]
   },
   {
     "id": "b2-10-150",
@@ -12606,8 +13312,8 @@
     "lesson": 10,
     "number": 150,
     "kanji": "改",
-    "han_viet": "",
-    "meaning_vi": "cải cách, cải",
+    "han_viet": "CẢI",
+    "meaning_vi": "cải cách, cải chính",
     "meaning_en": "Reformation, Change, Modify",
     "onyomi": [
       "カイ"
@@ -12620,7 +13326,7 @@
     "jlpt": "N2",
     "mnemonic": {
       "image_url": "/images/book2/b2_0150_改.jpg",
-      "story": "chính    kai Cần phải cải cách cách dạy con trẻ bằng bạo lực"
+      "story": "Cần phải cải cách cách dạy con trẻ bằng bạo lực"
     },
     "examples": [
       {
@@ -12680,8 +13386,8 @@
       {
         "word": "復改",
         "reading": "ふくあらため",
-        "han_viet": "CÔNG",
-        "meaning": "trở đầu bộ lên giấy 攻"
+        "han_viet": "PHỤC CẢI",
+        "meaning": "trở đầu bộ lên giấy"
       }
     ]
   },
@@ -12692,10 +13398,10 @@
     "number": 151,
     "kanji": "攻",
     "han_viet": "CÔNG",
-    "meaning_vi": "tấn công, công",
+    "meaning_vi": "tấn công, công kích",
     "meaning_en": "Aggression, Attack, Criticize",
     "onyomi": [
-      "こう"
+      "コウ"
     ],
     "kunyomi": [
       "せ.める"
@@ -12704,9 +13410,82 @@
     "jlpt": "N1",
     "mnemonic": {
       "image_url": "/images/book2/b2_0151_攻.jpg",
-      "story": "kích    koo CX Những người công nhân dùng gậy tấn công"
+      "story": "Những người công nhân dùng gậy tấn công"
     },
-    "examples": []
+    "examples": [
+      {
+        "word": "攻め",
+        "reading": "せめ",
+        "han_viet": "",
+        "meaning": ""
+      },
+      {
+        "word": "主攻",
+        "reading": "しゅおさむ",
+        "han_viet": "",
+        "meaning": ""
+      },
+      {
+        "word": "侵攻",
+        "reading": "しんこう",
+        "han_viet": "",
+        "meaning": "XÂM CÔNG sự xâm lược"
+      },
+      {
+        "word": "先攻",
+        "reading": "せんこう",
+        "han_viet": "",
+        "meaning": "TIÊN CÔNG sự lựa chọn"
+      },
+      {
+        "word": "内攻",
+        "reading": "ないこう",
+        "han_viet": "NỘI CÔNG",
+        "meaning": "Bệnh bên trong cơ thể (không thể hiện triệu chứng ra bên ngoài)"
+      },
+      {
+        "word": "攻勢",
+        "reading": "こうせい",
+        "han_viet": "",
+        "meaning": "CÔNG THẾ sự xâm lược; sự gây hấn; cuộc xâm lược; xâm lược; gây hấn; xâm lăng"
+      },
+      {
+        "word": "反攻",
+        "reading": "はんこう",
+        "han_viet": "",
+        "meaning": "PHẢN CÔNG phản công"
+      },
+      {
+        "word": "攻囲",
+        "reading": "こうい",
+        "han_viet": "CÔNG VI",
+        "meaning": "sự bao vây"
+      },
+      {
+        "word": "攻城",
+        "reading": "こうじょう",
+        "han_viet": "",
+        "meaning": "vây thành"
+      },
+      {
+        "word": "攻守",
+        "reading": "こうしゅ",
+        "han_viet": "",
+        "meaning": "CÔNG THỦ sự công thủ; sự tấn công và phòng thủ; công thủ; tấn công và phòng thủ"
+      },
+      {
+        "word": "専攻",
+        "reading": "せんこう",
+        "han_viet": "CHUYÊN CÔNG",
+        "meaning": "chuyên môn"
+      },
+      {
+        "word": "攻める",
+        "reading": "せめる",
+        "han_viet": "",
+        "meaning": "CÔNG tấn công; công kích; đột kích"
+      }
+    ]
   },
   {
     "id": "b2-10-152",
@@ -12715,7 +13494,7 @@
     "number": 152,
     "kanji": "故",
     "han_viet": "CỐ",
-    "meaning_vi": "cố tổng thống, lí",
+    "meaning_vi": "cố tổng thống, lí do",
     "meaning_en": "Happenstance, Especially, Intentionally",
     "onyomi": [
       "コ"
@@ -12729,7 +13508,7 @@
     "jlpt": "N1",
     "mnemonic": {
       "image_url": "/images/book2/b2_0152_故.jpg",
-      "story": "Người quá cố chết do bị đánh"
+      "story": ""
     },
     "examples": [
       {
@@ -12800,8 +13579,8 @@
     "lesson": 10,
     "number": 153,
     "kanji": "散",
-    "han_viet": "TẢN",
-    "meaning_vi": "phấn tán, tản",
+    "han_viet": "TÁN, TẢN",
+    "meaning_vi": "phấn tán, tản mát",
     "meaning_en": "Scatter, Disperse, Spend",
     "onyomi": [
       "サン"
@@ -12820,7 +13599,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0153_散.jpg",
-      "story": "mát    san Thấy có người bị đánh Mọi người chạy tán loạn"
+      "story": "Thấy có người bị đánh Mọi người chạy tán loạn"
     },
     "examples": [
       {
@@ -12886,8 +13665,8 @@
       {
         "word": "散らし",
         "reading": "ちらし",
-        "han_viet": "ĐỊCH",
-        "meaning": "TÁN tờ rơi; rải . 敵"
+        "han_viet": "",
+        "meaning": "TÁN tờ rơi; rải"
       }
     ]
   },
@@ -12990,7 +13769,7 @@
     "number": 155,
     "kanji": "文",
     "han_viet": "VĂN",
-    "meaning_vi": "văn chương, văn",
+    "meaning_vi": "văn chương, văn học",
     "meaning_en": "Sentence, Literature, Style",
     "onyomi": [
       "ブン",
@@ -13004,7 +13783,7 @@
     "jlpt": "N4",
     "mnemonic": {
       "image_url": "/images/book2/b2_0155_文.jpg",
-      "story": "học    bun, mon Văn hay chữ tốt Phất bút ra thơ"
+      "story": "Văn hay chữ tốt Phất bút ra thơ"
     },
     "examples": [
       {
@@ -13064,8 +13843,8 @@
       {
         "word": "作文",
         "reading": "さくぶん",
-        "han_viet": "LIỆU",
-        "meaning": "sự đặt câu 料 LIÊU,"
+        "han_viet": "TÁC VĂN",
+        "meaning": "sự đặt câu"
       }
     ]
   },
@@ -13076,7 +13855,7 @@
     "number": 156,
     "kanji": "料",
     "han_viet": "LIỆU",
-    "meaning_vi": "nguyên liệu, tài liệu,",
+    "meaning_vi": "nguyên liệu, tài liệu, nhiên liệu",
     "meaning_en": "Fee, Materials",
     "onyomi": [
       "リョウ"
@@ -13086,7 +13865,7 @@
     "jlpt": "N4",
     "mnemonic": {
       "image_url": "/images/book2/b2_0156_料.jpg",
-      "story": "nhiên liệu    ryoo Hứng hạt ca cao để làm nguyên liệu"
+      "story": "Hứng hạt ca cao để làm nguyên liệu"
     },
     "examples": [
       {
@@ -13151,8 +13930,8 @@
     "lesson": 10,
     "number": 157,
     "kanji": "断",
-    "han_viet": "ĐOẠN",
-    "meaning_vi": "phán đoán,",
+    "han_viet": "ĐOẠN, ĐOÁN",
+    "meaning_vi": "phán đoán, đoạn tuyệt",
     "meaning_en": "Severance, Decline, Refuse",
     "onyomi": [
       "ダン"
@@ -13166,7 +13945,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0157_断.jpg",
-      "story": "đoạn tuyệt    dan Rìu sắc chặt đứt đoạn cây"
+      "story": "Rìu sắc chặt đứt đoạn cây"
     },
     "examples": [
       {
@@ -13244,8 +14023,8 @@
       {
         "word": "切断",
         "reading": "せつだん",
-        "han_viet": "THI",
-        "meaning": "sự cắt rời; sự phân đoạn; sự chia đoạn 施"
+        "han_viet": "THIẾT ĐOẠN",
+        "meaning": "sự cắt rời; sự phân đoạn; sự chia đoạn"
       }
     ]
   },
@@ -13256,7 +14035,7 @@
     "number": 158,
     "kanji": "施",
     "han_viet": "THI",
-    "meaning_vi": "thực thi, thi",
+    "meaning_vi": "thực thi, thi hành",
     "meaning_en": "Give, Bestow, Perform",
     "onyomi": [
       "シ",
@@ -13269,7 +14048,7 @@
     "jlpt": "N1",
     "mnemonic": {
       "image_url": "/images/book2/b2_0158_施.jpg",
-      "story": "hành    shi, se Việc hiến tế lợn sẽ được thực thi ngay khi trọng tài phất cờ"
+      "story": "Việc hiến tế lợn sẽ được thực thi ngay khi trọng tài phất cờ"
     },
     "examples": [
       {
@@ -13337,6 +14116,12 @@
         "reading": "せひ",
         "han_viet": "",
         "meaning": "sự làm cho màu mỡ được"
+      },
+      {
+        "word": "施行",
+        "reading": "しこう",
+        "han_viet": "THI HÀNH",
+        "meaning": "sự thực hiện; sự thi hành"
       }
     ]
   },
@@ -13346,7 +14131,7 @@
     "lesson": 10,
     "number": 159,
     "kanji": "旗",
-    "han_viet": "CỜ",
+    "han_viet": "KÌ",
     "meaning_vi": "quốc kì",
     "meaning_en": "National Flag, Banner, Standard",
     "onyomi": [
@@ -13425,8 +14210,8 @@
       {
         "word": "旗手",
         "reading": "きしゅ",
-        "han_viet": "CỰU",
-        "meaning": "người lính cầm cờ 旧"
+        "han_viet": "KÌ THỦ",
+        "meaning": "người lính cầm cờ"
       }
     ]
   },
@@ -13437,7 +14222,7 @@
     "number": 160,
     "kanji": "旧",
     "han_viet": "CỰU",
-    "meaning_vi": "cũ, cựu thủ tướng,",
+    "meaning_vi": "cũ, cựu thủ tướng, cựu binh",
     "meaning_en": "Old Times, Old Things, Old Friend",
     "onyomi": [
       "キュウ"
@@ -13450,7 +14235,7 @@
     "jlpt": "N2",
     "mnemonic": {
       "image_url": "/images/book2/b2_0160_旧.jpg",
-      "story": "cựu binh    kyuu 1 ngày trước cũng đã là cũ rồi"
+      "story": "1 ngày trước cũng đã là cũ rồi"
     },
     "examples": [
       {
@@ -13491,7 +14276,7 @@
     "lesson": 11,
     "number": 161,
     "kanji": "旬",
-    "han_viet": "",
+    "han_viet": "TUẦN",
     "meaning_vi": ".. ngày",
     "meaning_en": "Decameron, Ten-day Period, Season (for Specific Products)",
     "onyomi": [
@@ -13552,7 +14337,7 @@
         "word": "五旬節",
         "reading": "ごしゅんぶし",
         "han_viet": "NGŨ TUẦN TIẾT",
-        "meaning": "lễ gặt (của người Do thái 易 DỊCH, DỊ"
+        "meaning": "lễ gặt (của người Do thái"
       }
     ]
   },
@@ -13562,8 +14347,8 @@
     "lesson": 11,
     "number": 162,
     "kanji": "易",
-    "han_viet": "DỊCH",
-    "meaning_vi": "dễ, dịch",
+    "han_viet": "DỊ, DỊCH",
+    "meaning_vi": "dễ, dịch chuyển",
     "meaning_en": "Easy, Ready To, Simple",
     "onyomi": [
       "エキ",
@@ -13577,7 +14362,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0162_易.jpg",
-      "story": "chuyển    i, eki Đi quân dịch dưới trời nắng chang chang"
+      "story": "Đi quân dịch dưới trời nắng chang chang"
     },
     "examples": [
       {
@@ -13654,8 +14439,8 @@
     "lesson": 11,
     "number": 163,
     "kanji": "春",
-    "han_viet": "",
-    "meaning_vi": "mùa xuân, thanh",
+    "han_viet": "XUÂN",
+    "meaning_vi": "mùa xuân, thanh xuân",
     "meaning_en": "Springtime, Spring (season)",
     "onyomi": [
       "シュン"
@@ -13667,7 +14452,7 @@
     "jlpt": "N4",
     "mnemonic": {
       "image_url": "/images/book2/b2_0163_春.jpg",
-      "story": "xuân    shun Tuổi thanh xuân như mặt trời buổi sớm bên ngọn cây"
+      "story": "Tuổi thanh xuân như mặt trời buổi sớm bên ngọn cây"
     },
     "examples": [
       {
@@ -13715,8 +14500,8 @@
       {
         "word": "春季",
         "reading": "しゅんき",
-        "han_viet": "CHIÊU",
-        "meaning": "XUÂN QUÝ xuân tiết . 昭"
+        "han_viet": "",
+        "meaning": "XUÂN QUÝ xuân tiết"
       }
     ]
   },
@@ -13726,7 +14511,7 @@
     "lesson": 11,
     "number": 164,
     "kanji": "昭",
-    "han_viet": "",
+    "han_viet": "CHIÊU",
     "meaning_vi": "sáng",
     "meaning_en": "Shining, Bright",
     "onyomi": [
@@ -13762,7 +14547,97 @@
         "word": "昭和年間",
         "reading": "しょうわねんかん CHIÊU HÕA NIÊN GIAN",
         "han_viet": "",
-        "meaning": "niên đại Shouwa; thời kỳ Chiêu Hoà . 昼 TRÖ 165. 昼    trú    buổi trưa    chuu CX 訓: ひる"
+        "meaning": "niên đại Shouwa; thời kỳ Chiêu Hoà . 昼 TRÖ"
+      }
+    ]
+  },
+  {
+    "id": "b2-11-165",
+    "book": 2,
+    "lesson": 11,
+    "number": 165,
+    "kanji": "昼",
+    "han_viet": "TRÚ",
+    "meaning_vi": "buổi trưa",
+    "meaning_en": "Daytime, Noon",
+    "onyomi": [
+      "チュウ"
+    ],
+    "kunyomi": [
+      "ひる"
+    ],
+    "strokes": 9,
+    "jlpt": "N4",
+    "mnemonic": {
+      "image_url": "/images/book2/b2_0165_昼.jpg",
+      "story": ""
+    },
+    "examples": [
+      {
+        "word": "昼",
+        "reading": "ひる TRÖ ban trưa",
+        "han_viet": "",
+        "meaning": ""
+      },
+      {
+        "word": "お昼",
+        "reading": "おひる",
+        "han_viet": "",
+        "meaning": "TRÖ buổi trưa; bữa trưa"
+      },
+      {
+        "word": "昼光",
+        "reading": "ひるひかり",
+        "han_viet": "",
+        "meaning": ""
+      },
+      {
+        "word": "昼前",
+        "reading": "ひるまえ",
+        "han_viet": "",
+        "meaning": "TRÖ TIỀN thời điểm ngay trước buổi trưa"
+      },
+      {
+        "word": "昼夜",
+        "reading": "ちゅうや",
+        "han_viet": "",
+        "meaning": "TRÖ DẠ ngày và đêm"
+      },
+      {
+        "word": "昼寐",
+        "reading": "TRÖ MỊ",
+        "han_viet": "",
+        "meaning": "giấc ngủ trưa"
+      },
+      {
+        "word": "昼寝",
+        "reading": "ひるね",
+        "han_viet": "",
+        "meaning": "TRÖ TẨM sự ngủ trưa; sự nghỉ trưa"
+      },
+      {
+        "word": "御昼",
+        "reading": "ごひる",
+        "han_viet": "",
+        "meaning": "NGỰ TRÖ bữa ăn trưa"
+      },
+      {
+        "word": "昼時",
+        "reading": "ひるとき",
+        "han_viet": "",
+        "meaning": "TRÖ THÌ trưa"
+      },
+      {
+        "word": "白昼",
+        "reading": "はくちゅう",
+        "han_viet": "",
+        "meaning": "trời lặn; ban ngày"
+      },
+      {
+        "word": "真昼",
+        "reading": "まひる",
+        "han_viet": "",
+        "meaning": "CHÂN TRÖ trưa"
       }
     ]
   },
@@ -13772,7 +14647,7 @@
     "lesson": 11,
     "number": 166,
     "kanji": "暖",
-    "han_viet": "",
+    "han_viet": "NOÃN",
     "meaning_vi": "ấm",
     "meaning_en": "Warmth",
     "onyomi": [
@@ -13849,8 +14724,8 @@
       {
         "word": "温暖",
         "reading": "おんだん",
-        "han_viet": "ÁM",
-        "meaning": "ấm; ấm áp 暗"
+        "han_viet": "ÔN NOÃN",
+        "meaning": "ấm; ấm áp"
       }
     ]
   },
@@ -13889,6 +14764,48 @@
         "reading": "あんゆ",
         "han_viet": "ÁM",
         "meaning": "phép ẩn dụ"
+      },
+      {
+        "word": "冥暗",
+        "reading": "めいくら",
+        "han_viet": "MINH ÁM",
+        "meaning": "tối sầm lại"
+      },
+      {
+        "word": "暗号",
+        "reading": "あんごう",
+        "han_viet": "ÁM HÀO",
+        "meaning": "ám hiệu; mật mã; mật hiệu"
+      },
+      {
+        "word": "暗合",
+        "reading": "あんごう",
+        "han_viet": "ÁM HỢP",
+        "meaning": "sự trùng khớp"
+      },
+      {
+        "word": "暗唱",
+        "reading": "あんしょう",
+        "han_viet": "",
+        "meaning": ""
+      },
+      {
+        "word": "暗喩",
+        "reading": "あんゆ",
+        "han_viet": "ÁM DỤ",
+        "meaning": "phép ẩn dụ"
+      },
+      {
+        "word": "暗审",
+        "reading": "あんしつ",
+        "han_viet": "ÁM THẤT",
+        "meaning": "phòng tối"
+      },
+      {
+        "word": "暗影",
+        "reading": "あんえい",
+        "han_viet": "ÁM ẢNH",
+        "meaning": "bóng"
       }
     ]
   },
@@ -13898,8 +14815,8 @@
     "lesson": 11,
     "number": 168,
     "kanji": "暴",
-    "han_viet": "BẠO",
-    "meaning_vi": "bạo lực, bộc",
+    "han_viet": "BẠO, BỘC",
+    "meaning_vi": "bạo lực, bộc lộ",
     "meaning_en": "Outburst, Rave, Fret",
     "onyomi": [
       "ボウ",
@@ -13913,7 +14830,7 @@
     "jlpt": "N2",
     "mnemonic": {
       "image_url": "/images/book2/b2_0168_暴.jpg",
-      "story": "lộ    boo, baku Bạo động xảy ra khi 2 người ném quả pháo về phía cảnh sát"
+      "story": "Bạo động xảy ra khi 2 người ném quả pháo về phía cảnh sát"
     },
     "examples": [
       {
@@ -14012,12 +14929,12 @@
     "meaning_vi": "ca khúc",
     "meaning_en": "Bend, Music, Melody",
     "onyomi": [
-      "きょく"
+      "キョク"
     ],
     "kunyomi": [
       "ま.がる",
       "ま.げる",
-      "くま1曲きょくKHÖCkhúc;từ(canhạc)"
+      "くま"
     ],
     "strokes": 6,
     "jlpt": "N3",
@@ -14025,7 +14942,44 @@
       "image_url": "/images/book2/b2_0169_曲.jpg",
       "story": "Ca khúc về những cánh buồm"
     },
-    "examples": []
+    "examples": [
+      {
+        "word": "曲げ",
+        "reading": "まげ",
+        "han_viet": "",
+        "meaning": ""
+      },
+      {
+        "word": "曲事",
+        "reading": "きょくじ",
+        "han_viet": "",
+        "meaning": "KHÖC SỰ tính chất đồi bại"
+      },
+      {
+        "word": "作曲",
+        "reading": "さっきょく",
+        "han_viet": "",
+        "meaning": ""
+      },
+      {
+        "word": "俗曲",
+        "reading": "ぞっきょく",
+        "han_viet": "",
+        "meaning": ""
+      },
+      {
+        "word": "名曲",
+        "reading": "めいきょく",
+        "han_viet": "",
+        "meaning": ""
+      },
+      {
+        "word": "夜曲",
+        "reading": "よるきょく",
+        "han_viet": "",
+        "meaning": "dạ khúc"
+      }
+    ]
   },
   {
     "id": "b2-11-170",
@@ -14033,7 +14987,7 @@
     "lesson": 11,
     "number": 170,
     "kanji": "板",
-    "han_viet": "VÁN",
+    "han_viet": "BẢN",
     "meaning_vi": "tấm bảng",
     "meaning_en": "Plank, Board, Plate",
     "onyomi": [
@@ -14125,8 +15079,8 @@
       {
         "word": "壁板",
         "reading": "かべいた",
-        "han_viet": "TÍCH",
-        "meaning": "ván lát tường 析"
+        "han_viet": "BÍCH BẢN",
+        "meaning": "ván lát tường"
       }
     ]
   },
@@ -14136,7 +15090,7 @@
     "lesson": 11,
     "number": 171,
     "kanji": "析",
-    "han_viet": "",
+    "han_viet": "TÍCH",
     "meaning_vi": "phân tích",
     "meaning_en": "Chop, Divide, Tear",
     "onyomi": [
@@ -14179,6 +15133,30 @@
         "reading": "ぶんせきがく",
         "han_viet": "PHÂN TÍCH HỌC",
         "meaning": "môn phân tích"
+      },
+      {
+        "word": "分析する",
+        "reading": "ぶんせき",
+        "han_viet": "",
+        "meaning": "PHÂN TÍCH phân tích"
+      },
+      {
+        "word": "解析学",
+        "reading": "かいせきがく",
+        "han_viet": "GIẢI TÍCH HỌC",
+        "meaning": "sự phân tích"
+      },
+      {
+        "word": "解析する",
+        "reading": "かいせき",
+        "han_viet": "GIẢI TÍCH",
+        "meaning": "phân tích"
+      },
+      {
+        "word": "分析化学",
+        "reading": "ぶんせきかがく",
+        "han_viet": "PHÂN TÍCH HÓA HỌC",
+        "meaning": "hóa học phân tích"
       }
     ]
   },
@@ -14254,8 +15232,8 @@
       {
         "word": "三枚目",
         "reading": "さんまいめ TAM MAI MỤC",
-        "han_viet": "QUẢ",
-        "meaning": "diễn viên kịch vui; người đóng kịch vui 果"
+        "han_viet": "",
+        "meaning": "diễn viên kịch vui; người đóng kịch vui"
       }
     ]
   },
@@ -14266,7 +15244,7 @@
     "number": 173,
     "kanji": "果",
     "han_viet": "QUẢ",
-    "meaning_vi": "hoa quả, thành quả,",
+    "meaning_vi": "hoa quả, thành quả, kết quả",
     "meaning_en": "Fruit, Reward, Carry Out",
     "onyomi": [
       "カ"
@@ -14283,7 +15261,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0173_果.jpg",
-      "story": "kết quả    ka Cây cam ra 4 quả và 2 cái lá"
+      "story": "Cây cam ra 4 quả và 2 cái lá"
     },
     "examples": [
       {
@@ -14333,6 +15311,24 @@
         "reading": "はてない",
         "han_viet": "",
         "meaning": "QUẢ lướt nhanh"
+      },
+      {
+        "word": "果たす",
+        "reading": "はたす",
+        "han_viet": "",
+        "meaning": "QUẢ hoàn thành"
+      },
+      {
+        "word": "果てし",
+        "reading": "はてし",
+        "han_viet": "",
+        "meaning": "QUẢ giới hạn"
+      },
+      {
+        "word": "果して",
+        "reading": "はたして",
+        "han_viet": "",
+        "meaning": "QUẢ thực"
       }
     ]
   },
@@ -14355,7 +15351,7 @@
     "jlpt": "N2",
     "mnemonic": {
       "image_url": "/images/book2/b2_0174_枝.jpg",
-      "story": "Trẻ nhỏ như chi như nhánh của cây to"
+      "story": ""
     },
     "examples": [
       {
@@ -14433,8 +15429,8 @@
       {
         "word": "枝豆",
         "reading": "えだまめ",
-        "han_viet": "VINH",
-        "meaning": "đậu xanh . 栄"
+        "han_viet": "CHI ĐẬU",
+        "meaning": "đậu xanh"
       }
     ]
   },
@@ -14444,8 +15440,8 @@
     "lesson": 11,
     "number": 175,
     "kanji": "栄",
-    "han_viet": "",
-    "meaning_vi": "vinh quang, vinh",
+    "han_viet": "VINH",
+    "meaning_vi": "vinh quang, vinh hạnh",
     "meaning_en": "Flourish, Prosperity, Honor",
     "onyomi": [
       "エイ",
@@ -14462,7 +15458,7 @@
     "jlpt": "N2",
     "mnemonic": {
       "image_url": "/images/book2/b2_0175_栄.jpg",
-      "story": "hạnh    ei Vinh hạnh khi là cái cây được thấy ánh mặt trời đầu tiên"
+      "story": "Vinh hạnh khi là cái cây được thấy ánh mặt trời đầu tiên"
     },
     "examples": [
       {
@@ -14493,7 +15489,43 @@
         "word": "光栄",
         "reading": "こうえい",
         "han_viet": "QUANG VINH",
-        "meaning": "quang vinh; vinh quang; vinh"
+        "meaning": "quang vinh; vinh quang; vinh hạnh; vinh hiển; vinh dự"
+      },
+      {
+        "word": "栄典",
+        "reading": "えいてん",
+        "han_viet": "",
+        "meaning": "VINH ĐIỂN nghi thức"
+      },
+      {
+        "word": "栄冠",
+        "reading": "えいかん",
+        "han_viet": "",
+        "meaning": "VINH QUAN vương miện; vòng nguyệt quế"
+      },
+      {
+        "word": "栄える",
+        "reading": "はえる",
+        "han_viet": "",
+        "meaning": "VINH chiếu sáng lên; dễ nhìn; thấy đẹp"
+      },
+      {
+        "word": "栄える",
+        "reading": "さかえる",
+        "han_viet": "",
+        "meaning": "VINH phồn vinh; phồn thịnh; hưng thịnh"
+      },
+      {
+        "word": "栄枯",
+        "reading": "えいこ",
+        "han_viet": "VINH KHÔ",
+        "meaning": "sự thăng trầm; cuộc đời gian truân"
+      },
+      {
+        "word": "栄爵",
+        "reading": "えいしゃく",
+        "han_viet": "",
+        "meaning": ""
       }
     ]
   },
@@ -14576,8 +15608,8 @@
       {
         "word": "工作機械",
         "reading": "こうさくきかい",
-        "han_viet": "THỰC",
-        "meaning": "CÔNG TÁC KI GIỚI máy công cụ 植"
+        "han_viet": "",
+        "meaning": "CÔNG TÁC KI GIỚI máy công cụ"
       }
     ]
   },
@@ -14588,7 +15620,7 @@
     "number": 177,
     "kanji": "植",
     "han_viet": "THỰC",
-    "meaning_vi": "thực vật, thực",
+    "meaning_vi": "thực vật, thực dân",
     "meaning_en": "Plant",
     "onyomi": [
       "ショク"
@@ -14601,7 +15633,7 @@
     "jlpt": "N2",
     "mnemonic": {
       "image_url": "/images/book2/b2_0177_植.jpg",
-      "story": "dân    shoku Thực vật phải trồng từ cây con mới thành cây to"
+      "story": "Thực vật phải trồng từ cây con mới thành cây to"
     },
     "examples": [
       {
@@ -14639,6 +15671,18 @@
         "reading": "うえき",
         "han_viet": "",
         "meaning": "THỰC MỘC cây trồng"
+      },
+      {
+        "word": "植林",
+        "reading": "しょくりん",
+        "han_viet": "",
+        "meaning": "rừng"
+      },
+      {
+        "word": "植民",
+        "reading": "しょくみん",
+        "han_viet": "",
+        "meaning": ""
       }
     ]
   },
@@ -14648,7 +15692,7 @@
     "lesson": 12,
     "number": 178,
     "kanji": "検",
-    "han_viet": "",
+    "han_viet": "KIỂM",
     "meaning_vi": "kiểm tra",
     "meaning_en": "Examination, Investigate",
     "onyomi": [
@@ -14727,8 +15771,8 @@
       {
         "word": "検地",
         "reading": "けんち",
-        "han_viet": "CỰC",
-        "meaning": "sự khảo sát đất đai; khảo sát đất đai; đo đạc đất đai 極"
+        "han_viet": "KIỂM ĐỊA",
+        "meaning": "sự khảo sát đất đai; khảo sát đất đai; đo đạc đất đai"
       }
     ]
   },
@@ -14739,7 +15783,7 @@
     "number": 179,
     "kanji": "極",
     "han_viet": "CỰC",
-    "meaning_vi": "cực lực, cùng cực,",
+    "meaning_vi": "cực lực, cùng cực, địa cực",
     "meaning_en": "Poles, Settlement, Conclusion",
     "onyomi": [
       "キョク",
@@ -14758,7 +15802,7 @@
     "jlpt": "N2",
     "mnemonic": {
       "image_url": "/images/book2/b2_0179_極.jpg",
-      "story": "địa cực    kyoku, goku 2 cực của nam châm đều không thể hút cái cây"
+      "story": "2 cực của nam châm đều không thể hút cái cây"
     },
     "examples": [
       {
@@ -14790,6 +15834,24 @@
         "reading": "ごくじょう",
         "han_viet": "",
         "meaning": "nhất; tốt nhất; cao nhất; thượng hạng"
+      },
+      {
+        "word": "両極",
+        "reading": "りょうきょく",
+        "han_viet": "",
+        "meaning": "LƯỠNG CỰC lưỡng cực"
+      },
+      {
+        "word": "二極",
+        "reading": "にきょく",
+        "han_viet": "NHỊ CỰC",
+        "meaning": "lưỡng cực"
+      },
+      {
+        "word": "極北",
+        "reading": "きょくほく",
+        "han_viet": "",
+        "meaning": "bắc cực"
       }
     ]
   },
@@ -14799,8 +15861,8 @@
     "lesson": 12,
     "number": 180,
     "kanji": "構",
-    "han_viet": "",
-    "meaning_vi": "cấu tạo, cấu thành, cơ",
+    "han_viet": "CẤU",
+    "meaning_vi": "cấu tạo, cấu thành, cơ cấu",
     "meaning_en": "Posture, Build, Pretend",
     "onyomi": [
       "コウ"
@@ -14813,7 +15875,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0180_構.jpg",
-      "story": "cấu    koo Những cái rỏ được cấu tạo từ cây gỗ quý"
+      "story": "Những cái rỏ được cấu tạo từ cây gỗ quý"
     },
     "examples": [
       {
@@ -14885,8 +15947,8 @@
       {
         "word": "結構",
         "reading": "けっこう",
-        "han_viet": "DỤC",
-        "meaning": "kết cấu; cấu trúc 欲"
+        "han_viet": "KẾT CẤU",
+        "meaning": "kết cấu; cấu trúc"
       }
     ]
   },
@@ -14960,6 +16022,24 @@
         "reading": "よくねん",
         "han_viet": "DỤC NIỆM",
         "meaning": "sự thèm muốn; sự mong muốn"
+      },
+      {
+        "word": "性欲",
+        "reading": "せいよく",
+        "han_viet": "TÍNH DỤC",
+        "meaning": "dục tình"
+      },
+      {
+        "word": "欲しい",
+        "reading": "ほしい",
+        "han_viet": "",
+        "meaning": "DỤC muốn; mong muốn"
+      },
+      {
+        "word": "欲情",
+        "reading": "よくじょう",
+        "han_viet": "",
+        "meaning": "sự thèm muốn"
       }
     ]
   },
@@ -15025,8 +16105,8 @@
       {
         "word": "古歌",
         "reading": "こうた",
-        "han_viet": "HOAN",
-        "meaning": "sự đặc lại 歓"
+        "han_viet": "CỔ CA",
+        "meaning": "sự đặc lại"
       }
     ]
   },
@@ -15036,7 +16116,7 @@
     "lesson": 12,
     "number": 183,
     "kanji": "歓",
-    "han_viet": "",
+    "han_viet": "HOAN",
     "meaning_vi": "hoan nghênh",
     "meaning_en": "Delight, Joy",
     "onyomi": [
@@ -15111,6 +16191,18 @@
         "reading": "かんげい",
         "han_viet": "HOAN NGHÊNH",
         "meaning": "sự hoan nghênh; sự nghênh đón nhiệt tình; tiếp đón; chào mừng"
+      },
+      {
+        "word": "交歓会",
+        "reading": "こうかんかい",
+        "han_viet": "GIAO HOAN HỘI",
+        "meaning": "Hội giao lưu"
+      },
+      {
+        "word": "歓喜する",
+        "reading": "かんきする HOAN HỈ",
+        "han_viet": "",
+        "meaning": "hoan hỉ"
       }
     ]
   },
@@ -15194,8 +16286,8 @@
       {
         "word": "武器",
         "reading": "ぶき",
-        "han_viet": "SÁT",
-        "meaning": "gươm giáo 殺"
+        "han_viet": "",
+        "meaning": "gươm giáo"
       }
     ]
   },
@@ -15206,7 +16298,7 @@
     "number": 185,
     "kanji": "殺",
     "han_viet": "SÁT",
-    "meaning_vi": "sát hại, sát",
+    "meaning_vi": "sát hại, sát nhân",
     "meaning_en": "Kill, Murder, Butcher",
     "onyomi": [
       "サツ",
@@ -15222,7 +16314,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0185_殺.jpg",
-      "story": "nhân    satsu, sai, setsu Sau khi sát hại nạn nhân, kẻ giết người đánh một dấu X vào sổ"
+      "story": "Sau khi sát hại nạn nhân, kẻ giết người đánh một dấu X vào sổ"
     },
     "examples": [
       {
@@ -15344,8 +16436,8 @@
       {
         "word": "内殿",
         "reading": "ないでん",
-        "han_viet": "MÔ",
-        "meaning": "Nơi linh thiêng để đặt tượng thần bên trong đền thờ; nội điện . 毛 MAO,"
+        "han_viet": "NỘI ĐIỆN",
+        "meaning": "Nơi linh thiêng để đặt tượng thần bên trong đền thờ; nội điện"
       }
     ]
   },
@@ -15517,8 +16609,8 @@
       {
         "word": "汚濁",
         "reading": "おだく",
-        "han_viet": "DU",
-        "meaning": "bẩn thỉu 油"
+        "han_viet": "Ô TRỌC",
+        "meaning": "bẩn thỉu"
       }
     ]
   },
@@ -15528,7 +16620,7 @@
     "lesson": 12,
     "number": 189,
     "kanji": "油",
-    "han_viet": "DẦU",
+    "han_viet": "DU",
     "meaning_vi": "dầu",
     "meaning_en": "Oil, Fat",
     "onyomi": [
@@ -15696,8 +16788,8 @@
       {
         "word": "浮橋",
         "reading": "うきばし",
-        "han_viet": "DỤC",
-        "meaning": "cầu nổi 浴"
+        "han_viet": "PHÙ KIỀU",
+        "meaning": "cầu nổi"
       }
     ]
   },
@@ -15707,7 +16799,7 @@
     "lesson": 12,
     "number": 191,
     "kanji": "浴",
-    "han_viet": "",
+    "han_viet": "DỤC",
     "meaning_vi": "tắm",
     "meaning_en": "Bathe, Be Favored With, Bask In",
     "onyomi": [
@@ -15787,7 +16879,7 @@
     "number": 192,
     "kanji": "消",
     "han_viet": "TIÊU",
-    "meaning_vi": "tiêu diệt, tiêu hao,",
+    "meaning_vi": "tiêu diệt, tiêu hao, tiêu thất",
     "meaning_en": "Extinguish, Blow Out, Turn Off",
     "onyomi": [
       "ショウ"
@@ -15800,7 +16892,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0192_消.jpg",
-      "story": "tiêu thất    shoo Lửa to tiêu hao thịt nhanh"
+      "story": "Lửa to tiêu hao thịt nhanh"
     },
     "examples": [
       {
@@ -15890,8 +16982,8 @@
       {
         "word": "消極",
         "reading": "しょうきょく",
-        "han_viet": "HỖN",
-        "meaning": "tiêu cực . 混"
+        "han_viet": "TIÊU CỰC",
+        "meaning": "tiêu cực"
       }
     ]
   },
@@ -15901,8 +16993,8 @@
     "lesson": 13,
     "number": 193,
     "kanji": "混",
-    "han_viet": "HỔN",
-    "meaning_vi": "hỗn hợp, hỗn độn,",
+    "han_viet": "HỖN",
+    "meaning_vi": "hỗn hợp, hỗn độn, hỗn loạn",
     "meaning_en": "Mix, Blend, Confuse",
     "onyomi": [
       "コン"
@@ -15918,7 +17010,7 @@
     "jlpt": "N2",
     "mnemonic": {
       "image_url": "/images/book2/b2_0193_混.jpg",
-      "story": "hỗn loạn    kon Trẻ con thời kì hỗn loạn bị bỏ mặc dưới mặt trời"
+      "story": "Trẻ con thời kì hỗn loạn bị bỏ mặc dưới mặt trời"
     },
     "examples": [
       {
@@ -15992,6 +17084,18 @@
         "reading": "まじり",
         "han_viet": "",
         "meaning": "HỖN lẫn lộn"
+      },
+      {
+        "word": "混じる",
+        "reading": "まじる",
+        "han_viet": "",
+        "meaning": "HỖN được trộn; được hòa trộn"
+      },
+      {
+        "word": "混ぜる",
+        "reading": "まぜる",
+        "han_viet": "",
+        "meaning": "HỖN ngào"
       }
     ]
   },
@@ -16002,7 +17106,7 @@
     "number": 194,
     "kanji": "港",
     "han_viet": "CẢNG",
-    "meaning_vi": "hải cảng, không",
+    "meaning_vi": "hải cảng, không cảng",
     "meaning_en": "Harbor",
     "onyomi": [
       "コウ"
@@ -16014,7 +17118,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0194_港.jpg",
-      "story": "cảng    koo Hai người đứng ở cảng Khóc than vì mất hàng"
+      "story": "Hai người đứng ở cảng Khóc than vì mất hàng"
     },
     "examples": [
       {
@@ -16068,8 +17172,8 @@
       {
         "word": "港図",
         "reading": "こうず",
-        "han_viet": "THANG",
-        "meaning": "sơ đồ bến cảng . 湯"
+        "han_viet": "CẢNG ĐỒ",
+        "meaning": "sơ đồ bến cảng"
       }
     ]
   },
@@ -16139,7 +17243,7 @@
     "lesson": 13,
     "number": 196,
     "kanji": "湾",
-    "han_viet": "",
+    "han_viet": "LOAN",
     "meaning_vi": "vịnh",
     "meaning_en": "Gulf, Bay, Inlet",
     "onyomi": [
@@ -16200,8 +17304,8 @@
       {
         "word": "東京湾",
         "reading": "とうきょうわん",
-        "han_viet": "MÃN",
-        "meaning": "ĐÔNG KINH LOAN Vịnh Tokyo 満"
+        "han_viet": "",
+        "meaning": "ĐÔNG KINH LOAN Vịnh Tokyo"
       }
     ]
   },
@@ -16211,8 +17315,8 @@
     "lesson": 13,
     "number": 197,
     "kanji": "満",
-    "han_viet": "",
-    "meaning_vi": "thỏa mãn, bất mãn,",
+    "han_viet": "MÃN",
+    "meaning_vi": "thỏa mãn, bất mãn, mãn nguyện",
     "meaning_en": "Full, Fullness, Enough",
     "onyomi": [
       "マン",
@@ -16227,7 +17331,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0197_満.jpg",
-      "story": "mãn nguyện    man Trên bãi cỏ lấp ló Có hai hòn bi to Nước đôi ba giọt nhỏ Hẳn đã thỏa mãn ra trò"
+      "story": "Trên bãi cỏ lấp ló Có hai hòn bi to Nước đôi ba giọt nhỏ Hẳn đã thỏa mãn ra trò"
     },
     "examples": [
       {
@@ -16292,8 +17396,8 @@
     "lesson": 13,
     "number": 198,
     "kanji": "源",
-    "han_viet": "NGUỒN",
-    "meaning_vi": "nguồn, nguyên",
+    "han_viet": "NGUYÊN",
+    "meaning_vi": "nguồn, nguyên tuyền",
     "meaning_en": "Source, Origin",
     "onyomi": [
       "ゲン"
@@ -16305,7 +17409,7 @@
     "jlpt": "N1",
     "mnemonic": {
       "image_url": "/images/book2/b2_0198_源.jpg",
-      "story": "tuyền    gen CX"
+      "story": ""
     },
     "examples": [
       {
@@ -16365,8 +17469,8 @@
       {
         "word": "源泉",
         "reading": "げんせん",
-        "han_viet": "NGUYÊN TUYỀN",
-        "meaning": "nguồn; nguồn gốc; gốc rễ 炊 XUY, XÖY"
+        "han_viet": "XUY,",
+        "meaning": "nguồn; nguồn gốc; gốc rễ 炊 XÖY"
       }
     ]
   },
@@ -16376,7 +17480,7 @@
     "lesson": 13,
     "number": 199,
     "kanji": "炊",
-    "han_viet": "TRÒN / SÔI",
+    "han_viet": "XUY",
     "meaning_vi": "nấu cơm",
     "meaning_en": "Cook, Boil",
     "onyomi": [
@@ -16522,8 +17626,8 @@
       {
         "word": "木炭",
         "reading": "もくたん",
-        "han_viet": "THIÊU",
-        "meaning": "MỘC THÁN than củi . 焼"
+        "han_viet": "",
+        "meaning": "MỘC THÁN than củi"
       }
     ]
   },
@@ -16533,7 +17637,7 @@
     "lesson": 13,
     "number": 201,
     "kanji": "焼",
-    "han_viet": "",
+    "han_viet": "THIÊU",
     "meaning_vi": "thiêu đốt",
     "meaning_en": "Bake, Burning",
     "onyomi": [
@@ -16702,8 +17806,8 @@
       {
         "word": "照らす",
         "reading": "てらす",
-        "han_viet": "BỘC",
-        "meaning": "chiếu sáng 爆 BẠO, BẠC,"
+        "han_viet": "CHIẾU",
+        "meaning": "chiếu sáng"
       }
     ]
   },
@@ -16713,7 +17817,7 @@
     "lesson": 13,
     "number": 203,
     "kanji": "爆",
-    "han_viet": "",
+    "han_viet": "BỘC",
     "meaning_vi": "bộc phát",
     "meaning_en": "Bomb, Burst Open, Pop",
     "onyomi": [
@@ -16859,8 +17963,8 @@
       {
         "word": "片手",
         "reading": "かたて",
-        "han_viet": "BẢN",
-        "meaning": "PHIẾN THỦ một tay 版"
+        "han_viet": "",
+        "meaning": "PHIẾN THỦ một tay"
       }
     ]
   },
@@ -17003,8 +18107,8 @@
       {
         "word": "玉将",
         "reading": "ぎょくしょう",
-        "han_viet": "CAM",
-        "meaning": "vua 甘"
+        "han_viet": "NGỌC TƯƠNG",
+        "meaning": "vua"
       }
     ]
   },
@@ -17014,7 +18118,7 @@
     "lesson": 13,
     "number": 207,
     "kanji": "甘",
-    "han_viet": "BẢ / CAM",
+    "han_viet": "CAM",
     "meaning_vi": "ngọt, cam chịu",
     "meaning_en": "Sweet, Coax, Pamper",
     "onyomi": [
@@ -17066,9 +18170,34 @@
       {
         "word": "甘える",
         "reading": "あまえる",
-        "han_viet": "GIÁP",
-        "meaning": "CAM chăm sóc; chăm sóc thái quá 甲 208. 甲    giáp    vỏ sò, thứ nhất    koo,kan Người xưa dùng vỏ sò, mai rùa để viết nên gọi là chữ giáp cốt 訓: きのえ 音: コウ,  カン"
-      },
+        "han_viet": "",
+        "meaning": "CAM chăm sóc; chăm sóc thái quá"
+      }
+    ]
+  },
+  {
+    "id": "b2-13-208",
+    "book": 2,
+    "lesson": 13,
+    "number": 208,
+    "kanji": "甲",
+    "han_viet": "GIÁP",
+    "meaning_vi": "vỏ sò, thứ nhất",
+    "meaning_en": "Armor, High (voice), A Grade",
+    "onyomi": [
+      "コウ",
+      "カン"
+    ],
+    "kunyomi": [
+      "きのえ"
+    ],
+    "strokes": 5,
+    "jlpt": "N1",
+    "mnemonic": {
+      "image_url": "/images/book2/b2_0208_甲.jpg",
+      "story": "Người xưa dùng vỏ sò, mai rùa để viết nên gọi là chữ giáp cốt"
+    },
+    "examples": [
       {
         "word": "甲",
         "reading": "かぶと",
@@ -17098,6 +18227,24 @@
         "reading": "かぶとへい",
         "han_viet": "",
         "meaning": ""
+      },
+      {
+        "word": "甲夜",
+        "reading": "かぶとよる",
+        "han_viet": "",
+        "meaning": "đồng bằng"
+      },
+      {
+        "word": "甲巡",
+        "reading": "こうじゅん",
+        "han_viet": "",
+        "meaning": ""
+      },
+      {
+        "word": "甲斐",
+        "reading": "かい",
+        "han_viet": "",
+        "meaning": "kết quả"
       }
     ]
   },
@@ -17107,8 +18254,8 @@
     "lesson": 14,
     "number": 209,
     "kanji": "疑",
-    "han_viet": "",
-    "meaning_vi": "nghi ngờ, nghi vấn,",
+    "han_viet": "NGHI",
+    "meaning_vi": "nghi ngờ, nghi vấn, tình nghi",
     "meaning_en": "Doubt, Distrust, Be Suspicious",
     "onyomi": [
       "ギ"
@@ -17120,7 +18267,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0209_疑.jpg",
-      "story": "tình nghi    gi Chạy nhanh để tránh bị nghi ngờ là kẻ bắn tên hại đồng đội"
+      "story": "Chạy nhanh để tránh bị nghi ngờ là kẻ bắn tên hại đồng đội"
     },
     "examples": [
       {
@@ -17210,8 +18357,8 @@
       {
         "word": "疑惑",
         "reading": "ぎわく",
-        "han_viet": "PHI",
-        "meaning": "NGHI HOẶC sự nghi hoặc; sự hoài nghi; sự nghi ngờ; nghi hoặc; hoài nghi; nghi ngờ 非"
+        "han_viet": "",
+        "meaning": "NGHI HOẶC sự nghi hoặc; sự hoài nghi; sự nghi ngờ; nghi hoặc; hoài nghi; nghi ngờ"
       }
     ]
   },
@@ -17222,7 +18369,7 @@
     "number": 210,
     "kanji": "非",
     "han_viet": "PHI",
-    "meaning_vi": "phi nhân đạo, phi",
+    "meaning_vi": "phi nhân đạo, phi nghĩa",
     "meaning_en": "Un-, Mistake, Negative",
     "onyomi": [
       "ヒ"
@@ -17234,7 +18381,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0210_非.jpg",
-      "story": "nghĩa    hi Cái cột chỉ đường tứ tung, thật là phi nghĩa"
+      "story": "Cái cột chỉ đường tứ tung, thật là phi nghĩa"
     },
     "examples": [
       {
@@ -17284,6 +18431,24 @@
         "reading": "ひじょう",
         "han_viet": "PHI TÌNH",
         "meaning": "chai sạn; nhẫn tâm"
+      },
+      {
+        "word": "非才",
+        "reading": "ひさい",
+        "han_viet": "PHI TÀI",
+        "meaning": "sự thiếu khả năng"
+      },
+      {
+        "word": "是非",
+        "reading": "ぜひ",
+        "han_viet": "",
+        "meaning": "nhất định; những lý lẽ tán thành và phản đối; từ dùng để nhấn mạnh"
+      },
+      {
+        "word": "非曲",
+        "reading": "ひきょく",
+        "han_viet": "",
+        "meaning": "PHI KHÖC bi khúc"
       }
     ]
   },
@@ -17293,8 +18458,8 @@
     "lesson": 14,
     "number": 211,
     "kanji": "面",
-    "han_viet": "",
-    "meaning_vi": "phản diện, chính",
+    "han_viet": "DIỆN",
+    "meaning_vi": "phản diện, chính diện",
     "meaning_en": "Mask, Face, Features",
     "onyomi": [
       "メン",
@@ -17309,7 +18474,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0211_面.jpg",
-      "story": "diện    men Người 2 mặt, đa diện nói lời khó tin"
+      "story": "Người 2 mặt, đa diện nói lời khó tin"
     },
     "examples": [
       {
@@ -17387,8 +18552,8 @@
       {
         "word": "側面",
         "reading": "そくめん",
-        "han_viet": "THUẬN",
-        "meaning": "TRẮC DIỆN mặt bên; một bên; một mặt; hông; sườn 順"
+        "han_viet": "",
+        "meaning": "TRẮC DIỆN mặt bên; một bên; một mặt; hông; sườn"
       }
     ]
   },
@@ -17399,7 +18564,7 @@
     "number": 212,
     "kanji": "順",
     "han_viet": "THUẬN",
-    "meaning_vi": "tòng thuận, thuận",
+    "meaning_vi": "tòng thuận, thuận tự",
     "meaning_en": "Obey, Order, Turn",
     "onyomi": [
       "ジュン"
@@ -17409,7 +18574,7 @@
     "jlpt": "N2",
     "mnemonic": {
       "image_url": "/images/book2/b2_0212_順.jpg",
-      "story": "tự    jun Cho tóc chảy thuận theo dòng sông"
+      "story": "Cho tóc chảy thuận theo dòng sông"
     },
     "examples": [
       {
@@ -17447,6 +18612,42 @@
         "reading": "じゅんれつ",
         "han_viet": "",
         "meaning": ""
+      },
+      {
+        "word": "順化",
+        "reading": "じゅんか",
+        "han_viet": "",
+        "meaning": "THUẬN HÓA làm thích nghi khí hậu"
+      },
+      {
+        "word": "順奉",
+        "reading": "じゅんたてまつ",
+        "han_viet": "THUẬN PHỤNG",
+        "meaning": "có khả năng nhận xét"
+      },
+      {
+        "word": "孝順",
+        "reading": "こうじゅん",
+        "han_viet": "",
+        "meaning": "sự vâng lời; sự hiếu thuận; lòng hiếu thảo"
+      },
+      {
+        "word": "順守",
+        "reading": "じゅんしゅ",
+        "han_viet": "",
+        "meaning": ""
+      },
+      {
+        "word": "席順",
+        "reading": "せきじゅん",
+        "han_viet": "",
+        "meaning": "(địa lý"
+      },
+      {
+        "word": "帰順",
+        "reading": "きじゅん",
+        "han_viet": "",
+        "meaning": "QUY THUẬN qui hàng"
       }
     ]
   },
@@ -17541,8 +18742,8 @@
       {
         "word": "疾走",
         "reading": "しっそう",
-        "han_viet": "THỐNG",
-        "meaning": "sự chạy nhanh; sự lao nhanh; sự phóng nhanh . 痛"
+        "han_viet": "TẬT TẨU",
+        "meaning": "sự chạy nhanh; sự lao nhanh; sự phóng nhanh"
       }
     ]
   },
@@ -17606,6 +18807,42 @@
         "reading": "つうたん",
         "han_viet": "THỐNG THÁN",
         "meaning": "nỗi đau buồn"
+      },
+      {
+        "word": "痛心",
+        "reading": "つうしん",
+        "han_viet": "",
+        "meaning": "THỐNG TÂM nỗi đau buồn"
+      },
+      {
+        "word": "心痛",
+        "reading": "しんつう",
+        "han_viet": "",
+        "meaning": "TÂM THỐNG đau lòng"
+      },
+      {
+        "word": "痛快",
+        "reading": "つうかい",
+        "han_viet": "THỐNG KHOÁI",
+        "meaning": "sự thích thú đến phát run"
+      },
+      {
+        "word": "痛恨",
+        "reading": "つうこん",
+        "han_viet": "",
+        "meaning": "THỐNG HẬN thống hận; sự tiếc nuối"
+      },
+      {
+        "word": "悲痛",
+        "reading": "ひつう",
+        "han_viet": "BI THỐNG",
+        "meaning": "đau buồn"
+      },
+      {
+        "word": "痛める",
+        "reading": "いためる",
+        "han_viet": "THỐNG",
+        "meaning": "làm đau; gây đau đớn (thể chất và tinh thần); làm đau khổ"
       }
     ]
   },
@@ -17695,8 +18932,8 @@
       {
         "word": "益する",
         "reading": "えき ÍCH",
-        "han_viet": "ĐẠO",
-        "meaning": "làm lợi; có lợi; có tác dụng 盗"
+        "han_viet": "",
+        "meaning": "làm lợi; có lợi; có tác dụng"
       }
     ]
   },
@@ -17707,7 +18944,7 @@
     "number": 216,
     "kanji": "盗",
     "han_viet": "ĐẠO",
-    "meaning_vi": "ăn trộm, đạo",
+    "meaning_vi": "ăn trộm, đạo chích",
     "meaning_en": "Steal, Rob, Pilfer",
     "onyomi": [
       "トウ"
@@ -17720,7 +18957,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0216_盗.jpg",
-      "story": "chích    too Đến cái bát không cũng bị bọn đạo tặc trộm mất"
+      "story": "Đến cái bát không cũng bị bọn đạo tặc trộm mất"
     },
     "examples": [
       {
@@ -17770,6 +19007,24 @@
         "reading": "ひょうとう",
         "han_viet": "",
         "meaning": ""
+      },
+      {
+        "word": "盗取",
+        "reading": "とと",
+        "han_viet": "",
+        "meaning": "sự ăn trộm"
+      },
+      {
+        "word": "盗品",
+        "reading": "とうひん",
+        "han_viet": "",
+        "meaning": "ĐẠO PHẨM của cướp được"
+      },
+      {
+        "word": "盗塁",
+        "reading": "とうるい",
+        "han_viet": "ĐẠO LŨY",
+        "meaning": "Sự ăn trộm"
       }
     ]
   },
@@ -17780,7 +19035,7 @@
     "number": 217,
     "kanji": "省",
     "han_viet": "TỈNH",
-    "meaning_vi": "tỉnh lược, phản tỉnh,",
+    "meaning_vi": "tỉnh lược, phản tỉnh, hồi tỉnh",
     "meaning_en": "Focus, Government Ministry, Conserve",
     "onyomi": [
       "セイ",
@@ -17794,7 +19049,7 @@
     "jlpt": "N2",
     "mnemonic": {
       "image_url": "/images/book2/b2_0217_省.jpg",
-      "story": "hồi tỉnh    sei, shoo Kẻ không chịu phản tỉnh, hối lỗi sẽ bị chọc kim mù mắt"
+      "story": "Kẻ không chịu phản tỉnh, hối lỗi sẽ bị chọc kim mù mắt"
     },
     "examples": [
       {
@@ -17836,8 +19091,8 @@
       {
         "word": "帰省",
         "reading": "きせい",
-        "han_viet": "KHÁN",
-        "meaning": "sự về quê hương; sự về quê; sự về thăm quê; về quê hương; về quê; về thăm quê 看"
+        "han_viet": "QUY TỈNH",
+        "meaning": "sự về quê hương; sự về quê; sự về thăm quê; về quê hương; về quê; về thăm quê"
       }
     ]
   },
@@ -17847,7 +19102,7 @@
     "lesson": 14,
     "number": 218,
     "kanji": "看",
-    "han_viet": "TRẦU / KHAN",
+    "han_viet": "KHÁN",
     "meaning_vi": "khán giả",
     "meaning_en": "Watch Over, See",
     "onyomi": [
@@ -18029,8 +19284,8 @@
       {
         "word": "就眠",
         "reading": "しゅうみん",
-        "han_viet": "NGHIÊN",
-        "meaning": "xa lánh mọi người 研"
+        "han_viet": "",
+        "meaning": "xa lánh mọi người"
       }
     ]
   },
@@ -18040,8 +19295,8 @@
     "lesson": 14,
     "number": 220,
     "kanji": "研",
-    "han_viet": "KHĂN / NGHIÊN",
-    "meaning_vi": "mài, nghiên",
+    "han_viet": "NGHIÊN",
+    "meaning_vi": "mài, nghiên cứu",
     "meaning_en": "Polish, Study Of, Sharpen",
     "onyomi": [
       "ケン"
@@ -18053,7 +19308,7 @@
     "jlpt": "N4",
     "mnemonic": {
       "image_url": "/images/book2/b2_0220_研.jpg",
-      "story": "cứu    ken Nghiên cứu cách cày ruộng ở vùng núi cao nhiều đá"
+      "story": "Nghiên cứu cách cày ruộng ở vùng núi cao nhiều đá"
     },
     "examples": [
       {
@@ -18214,8 +19469,8 @@
       {
         "word": "巡礼",
         "reading": "じゅんれい",
-        "han_viet": "PHIẾU",
-        "meaning": "cuộc hành hương; hành hương . 票"
+        "han_viet": "",
+        "meaning": "cuộc hành hương; hành hương"
       }
     ]
   },
@@ -18226,7 +19481,7 @@
     "number": 222,
     "kanji": "票",
     "han_viet": "PHIẾU",
-    "meaning_vi": "lá phiếu, đầu",
+    "meaning_vi": "lá phiếu, đầu phiếu",
     "meaning_en": "Ballot, Label, Ticket",
     "onyomi": [
       "ヒョウ"
@@ -18236,7 +19491,7 @@
     "jlpt": "N1",
     "mnemonic": {
       "image_url": "/images/book2/b2_0222_票.jpg",
-      "story": "phiếu    hyoo Mọi người xin hãy bỏ phiếu vào rỏ trên bàn kia"
+      "story": "Mọi người xin hãy bỏ phiếu vào rỏ trên bàn kia"
     },
     "examples": [
       {
@@ -18313,7 +19568,7 @@
     "lesson": 14,
     "number": 223,
     "kanji": "禍",
-    "han_viet": "HOẠ",
+    "han_viet": "HỌA",
     "meaning_vi": "tai họa",
     "meaning_en": "Calamity, Misfortune, Evil",
     "onyomi": [
@@ -18537,8 +19792,8 @@
       {
         "word": "秋日",
         "reading": "しゅうじつ",
-        "han_viet": "TÍCH",
-        "meaning": "積"
+        "han_viet": "",
+        "meaning": ""
       }
     ]
   },
@@ -18549,7 +19804,7 @@
     "number": 226,
     "kanji": "積",
     "han_viet": "TÍCH",
-    "meaning_vi": "tích tụ, súc tích, tích",
+    "meaning_vi": "tích tụ, súc tích, tích phân",
     "meaning_en": "Volume, Product (x*y), Acreage",
     "onyomi": [
       "セキ"
@@ -18564,7 +19819,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0226_積.jpg",
-      "story": "phân    seki Ban đầu trồng mạ, sau thành lúa, bán lúa lấy tiền, tích lũy tài sản"
+      "story": "Ban đầu trồng mạ, sau thành lúa, bán lúa lấy tiền, tích lũy tài sản"
     },
     "examples": [
       {
@@ -18618,8 +19873,83 @@
       {
         "word": "積年",
         "reading": "せきねん",
-        "han_viet": "CẠNH",
-        "meaning": "TÍCH NIÊN tình trạng cổ xưa 競 227. 競    cạnh    cạnh tranh    kyoo, kei Môn đấu kiếm hay khúc côn cầu thì đều phải cạnh tranh"
+        "han_viet": "",
+        "meaning": "TÍCH NIÊN tình trạng cổ xưa"
+      }
+    ]
+  },
+  {
+    "id": "b2-15-227",
+    "book": 2,
+    "lesson": 15,
+    "number": 227,
+    "kanji": "競",
+    "han_viet": "CẠNH",
+    "meaning_vi": "cạnh tranh",
+    "meaning_en": "Emulate, Compete With, Bid",
+    "onyomi": [
+      "キョウ",
+      "ケイ"
+    ],
+    "kunyomi": [
+      "きそ.う",
+      "せ.る",
+      "くら.べる"
+    ],
+    "strokes": 20,
+    "jlpt": "N2",
+    "mnemonic": {
+      "image_url": "/images/book2/b2_0227_競.jpg",
+      "story": "Môn đấu kiếm hay khúc côn cầu thì đều phải cạnh tranh"
+    },
+    "examples": [
+      {
+        "word": "競う",
+        "reading": "きそう",
+        "han_viet": "",
+        "meaning": "CẠNH tranh giành nhau; ganh đua"
+      },
+      {
+        "word": "競る",
+        "reading": "せる",
+        "han_viet": "",
+        "meaning": "hàng dạo"
+      },
+      {
+        "word": "競争",
+        "reading": "きょうそう",
+        "han_viet": "",
+        "meaning": "sự cạnh tranh; cạnh tranh; thi đua"
+      },
+      {
+        "word": "競合",
+        "reading": "きょうごう",
+        "han_viet": "",
+        "meaning": ""
+      },
+      {
+        "word": "競売",
+        "reading": "きょうばい",
+        "han_viet": "",
+        "meaning": ""
+      },
+      {
+        "word": "競技",
+        "reading": "きょうぎ",
+        "han_viet": "CẠNH KĨ",
+        "meaning": "cuộc thi đấu; thi đấu; trận thi đấu"
+      },
+      {
+        "word": "競泳",
+        "reading": "きょうえい",
+        "han_viet": "",
+        "meaning": ""
+      },
+      {
+        "word": "競漕",
+        "reading": "きょうそう",
+        "han_viet": "",
+        "meaning": ""
       }
     ]
   },
@@ -18630,7 +19960,7 @@
     "number": 228,
     "kanji": "算",
     "han_viet": "TOÁN",
-    "meaning_vi": "tính toán, kế toán,",
+    "meaning_vi": "tính toán, kế toán, toán học",
     "meaning_en": "Calculate, Divining, Number",
     "onyomi": [
       "サン"
@@ -18642,7 +19972,7 @@
     "jlpt": "N2",
     "mnemonic": {
       "image_url": "/images/book2/b2_0228_算.jpg",
-      "story": "toán học    san 2 tay cầm bán tính bằng tre tính toán"
+      "story": "2 tay cầm bán tính bằng tre tính toán"
     },
     "examples": [
       {
@@ -18702,8 +20032,8 @@
       {
         "word": "引算",
         "reading": "ひきざん",
-        "han_viet": "QUẢN",
-        "meaning": "DẪN TOÁN phép trừ . 管"
+        "han_viet": "",
+        "meaning": "DẪN TOÁN phép trừ"
       }
     ]
   },
@@ -18714,7 +20044,7 @@
     "number": 229,
     "kanji": "管",
     "han_viet": "QUẢN",
-    "meaning_vi": "ống, mao quản,",
+    "meaning_vi": "ống, mao quản, quản lí",
     "meaning_en": "Pipe, Tube, Wind Instrument",
     "onyomi": [
       "カン"
@@ -18726,7 +20056,7 @@
     "jlpt": "N2",
     "mnemonic": {
       "image_url": "/images/book2/b2_0229_管.jpg",
-      "story": "quản lí    kan Quản lí đường ống nước dẫn qua nhà"
+      "story": "Quản lí đường ống nước dẫn qua nhà"
     },
     "examples": [
       {
@@ -18764,6 +20094,36 @@
         "reading": "かんない",
         "han_viet": "QUẢN NỘI",
         "meaning": "bên trong"
+      },
+      {
+        "word": "管制",
+        "reading": "かんせい",
+        "han_viet": "",
+        "meaning": "QUẢN CHẾ sự quản chế; quản chế; điều khiển"
+      },
+      {
+        "word": "管区",
+        "reading": "かんく",
+        "han_viet": "",
+        "meaning": "QUẢN KHU địa hạt"
+      },
+      {
+        "word": "卵管",
+        "reading": "らんかん",
+        "han_viet": "NOÃN QUẢN",
+        "meaning": "vòi trứng [giải phẫu]"
+      },
+      {
+        "word": "只管",
+        "reading": "ひたすら",
+        "han_viet": "CHÍCH QUẢN",
+        "meaning": "hoàn toàn; chân thành; nghiêm chỉnh"
+      },
+      {
+        "word": "吹管",
+        "reading": "すいかん",
+        "han_viet": "",
+        "meaning": "XUY QUẢN ống hàn"
       }
     ]
   },
@@ -18789,7 +20149,7 @@
     "jlpt": "N2",
     "mnemonic": {
       "image_url": "/images/book2/b2_0230_紅.jpg",
-      "story": "CX"
+      "story": ""
     },
     "examples": [
       {
@@ -18855,8 +20215,8 @@
       {
         "word": "紅海",
         "reading": "こうかい",
-        "han_viet": "NẠP",
-        "meaning": "Biển đỏ; Hồng Hải . 納"
+        "han_viet": "HỒNG HẢI",
+        "meaning": "Biển đỏ; Hồng Hải"
       }
     ]
   },
@@ -19051,8 +20411,8 @@
       {
         "word": "紛い物",
         "reading": "まがいもの PHÂN VẬT sự noi gương",
-        "han_viet": "TỔ",
-        "meaning": "組"
+        "han_viet": "",
+        "meaning": ""
       }
     ]
   },
@@ -19133,6 +20493,12 @@
         "reading": "かいそ",
         "han_viet": "CẢI TỔ",
         "meaning": "sự tổ chức lại"
+      },
+      {
+        "word": "木組",
+        "reading": "きぐみ",
+        "han_viet": "MỘC TỔ",
+        "meaning": "Khung gỗ"
       }
     ]
   },
@@ -19142,7 +20508,7 @@
     "lesson": 15,
     "number": 234,
     "kanji": "緩",
-    "han_viet": "",
+    "han_viet": "HOÃN",
     "meaning_vi": "hòa hoãn",
     "meaning_en": "Slacken, Loosen, Relax",
     "onyomi": [
@@ -19224,8 +20590,8 @@
       {
         "word": "緩緩",
         "reading": "ゆるゆる",
-        "han_viet": "THẰNG",
-        "meaning": "chậm 縄"
+        "han_viet": "HOÃN HOÃN",
+        "meaning": "chậm"
       }
     ]
   },
@@ -19235,7 +20601,7 @@
     "lesson": 15,
     "number": 235,
     "kanji": "縄",
-    "han_viet": "",
+    "han_viet": "THẰNG",
     "meaning_vi": "sợi dây",
     "meaning_en": "Straw Rope, Cord",
     "onyomi": [
@@ -19375,8 +20741,8 @@
       {
         "word": "問罪",
         "reading": "もんざい",
-        "han_viet": "THÁNH",
-        "meaning": "sự kết tội 聖"
+        "han_viet": "VẤN TỘI",
+        "meaning": "sự kết tội"
       }
     ]
   },
@@ -19430,9 +20796,35 @@
       {
         "word": "聖域",
         "reading": "せいいき",
-        "han_viet": "THÍNH",
-        "meaning": "THÁNH VỰC vùng của thánh thần; thánh địa . 聴 238. 聴    thính    thính giả    choo Thính giả là người giành hết trái tim, đôi tai, đôi mắt cho buổi biểu diễn 訓: き.く,  ゆる.す 音: チョウ,  テイ"
-      },
+        "han_viet": "",
+        "meaning": "THÁNH VỰC vùng của thánh thần; thánh địa"
+      }
+    ]
+  },
+  {
+    "id": "b2-15-238",
+    "book": 2,
+    "lesson": 15,
+    "number": 238,
+    "kanji": "聴",
+    "han_viet": "THÍNH",
+    "meaning_vi": "thính giả",
+    "meaning_en": "Listen, Headstrong, Naughty",
+    "onyomi": [
+      "チョウ",
+      "テイ"
+    ],
+    "kunyomi": [
+      "き.く",
+      "ゆる.す"
+    ],
+    "strokes": 17,
+    "jlpt": "N1",
+    "mnemonic": {
+      "image_url": "/images/book2/b2_0238_聴.jpg",
+      "story": "Thính giả là người giành hết trái tim, đôi tai, đôi mắt cho buổi biểu diễn"
+    },
+    "examples": [
       {
         "word": "聴く",
         "reading": "きく",
@@ -19450,6 +20842,60 @@
         "reading": "けいちょう",
         "han_viet": "",
         "meaning": "sự chú ý nghe; sự lắng nghe; sự dỏng tai nghe"
+      },
+      {
+        "word": "聴力",
+        "reading": "ちょうりょく",
+        "han_viet": "",
+        "meaning": "THÍNH LỰC khả năng nghe"
+      },
+      {
+        "word": "聴取",
+        "reading": "ちょうしゅ",
+        "han_viet": "",
+        "meaning": ""
+      },
+      {
+        "word": "可聴",
+        "reading": "かちょう",
+        "han_viet": "",
+        "meaning": "KHẢ THÍNH có thể nghe thấy"
+      },
+      {
+        "word": "天聴",
+        "reading": "てんちょう",
+        "han_viet": "",
+        "meaning": "trí tuệ của vua"
+      },
+      {
+        "word": "幻聴",
+        "reading": "げんちょう",
+        "han_viet": "",
+        "meaning": "Ảo giác thính giác"
+      },
+      {
+        "word": "聴従",
+        "reading": "ちょうじゅう",
+        "han_viet": "THÍNH TÙNG",
+        "meaning": "sự nghe theo lời khuyên bảo"
+      },
+      {
+        "word": "拝聴",
+        "reading": "はいちょう",
+        "han_viet": "",
+        "meaning": ""
+      },
+      {
+        "word": "来聴",
+        "reading": "らいちょう",
+        "han_viet": "",
+        "meaning": ""
+      },
+      {
+        "word": "盗聴",
+        "reading": "とうちょう",
+        "han_viet": "",
+        "meaning": ""
       }
     ]
   },
@@ -19459,7 +20905,7 @@
     "lesson": 15,
     "number": 239,
     "kanji": "肩",
-    "han_viet": "",
+    "han_viet": "KIÊN",
     "meaning_vi": "vai",
     "meaning_en": "Shoulder",
     "onyomi": [
@@ -19514,8 +20960,8 @@
       {
         "word": "肩入れ",
         "reading": "かたいれ",
-        "han_viet": "BỐI",
-        "meaning": "KIÊN NHẬP sự ủng hộ 背"
+        "han_viet": "",
+        "meaning": "KIÊN NHẬP sự ủng hộ"
       }
     ]
   },
@@ -19603,6 +21049,18 @@
         "reading": "とうはい",
         "han_viet": "ĐAO BỐI",
         "meaning": "sống dao; sống gươm; sống đao"
+      },
+      {
+        "word": "背反",
+        "reading": "はいはん",
+        "han_viet": "BỐI PHẢN",
+        "meaning": "gây phẫn nộ"
+      },
+      {
+        "word": "背嚢",
+        "reading": "はいのう",
+        "han_viet": "BỐI NANG",
+        "meaning": "ba lô"
       }
     ]
   },
@@ -19612,8 +21070,8 @@
     "lesson": 16,
     "number": 241,
     "kanji": "脳",
-    "han_viet": "",
-    "meaning_vi": "bộ não, đầu",
+    "han_viet": "NÃO",
+    "meaning_vi": "bộ não, đầu não",
     "meaning_en": "Brain, Memory",
     "onyomi": [
       "ノウ",
@@ -19626,7 +21084,7 @@
     "jlpt": "N2",
     "mnemonic": {
       "image_url": "/images/book2/b2_0241_脳.jpg",
-      "story": "não    noo CX"
+      "story": ""
     },
     "examples": [
       {
@@ -19686,8 +21144,8 @@
       {
         "word": "脳死",
         "reading": "のうし",
-        "han_viet": "HỨNG",
-        "meaning": "sự chết não . 興 HƯNG,"
+        "han_viet": "NÃO TỬ",
+        "meaning": "sự chết não"
       }
     ]
   },
@@ -19697,8 +21155,8 @@
     "lesson": 16,
     "number": 242,
     "kanji": "興",
-    "han_viet": "HƯNG",
-    "meaning_vi": "hưng thịnh,",
+    "han_viet": "HƯNG, HỨNG",
+    "meaning_vi": "hưng thịnh, phục hưng; hứng thú",
     "meaning_en": "Entertain, Revive, Retrieve",
     "onyomi": [
       "コウ",
@@ -19712,7 +21170,7 @@
     "jlpt": "N1",
     "mnemonic": {
       "image_url": "/images/book2/b2_0242_興.jpg",
-      "story": "phục hưng; hứng thú    koo, kyoo Thành phố đã hưng thịnh lên nhiều, giờ có nhiều nhà cao tầng"
+      "story": "Thành phố đã hưng thịnh lên nhiều, giờ có nhiều nhà cao tầng"
     },
     "examples": [
       {
@@ -19850,8 +21308,8 @@
       {
         "word": "芝居気",
         "reading": "しばいぎ",
-        "han_viet": "NGHỆ",
-        "meaning": "CHI CƯ KHÍ sự diễn kịch 芸"
+        "han_viet": "",
+        "meaning": "CHI CƯ KHÍ sự diễn kịch"
       }
     ]
   },
@@ -19861,8 +21319,8 @@
     "lesson": 16,
     "number": 244,
     "kanji": "芸",
-    "han_viet": "",
-    "meaning_vi": "nghệ thuật, nghệ",
+    "han_viet": "NGHỆ",
+    "meaning_vi": "nghệ thuật, nghệ nhân",
     "meaning_en": "Technique, Art, Craft",
     "onyomi": [
       "ゲイ",
@@ -19877,7 +21335,7 @@
     "jlpt": "N2",
     "mnemonic": {
       "image_url": "/images/book2/b2_0244_芸.jpg",
-      "story": "nhân    gei Nghệ nhân vun đắp cho những mầm xanh lớn thành cây"
+      "story": "Nghệ nhân vun đắp cho những mầm xanh lớn thành cây"
     },
     "examples": [
       {
@@ -19937,7 +21395,7 @@
     "number": 245,
     "kanji": "苦",
     "han_viet": "KHỔ",
-    "meaning_vi": "khổ cực, cùng",
+    "meaning_vi": "khổ cực, cùng khổ",
     "meaning_en": "Suffering, Trial, Worry",
     "onyomi": [
       "ク"
@@ -19954,7 +21412,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0245_苦.jpg",
-      "story": "khổ    ku Thế gian mọi khổ cực Mọi nhức nhối khó khăn Xuống mồ làm chi có Sạch banh toàn cỏ xanh"
+      "story": "Thế gian mọi khổ cực Mọi nhức nhối khó khăn Xuống mồ làm chi có Sạch banh toàn cỏ xanh"
     },
     "examples": [
       {
@@ -20008,8 +21466,8 @@
       {
         "word": "苦塩",
         "reading": "にがしお",
-        "han_viet": "HOA",
-        "meaning": "KHỔ DIÊM con vạc 華"
+        "han_viet": "",
+        "meaning": "KHỔ DIÊM con vạc"
       }
     ]
   },
@@ -20063,8 +21521,99 @@
       {
         "word": "華奢",
         "reading": "きゃしゃ",
-        "han_viet": "TRÙNG",
-        "meaning": "Sự xa hoa; sự phù hoa; xa hoa; phù hoa 虫 247. 虫    trùng    côn trùng    chuu Con bọ ngựa cũng là một loại côn trùng"
+        "han_viet": "HOA XA",
+        "meaning": "Sự xa hoa; sự phù hoa; xa hoa; phù hoa"
+      }
+    ]
+  },
+  {
+    "id": "b2-16-247",
+    "book": 2,
+    "lesson": 16,
+    "number": 247,
+    "kanji": "虫",
+    "han_viet": "TRÙNG",
+    "meaning_vi": "côn trùng",
+    "meaning_en": "Insect, Bug, Temper",
+    "onyomi": [
+      "チュウ",
+      "キ"
+    ],
+    "kunyomi": [
+      "むし"
+    ],
+    "strokes": 6,
+    "jlpt": "N2",
+    "mnemonic": {
+      "image_url": "/images/book2/b2_0247_虫.jpg",
+      "story": "Con bọ ngựa cũng là một loại côn trùng"
+    },
+    "examples": [
+      {
+        "word": "虫",
+        "reading": "むし TRÙNG",
+        "han_viet": "",
+        "meaning": "con sâu"
+      },
+      {
+        "word": "仔虫",
+        "reading": "TỬ TRÙNG ấu trùng",
+        "han_viet": "",
+        "meaning": ""
+      },
+      {
+        "word": "兜虫",
+        "reading": "かぶとちゅう",
+        "han_viet": "",
+        "meaning": "ĐÂU TRÙNG cái chày"
+      },
+      {
+        "word": "原虫",
+        "reading": "げんちゅう",
+        "han_viet": "",
+        "meaning": "động vật nguyên sinh; sinh vật đơn bào"
+      },
+      {
+        "word": "回虫",
+        "reading": "かいちゅう",
+        "han_viet": "",
+        "meaning": ""
+      },
+      {
+        "word": "地虫",
+        "reading": "じむし",
+        "han_viet": "",
+        "meaning": "ĐỊA TRÙNG giun đất"
+      },
+      {
+        "word": "虫垂",
+        "reading": "ちゅうすい",
+        "han_viet": "",
+        "meaning": "ruột thừa"
+      },
+      {
+        "word": "害虫",
+        "reading": "がいちゅう",
+        "han_viet": "",
+        "meaning": ""
+      },
+      {
+        "word": "幼虫",
+        "reading": "ようちゅう",
+        "han_viet": "",
+        "meaning": ""
+      },
+      {
+        "word": "弱虫",
+        "reading": "よわむし",
+        "han_viet": "NHƯỢC TRÙNG",
+        "meaning": "kẻ yếu đuối; kẻ mềm yếu; kẻ nhát gan"
+      },
+      {
+        "word": "成虫",
+        "reading": "せいちゅう",
+        "han_viet": "",
+        "meaning": "thành trùng"
       }
     ]
   },
@@ -20129,8 +21678,8 @@
       {
         "word": "血圧",
         "reading": "けつあつ",
-        "han_viet": "TÀI",
-        "meaning": "huyết áp 裁"
+        "han_viet": "HUYẾT ÁP",
+        "meaning": "huyết áp"
       }
     ]
   },
@@ -20140,8 +21689,8 @@
     "lesson": 16,
     "number": 249,
     "kanji": "裁",
-    "han_viet": "TRÀI",
-    "meaning_vi": "may vá, tài phán,",
+    "han_viet": "TÀI",
+    "meaning_vi": "may vá, tài phán, trọng tài",
     "meaning_en": "Tailor, Judge, Decision",
     "onyomi": [
       "サイ"
@@ -20154,7 +21703,7 @@
     "jlpt": "N1",
     "mnemonic": {
       "image_url": "/images/book2/b2_0249_裁.jpg",
-      "story": "trọng tài    sai CX"
+      "story": ""
     },
     "examples": [
       {
@@ -20204,6 +21753,30 @@
         "reading": "ていさい",
         "han_viet": "THỂ TÀI",
         "meaning": "khổ (sách...)"
+      },
+      {
+        "word": "裁判",
+        "reading": "さいばん",
+        "han_viet": "TÀI PHÁN",
+        "meaning": "sự xét xử; sự kết án"
+      },
+      {
+        "word": "制裁",
+        "reading": "せいさい",
+        "han_viet": "CHẾ TÀI",
+        "meaning": "chế tài"
+      },
+      {
+        "word": "剪裁",
+        "reading": "TIỄN TÀI",
+        "han_viet": "",
+        "meaning": "sự cắt"
+      },
+      {
+        "word": "裁可",
+        "reading": "さいか",
+        "han_viet": "TÀI KHẢ",
+        "meaning": "sự phê chuẩn"
       }
     ]
   },
@@ -20213,7 +21786,7 @@
     "lesson": 16,
     "number": 250,
     "kanji": "裂",
-    "han_viet": "",
+    "han_viet": "LIỆT",
     "meaning_vi": "rách",
     "meaning_en": "Split, Rend, Tear",
     "onyomi": [
@@ -20306,8 +21879,8 @@
       {
         "word": "裂け目",
         "reading": "さけめ",
-        "han_viet": "TRANG",
-        "meaning": "đường nứt; vết nứt . 装"
+        "han_viet": "LIỆT MỤC",
+        "meaning": "đường nứt; vết nứt"
       }
     ]
   },
@@ -20318,7 +21891,7 @@
     "number": 251,
     "kanji": "装",
     "han_viet": "TRANG",
-    "meaning_vi": "trang phục, hóa",
+    "meaning_vi": "trang phục, hóa trang, trang bị",
     "meaning_en": "Attire, Dress, Pretend",
     "onyomi": [
       "ソウ",
@@ -20332,7 +21905,7 @@
     "jlpt": "N2",
     "mnemonic": {
       "image_url": "/images/book2/b2_0251_装.jpg",
-      "story": "trang, trang bị    soo, shoo Người lính được cấp áo mới nên dang 2 tay vui mừng"
+      "story": "Người lính được cấp áo mới nên dang 2 tay vui mừng"
     },
     "examples": [
       {
@@ -20382,6 +21955,30 @@
         "reading": "そうぐ",
         "han_viet": "",
         "meaning": "TRANG CỤ sự trang bị"
+      },
+      {
+        "word": "内装",
+        "reading": "ないそう",
+        "han_viet": "",
+        "meaning": "NỘI TRANG bao bì trong"
+      },
+      {
+        "word": "前装",
+        "reading": "ぜんそう",
+        "han_viet": "",
+        "meaning": "TIỀN TRANG cái mở đầu"
+      },
+      {
+        "word": "包装",
+        "reading": "ほうそう",
+        "han_viet": "",
+        "meaning": "BAO TRANG bao bì"
+      },
+      {
+        "word": "塗装",
+        "reading": "とそう",
+        "han_viet": "",
+        "meaning": "ĐỒ TRANG lần phủ ngoài; lớp phủ ngoài"
       }
     ]
   },
@@ -20391,7 +21988,7 @@
     "lesson": 16,
     "number": 252,
     "kanji": "裏",
-    "han_viet": "LỊA",
+    "han_viet": "LÍ",
     "meaning_vi": "đằng sau",
     "meaning_en": "Back, Amidst, In",
     "onyomi": [
@@ -20464,8 +22061,8 @@
       {
         "word": "裏屋",
         "reading": "うらや",
-        "han_viet": "THỊ",
-        "meaning": "LÍ ỐC phần không nhờn 視"
+        "han_viet": "",
+        "meaning": "LÍ ỐC phần không nhờn"
       }
     ]
   },
@@ -20476,7 +22073,7 @@
     "number": 253,
     "kanji": "視",
     "han_viet": "THỊ",
-    "meaning_vi": "thị sát, thị lực, giám",
+    "meaning_vi": "thị sát, thị lực, giám thị",
     "meaning_en": "Inspection, Regard As, See",
     "onyomi": [
       "シ"
@@ -20488,7 +22085,7 @@
     "jlpt": "N1",
     "mnemonic": {
       "image_url": "/images/book2/b2_0253_視.jpg",
-      "story": "thị    shi Chỉ khi giám thị chỉ ra lỗi sai, kẻ vi phạm mới chịu quỳ gối"
+      "story": "Chỉ khi giám thị chỉ ra lỗi sai, kẻ vi phạm mới chịu quỳ gối"
     },
     "examples": [
       {
@@ -20571,8 +22168,8 @@
     "lesson": 16,
     "number": 254,
     "kanji": "覚",
-    "han_viet": "",
-    "meaning_vi": "cảm giác, giác",
+    "han_viet": "GIÁC",
+    "meaning_vi": "cảm giác, giác ngộ",
     "meaning_en": "Memorize, Learn, Remember",
     "onyomi": [
       "カク"
@@ -20587,7 +22184,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0254_覚.jpg",
-      "story": "ngộ    kaku CX"
+      "story": ""
     },
     "examples": [
       {
@@ -20659,8 +22256,8 @@
       {
         "word": "覚ます",
         "reading": "さます",
-        "han_viet": "LÃM",
-        "meaning": "GIÁC đánh thức dậy; làm cho tỉnh lại . 覧"
+        "han_viet": "",
+        "meaning": "GIÁC đánh thức dậy; làm cho tỉnh lại"
       }
     ]
   },
@@ -20670,7 +22267,7 @@
     "lesson": 16,
     "number": 255,
     "kanji": "覧",
-    "han_viet": "",
+    "han_viet": "LÃM",
     "meaning_vi": "triển lãm",
     "meaning_en": "Perusal, See",
     "onyomi": [
@@ -20755,7 +22352,7 @@
     "number": 256,
     "kanji": "親",
     "han_viet": "THÂN",
-    "meaning_vi": "thân thuộc, thân",
+    "meaning_vi": "thân thuộc, thân thích, thân thiết",
     "meaning_en": "Parent, Intimacy, Relative",
     "onyomi": [
       "シン"
@@ -20770,7 +22367,7 @@
     "jlpt": "N4",
     "mnemonic": {
       "image_url": "/images/book2/b2_0256_親.jpg",
-      "story": "thích, thân thiết    shin Nghe tin người thân bị kim đau mà lòng muốn khụy xuống"
+      "story": "Nghe tin người thân bị kim đau mà lòng muốn khụy xuống"
     },
     "examples": [
       {
@@ -20824,8 +22421,8 @@
       {
         "word": "親和",
         "reading": "しんわ",
-        "han_viet": "QUAN",
-        "meaning": "THÂN HÕA tình bạn 観"
+        "han_viet": "",
+        "meaning": "THÂN HÕA tình bạn"
       }
     ]
   },
@@ -20835,8 +22432,8 @@
     "lesson": 17,
     "number": 257,
     "kanji": "観",
-    "han_viet": "",
-    "meaning_vi": "quan sát, tham",
+    "han_viet": "QUAN",
+    "meaning_vi": "quan sát, tham quan",
     "meaning_en": "Outlook, Look, Appearance",
     "onyomi": [
       "カン"
@@ -20920,8 +22517,8 @@
     "lesson": 17,
     "number": 258,
     "kanji": "角",
-    "han_viet": "GÓC",
-    "meaning_vi": "tam giác, tứ",
+    "han_viet": "GIÁC",
+    "meaning_vi": "tam giác, tứ giác",
     "meaning_en": "Angle, Corner, Square",
     "onyomi": [
       "カク"
@@ -20934,7 +22531,7 @@
     "jlpt": "N2",
     "mnemonic": {
       "image_url": "/images/book2/b2_0258_角.jpg",
-      "story": "giác    kaku Chữ giác trông như cái sừng con tê giác"
+      "story": "Chữ giác trông như cái sừng con tê giác"
     },
     "examples": [
       {
@@ -21000,8 +22597,8 @@
       {
         "word": "内角",
         "reading": "ないかく",
-        "han_viet": "GIẢI",
-        "meaning": "Góc trong (bóng chày) 解"
+        "han_viet": "NỘI GIÁC",
+        "meaning": "Góc trong (bóng chày)"
       }
     ]
   },
@@ -21012,7 +22609,7 @@
     "number": 259,
     "kanji": "解",
     "han_viet": "GIẢI",
-    "meaning_vi": "giải quyết, giải thể,",
+    "meaning_vi": "giải quyết, giải thể, giải thích",
     "meaning_en": "Unravel, Notes, Key",
     "onyomi": [
       "カイ",
@@ -21031,7 +22628,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0259_解.jpg",
-      "story": "giải thích    kai, ge Dao to chặt phăng sừng bò nhà tao Giải quyết thế nào mày nói xem sao"
+      "story": "Dao to chặt phăng sừng bò nhà tao Giải quyết thế nào mày nói xem sao"
     },
     "examples": [
       {
@@ -21121,7 +22718,7 @@
     "number": 260,
     "kanji": "討",
     "han_viet": "THẢO",
-    "meaning_vi": "thảo phạt, thảo luận,",
+    "meaning_vi": "thảo phạt, thảo luận, kiểm thảo",
     "meaning_en": "Chastise, Attack, Defeat",
     "onyomi": [
       "トウ"
@@ -21133,7 +22730,7 @@
     "jlpt": "N1",
     "mnemonic": {
       "image_url": "/images/book2/b2_0260_討.jpg",
-      "story": "kiểm thảo    too Đem binh lính đi thảo phạt những kẻ nói lời chống đối"
+      "story": "Đem binh lính đi thảo phạt những kẻ nói lời chống đối"
     },
     "examples": [
       {
@@ -21193,8 +22790,8 @@
       {
         "word": "討論",
         "reading": "とうろん",
-        "han_viet": "HUẤN",
-        "meaning": "THẢO LUẬN đàm luận 訓"
+        "han_viet": "",
+        "meaning": "THẢO LUẬN đàm luận"
       }
     ]
   },
@@ -21273,8 +22870,8 @@
     "lesson": 17,
     "number": 262,
     "kanji": "訪",
-    "han_viet": "PHỎNG",
-    "meaning_vi": "phóng sự;",
+    "han_viet": "PHÓNG, PHỎNG",
+    "meaning_vi": "phóng sự; phỏng vấn",
     "meaning_en": "Call On, Visit, Look Up",
     "onyomi": [
       "ホウ"
@@ -21288,7 +22885,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0262_訪.jpg",
-      "story": "phỏng vấn    hoo Trẻ con nghe tin có phóng viên đển phỏng vấn liền chạy ra xem"
+      "story": "Trẻ con nghe tin có phóng viên đển phỏng vấn liền chạy ra xem"
     },
     "examples": [
       {
@@ -21354,8 +22951,8 @@
       {
         "word": "来訪",
         "reading": "らいほう",
-        "han_viet": "DỊCH",
-        "meaning": "LAI PHÓNG sự đến thăm 訳"
+        "han_viet": "",
+        "meaning": "LAI PHÓNG sự đến thăm"
       }
     ]
   },
@@ -21365,8 +22962,8 @@
     "lesson": 17,
     "number": 263,
     "kanji": "訳",
-    "han_viet": "",
-    "meaning_vi": "thông dịch, phiên",
+    "han_viet": "DỊCH",
+    "meaning_vi": "thông dịch, phiên dịch",
     "meaning_en": "Translate, Reason, Circumstance",
     "onyomi": [
       "ヤク"
@@ -21378,7 +22975,7 @@
     "jlpt": "N1",
     "mnemonic": {
       "image_url": "/images/book2/b2_0263_訳.jpg",
-      "story": "dịch    yaku Thông dịch viên vừa đi theo chủ tịch vừa phiên dịch"
+      "story": "Thông dịch viên vừa đi theo chủ tịch vừa phiên dịch"
     },
     "examples": [
       {
@@ -21516,8 +23113,8 @@
       {
         "word": "訴える",
         "reading": "うったえる TỐ",
-        "han_viet": "TỪ",
-        "meaning": "kêu gọi 詞"
+        "han_viet": "",
+        "meaning": "kêu gọi"
       }
     ]
   },
@@ -21691,8 +23288,8 @@
       {
         "word": "名誉職",
         "reading": "めいよしょく",
-        "han_viet": "DỤ",
-        "meaning": "chức vụ danh dự . 誘"
+        "han_viet": "DANH DỰ CHỨC",
+        "meaning": "chức vụ danh dự"
       }
     ]
   },
@@ -21807,7 +23404,7 @@
     "number": 268,
     "kanji": "談",
     "han_viet": "ĐÀM",
-    "meaning_vi": "hội đàm, đàm",
+    "meaning_vi": "hội đàm, đàm thoại",
     "meaning_en": "Discuss, Talk",
     "onyomi": [
       "ダン"
@@ -21817,7 +23414,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0268_談.jpg",
-      "story": "thoại    dan Mọi người hội đàm, nói chuyện quanh đống lửa"
+      "story": "Mọi người hội đàm, nói chuyện quanh đống lửa"
     },
     "examples": [
       {
@@ -21871,8 +23468,8 @@
       {
         "word": "対談",
         "reading": "たいだん",
-        "han_viet": "LUÂN",
-        "meaning": "sự đối thoại; cuộc đối thoại . 論 LUẬN,"
+        "han_viet": "ĐỐI ĐÀM",
+        "meaning": "sự đối thoại; cuộc đối thoại"
       }
     ]
   },
@@ -21883,7 +23480,7 @@
     "number": 269,
     "kanji": "論",
     "han_viet": "LUẬN",
-    "meaning_vi": "lí luận, ngôn luận,",
+    "meaning_vi": "lí luận, ngôn luận, thảo luận",
     "meaning_en": "Argument, Discourse",
     "onyomi": [
       "ロン"
@@ -21893,7 +23490,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0269_論.jpg",
-      "story": "thảo luận    ron Nói lí luận dựa trên sách vở và kinh nghiệm đi các nơi"
+      "story": "Nói lí luận dựa trên sách vở và kinh nghiệm đi các nơi"
     },
     "examples": [
       {
@@ -21964,8 +23561,8 @@
     "lesson": 17,
     "number": 270,
     "kanji": "識",
-    "han_viet": "",
-    "meaning_vi": "nhận thức, kiến",
+    "han_viet": "THỨC",
+    "meaning_vi": "nhận thức, kiến thức, tri thức",
     "meaning_en": "Discriminating, Know, Write",
     "onyomi": [
       "シキ"
@@ -21978,7 +23575,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0270_識.jpg",
-      "story": "thức, tri thức    shiki Nói ra những điều đã được học cho người khác sẽ nâng cao nhận thức"
+      "story": "Nói ra những điều đã được học cho người khác sẽ nâng cao nhận thức"
     },
     "examples": [
       {
@@ -22044,8 +23641,8 @@
       {
         "word": "眼識",
         "reading": "がんしき",
-        "han_viet": "CẢNH",
-        "meaning": "NHÃN THỨC sự phân biệt 警"
+        "han_viet": "",
+        "meaning": "NHÃN THỨC sự phân biệt"
       }
     ]
   },
@@ -22055,8 +23652,8 @@
     "lesson": 17,
     "number": 271,
     "kanji": "警",
-    "han_viet": "KHỂNH",
-    "meaning_vi": "cảnh báo, cảnh sát,",
+    "han_viet": "CẢNH",
+    "meaning_vi": "cảnh báo, cảnh sát, cảnh vệ",
     "meaning_en": "Admonish, Commandment",
     "onyomi": [
       "ケイ"
@@ -22068,7 +23665,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0271_警.jpg",
-      "story": "cảnh vệ    kei Lên tiếng cảnh báo tình trạng bạo hành gia đình"
+      "story": "Lên tiếng cảnh báo tình trạng bạo hành gia đình"
     },
     "examples": [
       {
@@ -22152,7 +23749,7 @@
     "number": 272,
     "kanji": "護",
     "han_viet": "HỘ",
-    "meaning_vi": "bảo hộ, phòng hộ, hộ",
+    "meaning_vi": "bảo hộ, phòng hộ, hộ vệ",
     "meaning_en": "Safeguard, Protect",
     "onyomi": [
       "ゴ"
@@ -22164,7 +23761,7 @@
     "jlpt": "N1",
     "mnemonic": {
       "image_url": "/images/book2/b2_0272_護.jpg",
-      "story": "vệ    go Khi giết gà vịt cũng phải mặc áo bảo hộ"
+      "story": "Khi giết gà vịt cũng phải mặc áo bảo hộ"
     },
     "examples": [
       {
@@ -22218,8 +23815,8 @@
       {
         "word": "援護",
         "reading": "えんご",
-        "han_viet": "ĐẬU",
-        "meaning": "sự trợ giúp 豆"
+        "han_viet": "VIÊN HỘ",
+        "meaning": "sự trợ giúp"
       }
     ]
   },
@@ -22304,8 +23901,99 @@
       {
         "word": "煮豆",
         "reading": "にまめ",
+        "han_viet": "CHỬ ĐẬU",
+        "meaning": "đậu ninh"
+      }
+    ]
+  },
+  {
+    "id": "b2-18-274",
+    "book": 2,
+    "lesson": 18,
+    "number": 274,
+    "kanji": "象",
+    "han_viet": "TƯỢNG",
+    "meaning_vi": "hiện tượng, khí tượng, hình tượng",
+    "meaning_en": "Elephant, Pattern After, Imitate",
+    "onyomi": [
+      "ショウ",
+      "ゾウ"
+    ],
+    "kunyomi": [
+      "かたど.る"
+    ],
+    "strokes": 12,
+    "jlpt": "N2",
+    "mnemonic": {
+      "image_url": "/images/book2/b2_0274_象.jpg",
+      "story": "Chữ tượng nghĩa là voi"
+    },
+    "examples": [
+      {
+        "word": "象",
+        "reading": "しょう",
         "han_viet": "TƯỢNG",
-        "meaning": "đậu ninh . 象 274. 象    tượng    hiện tượng, khí tượng, hình tượng    shoo, zoo Chữ tượng nghĩa là voi"
+        "meaning": "hiện tượng; hình dạng"
+      },
+      {
+        "word": "象",
+        "reading": "ぞう TƯỢNG",
+        "han_viet": "",
+        "meaning": "voi"
+      },
+      {
+        "word": "象る",
+        "reading": "かたどる",
+        "han_viet": "TƯỢNG",
+        "meaning": "tiêu biểu cho"
+      },
+      {
+        "word": "事象",
+        "reading": "じしょう",
+        "han_viet": "",
+        "meaning": "SỰ TƯỢNG hiện tượng"
+      },
+      {
+        "word": "写象",
+        "reading": "うつしぞう",
+        "han_viet": "",
+        "meaning": ""
+      },
+      {
+        "word": "印象",
+        "reading": "いんしょう",
+        "han_viet": "",
+        "meaning": ""
+      },
+      {
+        "word": "天象",
+        "reading": "てんしょう",
+        "han_viet": "",
+        "meaning": "thiên tượng"
+      },
+      {
+        "word": "対象",
+        "reading": "たいしょう",
+        "han_viet": "",
+        "meaning": ""
+      },
+      {
+        "word": "形象",
+        "reading": "けいしょう",
+        "han_viet": "",
+        "meaning": "hình"
+      },
+      {
+        "word": "象形",
+        "reading": "しょうけい",
+        "han_viet": "",
+        "meaning": "những chữ viết tượng hình"
+      },
+      {
+        "word": "象徴",
+        "reading": "しょうちょう",
+        "han_viet": "TƯỢNG TRƯNG",
+        "meaning": "biểu tượng; sự tượng trưng"
       }
     ]
   },
@@ -22316,7 +24004,7 @@
     "number": 275,
     "kanji": "負",
     "han_viet": "PHỤ",
-    "meaning_vi": "âm, mang, phụ",
+    "meaning_vi": "âm, mang, phụ thương, phụ trách",
     "meaning_en": "Defeat, Negative, -",
     "onyomi": [
       "フ"
@@ -22330,7 +24018,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0275_負.jpg",
-      "story": "thương, phụ trách    fu"
+      "story": ""
     },
     "examples": [
       {
@@ -22396,8 +24084,8 @@
       {
         "word": "負ける",
         "reading": "まける",
-        "han_viet": "TÀI",
-        "meaning": "PHỤ thua; thất bại; thất trận 財"
+        "han_viet": "",
+        "meaning": "PHỤ thua; thất bại; thất trận"
       }
     ]
   },
@@ -22440,6 +24128,54 @@
         "reading": "ざいむ",
         "han_viet": "TÀI VỤ",
         "meaning": "công việc tài chính"
+      },
+      {
+        "word": "器財",
+        "reading": "きざい",
+        "han_viet": "KHÍ TÀI",
+        "meaning": "khí tài"
+      },
+      {
+        "word": "財団",
+        "reading": "ざいだん",
+        "han_viet": "TÀI ĐOÀN",
+        "meaning": "sự thành lập"
+      },
+      {
+        "word": "財宝",
+        "reading": "ざいほう",
+        "han_viet": "TÀI BẢO",
+        "meaning": "bảo bối"
+      },
+      {
+        "word": "家財",
+        "reading": "かざい",
+        "han_viet": "GIA TÀI",
+        "meaning": "gia sản"
+      },
+      {
+        "word": "財布",
+        "reading": "さいふ",
+        "han_viet": "TÀI BỐ",
+        "meaning": "bao tượng"
+      },
+      {
+        "word": "財政",
+        "reading": "ざいせい",
+        "han_viet": "",
+        "meaning": "TÀI CHÁNH tài chính"
+      },
+      {
+        "word": "散財",
+        "reading": "さんざい",
+        "han_viet": "TÁN TÀI",
+        "meaning": "sự tiêu; phí tổn"
+      },
+      {
+        "word": "殖財",
+        "reading": "しょくざい",
+        "han_viet": "",
+        "meaning": "phần hợp thành"
       }
     ]
   },
@@ -22529,8 +24265,8 @@
       {
         "word": "貢献する",
         "reading": "こうけん",
-        "han_viet": "HÓA",
-        "meaning": "CỐNG HIẾN cống hiến; đóng góp 貨"
+        "han_viet": "",
+        "meaning": "CỐNG HIẾN cống hiến; đóng góp"
       }
     ]
   },
@@ -22540,7 +24276,7 @@
     "lesson": 18,
     "number": 278,
     "kanji": "貨",
-    "han_viet": "HOÁ",
+    "han_viet": "HÓA",
     "meaning_vi": "hàng hóa",
     "meaning_en": "Freight, Goods, Property",
     "onyomi": [
@@ -22591,6 +24327,18 @@
         "reading": "たいか",
         "han_viet": "TRỆ HÓA",
         "meaning": "hàng ế"
+      },
+      {
+        "word": "貨物",
+        "reading": "かもつ",
+        "han_viet": "HÓA VẬT",
+        "meaning": "hàng hóa; hàng"
+      },
+      {
+        "word": "硬貨",
+        "reading": "こうか",
+        "han_viet": "NGẠNH HÓA",
+        "meaning": "tiền kim loại; đồng tiền"
       }
     ]
   },
@@ -22600,7 +24348,7 @@
     "lesson": 18,
     "number": 279,
     "kanji": "販",
-    "han_viet": "",
+    "han_viet": "PHÁN",
     "meaning_vi": "bán, phán mại",
     "meaning_en": "Marketing, Sell, Trade",
     "onyomi": [
@@ -22665,8 +24413,8 @@
       {
         "word": "再販売",
         "reading": "さいはんばい",
-        "han_viet": "TRỮ",
-        "meaning": "bán lại . 貯"
+        "han_viet": "TÁI PHIẾN MẠI",
+        "meaning": "bán lại"
       }
     ]
   },
@@ -22850,7 +24598,7 @@
         "word": "貴国",
         "reading": "きこく",
         "han_viet": "",
-        "meaning": "QUÝ QUỐC quí quốc . 費 PHÍ, BỈ"
+        "meaning": "QUÝ QUỐC quí quốc"
       }
     ]
   },
@@ -22861,7 +24609,7 @@
     "number": 282,
     "kanji": "費",
     "han_viet": "PHÍ",
-    "meaning_vi": "học phí, lộ phí, chi",
+    "meaning_vi": "học phí, lộ phí, chi phí",
     "meaning_en": "Expense, Cost, Spend",
     "onyomi": [
       "ヒ"
@@ -22874,7 +24622,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0282_費.jpg",
-      "story": "phí    hi Chi phí đắt đỏ, tính bằng đô la"
+      "story": "Chi phí đắt đỏ, tính bằng đô la"
     },
     "examples": [
       {
@@ -22939,8 +24687,8 @@
     "lesson": 18,
     "number": 283,
     "kanji": "貿",
-    "han_viet": "",
-    "meaning_vi": "mậu dịch, trao",
+    "han_viet": "MẬU",
+    "meaning_vi": "mậu dịch, trao đổi",
     "meaning_en": "Trade, Exchange",
     "onyomi": [
       "ボウ"
@@ -22950,7 +24698,7 @@
     "jlpt": "N2",
     "mnemonic": {
       "image_url": "/images/book2/b2_0283_貿.jpg",
-      "story": "đổi    boo Cửa khẩu nào không có mậu dịch trao đổi Quân lính, binh đao, giáo mác sẽ làm việc đó"
+      "story": "Cửa khẩu nào không có mậu dịch trao đổi Quân lính, binh đao, giáo mác sẽ làm việc đó"
     },
     "examples": [
       {
@@ -22992,8 +24740,8 @@
       {
         "word": "貿易省",
         "reading": "ぼうえきしょう",
-        "han_viet": "THƯỞNG",
-        "meaning": "bộ ngoại thương . 賞"
+        "han_viet": "MẬU DỊCH TỈNH",
+        "meaning": "bộ ngoại thương"
       }
     ]
   },
@@ -23004,7 +24752,7 @@
     "number": 284,
     "kanji": "賞",
     "han_viet": "THƯỞNG",
-    "meaning_vi": "giải thưởng,",
+    "meaning_vi": "giải thưởng, tưởng thưởng",
     "meaning_en": "Prize, Reward, Praise",
     "onyomi": [
       "ショウ"
@@ -23016,7 +24764,7 @@
     "jlpt": "N2",
     "mnemonic": {
       "image_url": "/images/book2/b2_0284_賞.jpg",
-      "story": "tưởng thưởng    shoo Giải thưởng năm nay sẽ được thêm một đồng so với năm ngoái"
+      "story": "Giải thưởng năm nay sẽ được thêm một đồng so với năm ngoái"
     },
     "examples": [
       {
@@ -23105,7 +24853,7 @@
     "lesson": 18,
     "number": 285,
     "kanji": "賠",
-    "han_viet": "",
+    "han_viet": "BỒI",
     "meaning_vi": "bồi thường",
     "meaning_en": "Compensation, Indemnify",
     "onyomi": [
@@ -23188,8 +24936,8 @@
       {
         "word": "賠償引渡し",
         "reading": "ばいしょうひきわたし",
-        "han_viet": "CẤU",
-        "meaning": "giao bù . 購"
+        "han_viet": "BỒI THƯỜNG DẪN ĐỘ",
+        "meaning": "giao bù"
       }
     ]
   },
@@ -23199,7 +24947,7 @@
     "lesson": 18,
     "number": 286,
     "kanji": "購",
-    "han_viet": "",
+    "han_viet": "CẤU",
     "meaning_vi": "mua",
     "meaning_en": "Subscription, Buy",
     "onyomi": [
@@ -23271,7 +25019,13 @@
         "word": "購読料",
         "reading": "こうどくりょう",
         "han_viet": "CẤU ĐỘC LIÊU",
-        "meaning": "tiền mua báo dài"
+        "meaning": "tiền mua báo dài hạn"
+      },
+      {
+        "word": "購読者",
+        "reading": "こうどくしゃ",
+        "han_viet": "CẤU ĐỘC GIẢ",
+        "meaning": "người góp"
       }
     ]
   },
@@ -23361,8 +25115,8 @@
       {
         "word": "贈賄",
         "reading": "ぞうわい",
-        "han_viet": "THÍCH",
-        "meaning": "việc tặng quà để hối lộ 赤 XÍCH,"
+        "han_viet": "TẶNG HỐI",
+        "meaning": "việc tặng quà để hối lộ"
       }
     ]
   },
@@ -23373,7 +25127,7 @@
     "number": 288,
     "kanji": "赤",
     "han_viet": "XÍCH",
-    "meaning_vi": "đỏ, xích kì, xích",
+    "meaning_vi": "đỏ, xích kì, xích đạo, xích thập tự",
     "meaning_en": "Red",
     "onyomi": [
       "セキ",
@@ -23390,7 +25144,7 @@
     "jlpt": "N4",
     "mnemonic": {
       "image_url": "/images/book2/b2_0288_赤.jpg",
-      "story": "đạo, xích thập tự    seki, shaku Có cháy ở hội chữ thập đỏ"
+      "story": "Có cháy ở hội chữ thập đỏ"
     },
     "examples": [
       {
@@ -23458,6 +25212,12 @@
         "reading": "あかぼう",
         "han_viet": "",
         "meaning": "XÍCH MẠO công nhân khuân vác; phu khuân vác"
+      },
+      {
+        "word": "赤心",
+        "reading": "せきしん",
+        "han_viet": "XÍCH TÂM",
+        "meaning": "tính thành thật"
       }
     ]
   },
@@ -23504,8 +25264,8 @@
       {
         "word": "師走",
         "reading": "しわす",
-        "han_viet": "KHỞI",
-        "meaning": "tháng chạp . 起"
+        "han_viet": "SƯ TẨU",
+        "meaning": "tháng chạp"
       }
     ]
   },
@@ -23516,7 +25276,7 @@
     "number": 290,
     "kanji": "起",
     "han_viet": "KHỞI",
-    "meaning_vi": "khởi động, khởi sự,",
+    "meaning_vi": "khởi động, khởi sự, khởi nghĩa",
     "meaning_en": "Rouse, Wake Up, Get Up",
     "onyomi": [
       "キ"
@@ -23532,7 +25292,7 @@
     "jlpt": "N4",
     "mnemonic": {
       "image_url": "/images/book2/b2_0290_起.jpg",
-      "story": "khởi nghĩa    ki Nếu không khởi động ban đầu Chạy nhanh, ngã khụy, đau đầu, mỏi chân"
+      "story": "Nếu không khởi động ban đầu Chạy nhanh, ngã khụy, đau đầu, mỏi chân"
     },
     "examples": [
       {
@@ -23592,24 +25352,71 @@
       {
         "word": "起因",
         "reading": "きいん",
-        "han_viet": "VIỆT",
-        "meaning": "KHỞI NHÂN ngọn ngành . 越 291. 越    việt    vượt qua, việt vị    etsu Trẻ con Việt Nam biết dùng rìu từ khi biết chạy 訓: こ.す,   こ.す, ご.し,  こ.える, ご.え"
-      },
-      {
-        "word": "越し",
-        "reading": "こし",
         "han_viet": "",
-        "meaning": ""
-      },
+        "meaning": "KHỞI NHÂN ngọn ngành"
+      }
+    ]
+  },
+  {
+    "id": "b2-19-291",
+    "book": 2,
+    "lesson": 19,
+    "number": 291,
+    "kanji": "越",
+    "han_viet": "VIỆT",
+    "meaning_vi": "vượt qua, việt vị",
+    "meaning_en": "Surpass, Cross Over, Move To",
+    "onyomi": [
+      "エツ",
+      "オツ"
+    ],
+    "kunyomi": [
+      "こ.す",
+      "こ.す",
+      "ご.し",
+      "こ.える",
+      "ご.え"
+    ],
+    "strokes": 12,
+    "jlpt": "N3",
+    "mnemonic": {
+      "image_url": "/images/book2/b2_0291_越.jpg",
+      "story": "Trẻ con Việt Nam biết dùng rìu từ khi biết chạy"
+    },
+    "examples": [
       {
-        "word": "越す",
-        "reading": "こす",
+        "word": "僭越",
+        "reading": "せんえつ",
         "han_viet": "",
-        "meaning": ""
+        "meaning": "TIẾM VIỆT sự cả gan"
       },
       {
-        "word": "僣越",
-        "reading": "THIẾT VIỆT tự phụ",
+        "word": "優越",
+        "reading": "ゆうえつ",
+        "han_viet": "ƯU VIỆT",
+        "meaning": "quyền tối cao"
+      },
+      {
+        "word": "卓越",
+        "reading": "たくえつ",
+        "han_viet": "",
+        "meaning": "TRÁC VIỆT sự trác việt; sự xuất sắc"
+      },
+      {
+        "word": "越单",
+        "reading": "えつなん",
+        "han_viet": "VIỆT NAM",
+        "meaning": "Việt Nam"
+      },
+      {
+        "word": "呉越",
+        "reading": "ごえつ",
+        "han_viet": "NGÔ VIỆT",
+        "meaning": "Ngô Việt"
+      },
+      {
+        "word": "越境",
+        "reading": "えっきょう",
         "han_viet": "",
         "meaning": ""
       }
@@ -23622,21 +25429,76 @@
     "number": 292,
     "kanji": "跡",
     "han_viet": "TÍCH",
-    "meaning_vi": "dấu tích, vết",
+    "meaning_vi": "dấu tích, vết tích",
     "meaning_en": "Tracks, Mark, Print",
     "onyomi": [
       "せき"
     ],
     "kunyomi": [
-      "あと1跡あとTÍCHdấuvết;vếttích2跡せきTÍCHtích3事跡じせきSỰTÍCHtínhhiểnnhiên;tínhrõràng4傷跡きずあとTHƯƠNGTÍCHvếtsẹo;vếtthẹo;sẹo;thẹo5古跡こせきCỔTÍCHcổtích.6史跡しせきSỬTÍCHditíchlịchsử.7名跡みょうせきDANHTÍCHhọ8失跡しっせきTHẤTTÍCHsựbiếnđi9奇跡きせきKÌTÍCHkỳtích踊DŨNG"
+      "あと"
     ],
     "strokes": 13,
     "jlpt": "N2",
     "mnemonic": {
       "image_url": "/images/book2/b2_0292_跡.jpg",
-      "story": "tích    seki Em bé chạy nhảy trên cát để lại dấu tích vết chân"
+      "story": "Em bé chạy nhảy trên cát để lại dấu tích vết chân"
     },
-    "examples": []
+    "examples": [
+      {
+        "word": "跡",
+        "reading": "あと TÍCH dấu vết; vết tích",
+        "han_viet": "",
+        "meaning": ""
+      },
+      {
+        "word": "跡",
+        "reading": "せき TÍCH tích",
+        "han_viet": "",
+        "meaning": ""
+      },
+      {
+        "word": "事跡",
+        "reading": "じせき",
+        "han_viet": "SỰ TÍCH",
+        "meaning": "tính hiển nhiên; tính rõ ràng"
+      },
+      {
+        "word": "傷跡",
+        "reading": "きずあと",
+        "han_viet": "THƯƠNG TÍCH",
+        "meaning": "vết sẹo; vết thẹo; sẹo; thẹo"
+      },
+      {
+        "word": "古跡",
+        "reading": "こせき",
+        "han_viet": "CỔ TÍCH",
+        "meaning": "cổ tích"
+      },
+      {
+        "word": "史跡",
+        "reading": "しせき",
+        "han_viet": "SỬ TÍCH",
+        "meaning": "di tích lịch sử"
+      },
+      {
+        "word": "名跡",
+        "reading": "みょうせき",
+        "han_viet": "",
+        "meaning": ""
+      },
+      {
+        "word": "失跡",
+        "reading": "しっせき",
+        "han_viet": "",
+        "meaning": "THẤT TÍCH sự biến đi"
+      },
+      {
+        "word": "奇跡",
+        "reading": "きせき",
+        "han_viet": "KÌ TÍCH",
+        "meaning": "kỳ tích"
+      }
+    ]
   },
   {
     "id": "b2-19-293",
@@ -23644,7 +25506,7 @@
     "lesson": 19,
     "number": 293,
     "kanji": "踊",
-    "han_viet": "",
+    "han_viet": "DŨNG",
     "meaning_vi": "nhảy múa",
     "meaning_en": "Jump, Dance, Leap",
     "onyomi": [
@@ -23807,8 +25669,8 @@
       {
         "word": "飛躍",
         "reading": "ひやく",
-        "han_viet": "THÂN",
-        "meaning": "bước tiến xa; bước nhảy vọt 身"
+        "han_viet": "PHI DƯỢC",
+        "meaning": "bước tiến xa; bước nhảy vọt"
       }
     ]
   },
@@ -23819,7 +25681,7 @@
     "number": 295,
     "kanji": "身",
     "han_viet": "THÂN",
-    "meaning_vi": "thân thể, thân",
+    "meaning_vi": "thân thể, thân phận",
     "meaning_en": "Somebody, Person, One's Station In Life",
     "onyomi": [
       "シン"
@@ -23831,7 +25693,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0295_身.jpg",
-      "story": "phận    shin Tráng sĩ thân hình béo mập đặt kiếm trên chân"
+      "story": "Tráng sĩ thân hình béo mập đặt kiếm trên chân"
     },
     "examples": [
       {
@@ -23921,7 +25783,7 @@
     "number": 296,
     "kanji": "軍",
     "han_viet": "QUÂN",
-    "meaning_vi": "quân đội, quân",
+    "meaning_vi": "quân đội, quân sự",
     "meaning_en": "Army, Force, Troops",
     "onyomi": [
       "グン"
@@ -23933,7 +25795,7 @@
     "jlpt": "N2",
     "mnemonic": {
       "image_url": "/images/book2/b2_0296_軍.jpg",
-      "story": "sự    gun Quân đội có nhiều xe tăng"
+      "story": "Quân đội có nhiều xe tăng"
     },
     "examples": [
       {
@@ -23987,8 +25849,8 @@
       {
         "word": "軍僧",
         "reading": "ぐんそう",
-        "han_viet": "ĐÍCH",
-        "meaning": "QUÂN TĂNG giáo sĩ (trong nhà thờ nhỏ của trường học 適 THÍCH,"
+        "han_viet": "",
+        "meaning": "QUÂN TĂNG giáo sĩ (trong nhà thờ nhỏ của trường học"
       }
     ]
   },
@@ -24210,8 +26072,8 @@
       {
         "word": "避妊する",
         "reading": "ひにんする TỊ NHÂM",
-        "han_viet": "BƯU",
-        "meaning": "tránh thai . 郵"
+        "han_viet": "",
+        "meaning": "tránh thai"
       }
     ]
   },
@@ -24221,7 +26083,7 @@
     "lesson": 19,
     "number": 299,
     "kanji": "郵",
-    "han_viet": "",
+    "han_viet": "BƯU",
     "meaning_vi": "bưu điện",
     "meaning_en": "Mail, Stagecoach Stop",
     "onyomi": [
@@ -24309,8 +26171,8 @@
     "lesson": 19,
     "number": 300,
     "kanji": "配",
-    "han_viet": "PHỐI",
-    "meaning_vi": "phân phối, chi",
+    "han_viet": "PHSỐI",
+    "meaning_vi": "phân phối, chi phối, phối ngẫu",
     "meaning_en": "Distribute, Spouse, Exile",
     "onyomi": [
       "ハイ"
@@ -24322,7 +26184,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0300_配.jpg",
-      "story": "phối, phối ngẫu    hai Tuy quỳ gối, nhưng chi phối Rượu trong tay, là bảo bối"
+      "story": "Tuy quỳ gối, nhưng chi phối Rượu trong tay, là bảo bối"
     },
     "examples": [
       {
@@ -24388,8 +26250,8 @@
       {
         "word": "配列",
         "reading": "はいれつ",
-        "han_viet": "TỬU",
-        "meaning": "sự xếp hàng . 酒"
+        "han_viet": "PHỐI LIỆT",
+        "meaning": "sự xếp hàng"
       }
     ]
   },
@@ -24399,7 +26261,7 @@
     "lesson": 19,
     "number": 301,
     "kanji": "酒",
-    "han_viet": "",
+    "han_viet": "TỬU",
     "meaning_vi": "rượu",
     "meaning_en": "Sake, Alcohol",
     "onyomi": [
@@ -24455,14 +26317,104 @@
       {
         "word": "古酒",
         "reading": "こさけ",
-        "han_viet": "CHÂM",
-        "meaning": "chủ 針 302. 針    châm    cái kim, phương châm, châm cứu    shin Cây châm có trong la bàn Là làm từ sắt trong mỏ làng ta 訓: はり"
+        "han_viet": "CỔ TỬU",
+        "meaning": "chủ"
+      }
+    ]
+  },
+  {
+    "id": "b2-19-302",
+    "book": 2,
+    "lesson": 19,
+    "number": 302,
+    "kanji": "針",
+    "han_viet": "CHÂM",
+    "meaning_vi": "cái kim, phương châm, châm cứu",
+    "meaning_en": "Needle, Pin, Staple",
+    "onyomi": [
+      "シン"
+    ],
+    "kunyomi": [
+      "はり"
+    ],
+    "strokes": 10,
+    "jlpt": "N2",
+    "mnemonic": {
+      "image_url": "/images/book2/b2_0302_針.jpg",
+      "story": "Cây châm có trong la bàn Là làm từ sắt trong mỏ làng ta"
+    },
+    "examples": [
+      {
+        "word": "偏針",
+        "reading": "へんはり",
+        "han_viet": "THIÊN CHÂM",
+        "meaning": "sự lệch"
       },
       {
-        "word": "針",
-        "reading": "はり CHÂM",
+        "word": "刃針",
+        "reading": "ははり",
+        "han_viet": "NHẬN CHÂM",
+        "meaning": "lưỡi trích"
+      },
+      {
+        "word": "変針",
+        "reading": "へんしん",
         "han_viet": "",
-        "meaning": "châm"
+        "meaning": "BIẾN CHÂM bước ngoặc"
+      },
+      {
+        "word": "針山",
+        "reading": "はりやま",
+        "han_viet": "",
+        "meaning": "CHÂM SAN cái gối nhỏ để giắt ghim"
+      },
+      {
+        "word": "指針",
+        "reading": "ししん",
+        "han_viet": "",
+        "meaning": "CHỈ CHÂM nguyên tắc chỉ đạo"
+      },
+      {
+        "word": "方針",
+        "reading": "ほうしん",
+        "han_viet": "PHƯƠNG CHÂM",
+        "meaning": "phương châm; chính sách"
+      },
+      {
+        "word": "検針",
+        "reading": "けんしん",
+        "han_viet": "",
+        "meaning": "KIỂM CHÂM kiểm định đồng hồ; kiểm tra đồng hồ"
+      },
+      {
+        "word": "針灸",
+        "reading": "しんきゅう",
+        "han_viet": "",
+        "meaning": ""
+      },
+      {
+        "word": "針状",
+        "reading": "はりじょう",
+        "han_viet": "",
+        "meaning": "hình kim"
+      },
+      {
+        "word": "留針",
+        "reading": "とめばり",
+        "han_viet": "",
+        "meaning": "LƯU CHÂM đanh gim"
+      },
+      {
+        "word": "針目",
+        "reading": "はりめ",
+        "han_viet": "",
+        "meaning": "CHÂM MỤC đường may nổi"
+      },
+      {
+        "word": "短針",
+        "reading": "たんしん",
+        "han_viet": "ĐOẢN CHÂM",
+        "meaning": "kim giờ (đồng hồ)"
       }
     ]
   },
@@ -24472,8 +26424,8 @@
     "lesson": 19,
     "number": 303,
     "kanji": "闘",
-    "han_viet": "",
-    "meaning_vi": "đấu tranh, chiến",
+    "han_viet": "ĐẤU",
+    "meaning_vi": "đấu tranh, chiến đấu",
     "meaning_en": "Fight, War",
     "onyomi": [
       "トウ"
@@ -24486,7 +26438,7 @@
     "jlpt": "N1",
     "mnemonic": {
       "image_url": "/images/book2/b2_0303_闘.jpg",
-      "story": "đấu    too Chiến đấu bảo vệ trống trận đặt ở cửa"
+      "story": "Chiến đấu bảo vệ trống trận đặt ở cửa"
     },
     "examples": [
       {
@@ -24564,8 +26516,8 @@
       {
         "word": "拳闘",
         "reading": "けんとう",
-        "han_viet": "PHÕNG",
-        "meaning": "QUYỀN ĐẤU quyền Anh đấu lấy tiền 防"
+        "han_viet": "",
+        "meaning": "QUYỀN ĐẤU quyền Anh đấu lấy tiền"
       }
     ]
   },
@@ -24576,7 +26528,7 @@
     "number": 304,
     "kanji": "防",
     "han_viet": "PHÒNG",
-    "meaning_vi": "phòng vệ, phòng",
+    "meaning_vi": "phòng vệ, phòng bị, đề phòng",
     "meaning_en": "Ward Off, Defend, Protect",
     "onyomi": [
       "ボウ"
@@ -24588,7 +26540,7 @@
     "jlpt": "N2",
     "mnemonic": {
       "image_url": "/images/book2/b2_0304_防.jpg",
-      "story": "bị, đề phòng    boo Đề phòng quân trắng cướp được cờ đen"
+      "story": "Đề phòng quân trắng cướp được cờ đen"
     },
     "examples": [
       {
@@ -24602,6 +26554,72 @@
         "reading": "よぼう",
         "han_viet": "",
         "meaning": "DƯ PHÕNG ngừa"
+      },
+      {
+        "word": "防備",
+        "reading": "ぼうび",
+        "han_viet": "PHÕNG BỊ",
+        "meaning": "(từ Mỹ"
+      },
+      {
+        "word": "防共",
+        "reading": "ぼうきょう",
+        "han_viet": "",
+        "meaning": "nỗi nhớ nhà"
+      },
+      {
+        "word": "防具",
+        "reading": "ぼうぐ",
+        "han_viet": "",
+        "meaning": "PHÕNG CỤ người bảo vệ"
+      },
+      {
+        "word": "国防",
+        "reading": "こくぼう",
+        "han_viet": "QUỐC PHÕNG",
+        "meaning": "quốc phòng; sự quốc phòng"
+      },
+      {
+        "word": "堤防",
+        "reading": "ていぼう",
+        "han_viet": "",
+        "meaning": "ĐÊ PHÕNG đê điều"
+      },
+      {
+        "word": "防塞",
+        "reading": "ぼうさい",
+        "han_viet": "",
+        "meaning": "PHÕNG TẮC pháo đài"
+      },
+      {
+        "word": "防塵",
+        "reading": "ぼうじん",
+        "han_viet": "PHÕNG TRẦN",
+        "meaning": "người đứng ngoài xem"
+      },
+      {
+        "word": "防壁",
+        "reading": "ぼうへき",
+        "han_viet": "PHÕNG BÍCH",
+        "meaning": "bức tường thành"
+      },
+      {
+        "word": "防弾",
+        "reading": "ぼうだん",
+        "han_viet": "",
+        "meaning": "PHÕNG ĐÀN Khả năng chống các can nhiễu từ bên ngoài"
+      },
+      {
+        "word": "防御",
+        "reading": "ぼうぎょ",
+        "han_viet": "",
+        "meaning": "PHÕNG NGỰ phòng ngự"
+      },
+      {
+        "word": "防戦",
+        "reading": "ぼうせん",
+        "han_viet": "PHÕNG CHIẾN",
+        "meaning": "chiến tranh phòng ngự"
       }
     ]
   },
@@ -24612,7 +26630,7 @@
     "number": 305,
     "kanji": "陸",
     "han_viet": "LỤC",
-    "meaning_vi": "lục địa, lục",
+    "meaning_vi": "lục địa, lục quân",
     "meaning_en": "Land, Six",
     "onyomi": [
       "リク",
@@ -24625,7 +26643,7 @@
     "jlpt": "N2",
     "mnemonic": {
       "image_url": "/images/book2/b2_0305_陸.jpg",
-      "story": "quân    riku Chỗ nào Đại Lục cắm cờ Trung Hoa một mực đất bờ người ta"
+      "story": "Chỗ nào Đại Lục cắm cờ Trung Hoa một mực đất bờ người ta"
     },
     "examples": [
       {
@@ -24685,8 +26703,8 @@
       {
         "word": "陸曹",
         "reading": "LỤC TÀO",
-        "han_viet": "HIỂM",
-        "meaning": "hạ sĩ quan 険"
+        "han_viet": "",
+        "meaning": "hạ sĩ quan"
       }
     ]
   },
@@ -24696,8 +26714,8 @@
     "lesson": 20,
     "number": 306,
     "kanji": "険",
-    "han_viet": "",
-    "meaning_vi": "nguy hiểm, mạo",
+    "han_viet": "HIỂM",
+    "meaning_vi": "nguy hiểm, mạo hiểm, hiểm ác",
     "meaning_en": "Precipitous, Inaccessible Place, Impregnable Position",
     "onyomi": [
       "ケン"
@@ -24709,7 +26727,7 @@
     "jlpt": "N3",
     "mnemonic": {
       "image_url": "/images/book2/b2_0306_険.jpg",
-      "story": "hiểm, hiểm ác    ken Mặc kệ cờ báo đường nguy hiểm vẫn xách ba lô tiến vào"
+      "story": "Mặc kệ cờ báo đường nguy hiểm vẫn xách ba lô tiến vào"
     },
     "examples": [
       {
@@ -24747,6 +26765,54 @@
         "reading": "けんしゅん",
         "han_viet": "",
         "meaning": ""
+      },
+      {
+        "word": "険しい",
+        "reading": "けわしい",
+        "han_viet": "",
+        "meaning": "HIỂM dựng đứng; dốc"
+      },
+      {
+        "word": "険悪",
+        "reading": "けんあく",
+        "han_viet": "HIỂM ÁC",
+        "meaning": "khắt khe; gay gắt; nghiêm khắc; nghiệt ngã; đáng sợ"
+      },
+      {
+        "word": "探険",
+        "reading": "たんけん",
+        "han_viet": "",
+        "meaning": "THAM HIỂM sự thám hiểm"
+      },
+      {
+        "word": "冒険な",
+        "reading": "ぼうけんな MẠO HIỂM liều",
+        "han_viet": "",
+        "meaning": ""
+      },
+      {
+        "word": "危険な",
+        "reading": "きけんな",
+        "han_viet": "",
+        "meaning": "NGUY HIỂM gập gềnh"
+      },
+      {
+        "word": "険路",
+        "reading": "けんろ",
+        "han_viet": "HIỂM LỘ",
+        "meaning": "con đường dốc; đường hiểm trở"
+      },
+      {
+        "word": "邪険",
+        "reading": "じゃけん",
+        "han_viet": "TÀ HIỂM",
+        "meaning": "độc ác"
+      },
+      {
+        "word": "険悪な",
+        "reading": "けんあくな HIỂM ÁC",
+        "han_viet": "",
+        "meaning": "hiểm ác"
       }
     ]
   },
@@ -24835,8 +26901,8 @@
       {
         "word": "陽極",
         "reading": "ようきょく",
-        "han_viet": "LÂN",
-        "meaning": "cực dương 隣"
+        "han_viet": "",
+        "meaning": "cực dương"
       }
     ]
   },
@@ -24846,7 +26912,7 @@
     "lesson": 20,
     "number": 308,
     "kanji": "隣",
-    "han_viet": "",
+    "han_viet": "LÂN",
     "meaning_vi": "lân bang, lân cận",
     "meaning_en": "Neighboring",
     "onyomi": [
@@ -24898,6 +26964,18 @@
         "reading": "りんせつ",
         "han_viet": "LÂN TIẾP",
         "meaning": "sự tiếp giáp; sự kề bên; sự liền kề; sự giáp ranh"
+      },
+      {
+        "word": "隣村",
+        "reading": "となりむら",
+        "han_viet": "",
+        "meaning": ""
+      },
+      {
+        "word": "比隣",
+        "reading": "ひりん",
+        "han_viet": "BỈ LÂN",
+        "meaning": "gần"
       }
     ]
   },
@@ -24907,7 +26985,7 @@
     "lesson": 20,
     "number": 309,
     "kanji": "離",
-    "han_viet": "LE",
+    "han_viet": "LI",
     "meaning_vi": "tách li, li khai",
     "meaning_en": "Detach, Separation, Disjoin",
     "onyomi": [
@@ -24975,8 +27053,8 @@
       {
         "word": "垢離",
         "reading": "こり",
-        "han_viet": "TUYẾT",
-        "meaning": "sự làm sạch 雪"
+        "han_viet": "",
+        "meaning": "sự làm sạch"
       }
     ]
   },
@@ -24986,7 +27064,7 @@
     "lesson": 20,
     "number": 310,
     "kanji": "雪",
-    "han_viet": "",
+    "han_viet": "TUYẾT",
     "meaning_vi": "tuyết",
     "meaning_en": "Snow",
     "onyomi": [
@@ -25041,7 +27119,7 @@
     "number": 311,
     "kanji": "風",
     "han_viet": "PHONG",
-    "meaning_vi": "phong ba, phong",
+    "meaning_vi": "phong ba, phong cách, phong tục",
     "meaning_en": "Wind, Air, Style",
     "onyomi": [
       "フウ",
@@ -25056,7 +27134,7 @@
     "jlpt": "N4",
     "mnemonic": {
       "image_url": "/images/book2/b2_0311_風.jpg",
-      "story": "cách, phong tục    fuu, fu Phong ba bão táp Căng buồm ngay ngắn Đạp muôn trùng khơi Vinh quang tiến tới"
+      "story": "Phong ba bão táp Căng buồm ngay ngắn Đạp muôn trùng khơi Vinh quang tiến tới"
     },
     "examples": [
       {
@@ -25116,8 +27194,8 @@
       {
         "word": "北風",
         "reading": "ほくふう",
-        "han_viet": "THỰC",
-        "meaning": "BẮC PHONG bắc phong . 食"
+        "han_viet": "",
+        "meaning": "BẮC PHONG bắc phong"
       }
     ]
   },
@@ -25127,8 +27205,8 @@
     "lesson": 20,
     "number": 312,
     "kanji": "食",
-    "han_viet": "",
-    "meaning_vi": "ẩm thực, thực",
+    "han_viet": "THỰC",
+    "meaning_vi": "ẩm thực, thực đường",
     "meaning_en": "Eat, Food",
     "onyomi": [
       "ショク",
@@ -25144,7 +27222,7 @@
     "jlpt": "N5",
     "mnemonic": {
       "image_url": "/images/book2/b2_0312_食.jpg",
-      "story": "đường    shoku, jiki Chữ thực trông như bát cơm và đôi đũa"
+      "story": "Chữ thực trông như bát cơm và đôi đũa"
     },
     "examples": [
       {
@@ -25221,7 +27299,7 @@
     "lesson": 20,
     "number": 313,
     "kanji": "飯",
-    "han_viet": "",
+    "han_viet": "PHẠN",
     "meaning_vi": "cơm",
     "meaning_en": "Meal, Boiled Rice",
     "onyomi": [
@@ -25295,7 +27373,7 @@
         "word": "飯屋",
         "reading": "めしや",
         "han_viet": "PHẠN ỐC",
-        "meaning": "nhà ăn; hàng quán 飲 ẨM, ẤM"
+        "meaning": "nhà ăn; hàng quán"
       }
     ]
   },
@@ -25392,7 +27470,7 @@
     "number": 315,
     "kanji": "館",
     "han_viet": "QUÁN",
-    "meaning_vi": "đại sứ quán, hội",
+    "meaning_vi": "đại sứ quán, hội quán",
     "meaning_en": "Building, Mansion, Large Building",
     "onyomi": [
       "カン"
@@ -25405,7 +27483,7 @@
     "jlpt": "N4",
     "mnemonic": {
       "image_url": "/images/book2/b2_0315_館.jpg",
-      "story": "quán    kan CX"
+      "story": ""
     },
     "examples": [
       {
@@ -25459,8 +27537,8 @@
       {
         "word": "商館",
         "reading": "しょうかん",
-        "han_viet": "PHÁT",
-        "meaning": "hãng 髪"
+        "han_viet": "",
+        "meaning": "hãng"
       }
     ]
   },
@@ -25470,7 +27548,7 @@
     "lesson": 20,
     "number": 316,
     "kanji": "髪",
-    "han_viet": "",
+    "han_viet": "PHÁT",
     "meaning_vi": "tóc",
     "meaning_en": "Hair Of The Head",
     "onyomi": [
@@ -25560,7 +27638,7 @@
     "lesson": 20,
     "number": 317,
     "kanji": "魅",
-    "han_viet": "",
+    "han_viet": "MỊ",
     "meaning_vi": "mị lực, mộng mị",
     "meaning_en": "Fascination, Charm, Bewitch",
     "onyomi": [
@@ -25619,8 +27697,8 @@
       {
         "word": "魅力的な笑顔",
         "reading": "みりょくてきえがお",
-        "han_viet": "MA",
-        "meaning": "NHAN nụ cười mê hồn; nụ cười mê hoặc 魔"
+        "han_viet": "MỊ LỰC ĐÍCH TIẾU",
+        "meaning": "NHAN nụ cười mê hồn; nụ cười mê hoặc"
       }
     ]
   },
@@ -25724,7 +27802,7 @@
     "lesson": 20,
     "number": 319,
     "kanji": "鳴",
-    "han_viet": "",
+    "han_viet": "MINH",
     "meaning_vi": "hót",
     "meaning_en": "Chirp, Cry, Bark",
     "onyomi": [
@@ -25811,8 +27889,8 @@
       {
         "word": "鳴き声",
         "reading": "なきごえ",
-        "han_viet": "MẠCH",
-        "meaning": "tiếng kêu (của chim 麦"
+        "han_viet": "MINH THANH",
+        "meaning": "tiếng kêu (của chim"
       }
     ]
   },
@@ -25882,7 +27960,7 @@
     "lesson": 21,
     "number": 321,
     "kanji": "黒",
-    "han_viet": "",
+    "han_viet": "HẮC",
     "meaning_vi": "đen, hắc ám",
     "meaning_en": "Black",
     "onyomi": [
@@ -25981,8 +28059,8 @@
       {
         "word": "黒字",
         "reading": "くろじ",
-        "han_viet": "LINH",
-        "meaning": "lãi; thặng dư 齢"
+        "han_viet": "HẮC TỰ",
+        "meaning": "lãi; thặng dư"
       }
     ]
   },
@@ -25992,7 +28070,7 @@
     "lesson": 21,
     "number": 322,
     "kanji": "齢",
-    "han_viet": "",
+    "han_viet": "LINH",
     "meaning_vi": "tuổi",
     "meaning_en": "Age",
     "onyomi": [
@@ -26083,8 +28161,8 @@
     "lesson": 21,
     "number": 323,
     "kanji": "厚",
-    "han_viet": "",
-    "meaning_vi": "hậu nồng hậu, hậu tạ koo",
+    "han_viet": "HẬU",
+    "meaning_vi": "nồng hậu, hậu tạ",
     "meaning_en": "Thick, Heavy, Rich",
     "onyomi": [
       "コウ"
@@ -26156,8 +28234,8 @@
       {
         "word": "敦厚",
         "reading": "とんこう",
-        "han_viet": "PHẾ",
-        "meaning": "sự đôn hậu . 廃"
+        "han_viet": "ĐÔN HẬU",
+        "meaning": "sự đôn hậu"
       }
     ]
   },
@@ -26167,8 +28245,8 @@
     "lesson": 21,
     "number": 324,
     "kanji": "廃",
-    "han_viet": "",
-    "meaning_vi": "phế tàn phế, hoang phế hai",
+    "han_viet": "PHẾ",
+    "meaning_vi": "tàn phế, hoang phế",
     "meaning_en": "Abolish, Obsolete, Cessation",
     "onyomi": [
       "ハイ"
@@ -26252,7 +28330,7 @@
     "number": 325,
     "kanji": "影",
     "han_viet": "ẢNH",
-    "meaning_vi": "hình ảnh",
+    "meaning_vi": "hình ảnh; nhiếp ảnh",
     "meaning_en": "Shadow, Silhouette, Phantom",
     "onyomi": [
       "エイ"
@@ -26330,8 +28408,8 @@
       {
         "word": "尊影",
         "reading": "そんえい",
-        "han_viet": "HUYỀN",
-        "meaning": "chân dung 懸"
+        "han_viet": "TÔN ẢNH",
+        "meaning": "chân dung"
       }
     ]
   },
@@ -26341,8 +28419,8 @@
     "lesson": 21,
     "number": 326,
     "kanji": "懸",
-    "han_viet": "",
-    "meaning_vi": "huyền treo ken, ke",
+    "han_viet": "HUYỀN",
+    "meaning_vi": "treo ken,",
     "meaning_en": "State Of Suspension, Hang, Depend",
     "onyomi": [
       "ケンケ"
@@ -26414,7 +28492,7 @@
     "number": 327,
     "kanji": "核",
     "han_viet": "HẠCH",
-    "meaning_vi": "hạch hạt nhân, hạch tâm",
+    "meaning_vi": "hạt nhân, hạch tâm",
     "meaning_en": "Nucleus, Core, Kernel",
     "onyomi": [
       "カク"
@@ -26424,7 +28502,7 @@
     "jlpt": "N1",
     "mnemonic": {
       "image_url": "/images/book2/b2_0327_核.jpg",
-      "story": "Chặt cây lấy phần hạch cứng để điêu khắc 音: カク 1 核 かく HẠCH hạt nhân 2 中核 ちゅうかく TRUNG HẠCH bộ phận nhân; lõi; trung tâm 3 二核 にかく NHỊ HẠCH Có 2 hạt nhân . 4 核仁 かくじん HẠCH NHÂN Sự liên kết hạt nhân; lực liên kết hạt nhân . 5 仲核 なかかく TRỌNG HẠCH hạt 6 地核 ちかく ĐỊA HẠCH sự nhận thức 7 核子 かくこ HẠCH TỬ pro 8 核心 かくしん HẠCH TÂM trọng tâm; cốt lõi 9 核果 かっか HẠCH QUẢ quả hạch 歴 LỊCH"
+      "story": "kaku Chặt cây lấy phần hạch cứng để điêu khắc"
     },
     "examples": [
       {
@@ -26478,8 +28556,8 @@
       {
         "word": "核果",
         "reading": "かっか",
-        "han_viet": "LỊCH",
-        "meaning": "HẠCH QUẢ quả hạch 歴"
+        "han_viet": "",
+        "meaning": "HẠCH QUẢ quả hạch"
       }
     ]
   },
@@ -26489,8 +28567,8 @@
     "lesson": 21,
     "number": 328,
     "kanji": "歴",
-    "han_viet": "",
-    "meaning_vi": "lịch lí lịch, lịch sử, kinh",
+    "han_viet": "LỊCH",
+    "meaning_vi": "lí lịch, lịch sử, kinh lịch",
     "meaning_en": "Curriculum, Continuation, Passage Of Time",
     "onyomi": [
       "レキレッキ"
@@ -26500,7 +28578,7 @@
     "jlpt": "N2",
     "mnemonic": {
       "image_url": "/images/book2/b2_0328_歴.jpg",
-      "story": "lịch reki Học sinh dừng chân trước ngôi nhà 2 cây lịch sử 音: レキ レッキ 1 歴任 れきにん LỊCH NHÂM sự kế nhiệm; sự nhậm chức 2 歴伝 れきでん LỊCH TRUYỀN sự truyền miệng (truyện cổ tích 3 前歴 ぜんれき TIỀN LỊCH tiền sử 4 歴史 れきし LỊCH SỬ lịch sử 5 学歴 がくれき HỌC LỊCH quá trình học hành; bằng cấp 6 履歴 りれき LÍ LỊCH lịch sử; dữ kiện 7 巡歴 じゅんれき TUẦN LỊCH cuộc đi 8 歴年 れきねん LỊCH NIÊN thời gian 9 披歴 ひれき PHI LỊCH sự bộc lộ"
+      "story": "lịch reki Học sinh dừng chân trước ngôi nhà 2 cây lịch sử"
     },
     "examples": [
       {
@@ -26566,7 +28644,7 @@
     "number": 329,
     "kanji": "独",
     "han_viet": "ĐỘC",
-    "meaning_vi": "độc cô độc, đơn độc doku",
+    "meaning_vi": "cô độc, đơn độc",
     "meaning_en": "Single, Alone, Spontaneously",
     "onyomi": [
       "ドクトク"
@@ -26644,8 +28722,8 @@
       {
         "word": "独唱",
         "reading": "どくしょう",
-        "han_viet": "THỊNH",
-        "meaning": "độc ca 盛"
+        "han_viet": "",
+        "meaning": "độc ca"
       }
     ]
   },
@@ -26656,7 +28734,7 @@
     "number": 330,
     "kanji": "盛",
     "han_viet": "THỊNH",
-    "meaning_vi": "thịnh thịnh vượng, hưng",
+    "meaning_vi": "thịnh vượng, hưng thịnh sei,",
     "meaning_en": "Boom, Prosper, Copulate",
     "onyomi": [
       "セイジョウ"
@@ -26733,8 +28811,8 @@
     "lesson": 21,
     "number": 331,
     "kanji": "盟",
-    "han_viet": "",
-    "meaning_vi": "minh đồng minh, gia minh",
+    "han_viet": "MINH",
+    "meaning_vi": "đồng minh, gia minh",
     "meaning_en": "Alliance, Oath",
     "onyomi": [
       "メイ"
@@ -26744,7 +28822,7 @@
     "jlpt": "N1",
     "mnemonic": {
       "image_url": "/images/book2/b2_0331_盟.jpg",
-      "story": "Đồng minh chia sẻ bánh với nhau cả đêm lẫn ngày 音: メイ 1 盟主 めいしゅ MINH CHỦ minh chủ . 2 加盟 かめい GIA MINH sự gia nhập; sự tham gia; gia nhập; tham gia 3 盟友 めいゆう MINH HỮU sao 4 同盟 どうめい ĐỒNG MINH đồng minh 5 盟約 めいやく MINH ƯỚC lời thề; bằng chứng cho sự kết làm đồng minh; minh ước . 6 聯盟 れんめい LIÊN MINH sự thành lập liên đoàn; liên đoàn 7 連盟 れんめい LIÊN MINH liên đoàn 8 盟邦 めいほう MINH BANG hòn bi 9 加盟国 かめいこく GIA MINH QUỐC đã ký hiệp ước 10 同盟国 どうめいこく ĐỒNG MINH QUỐC nước đồng minh . 11 盟外品 めいがいひん MINH NGOẠI PHẨM hàng ngoài hiệp hội 禁 CẤM"
+      "story": "mei Đồng minh chia sẻ bánh với nhau cả đêm lẫn ngày"
     },
     "examples": [
       {
@@ -26810,8 +28888,8 @@
       {
         "word": "盟外品",
         "reading": "めいがいひん",
-        "han_viet": "CẤM",
-        "meaning": "hàng ngoài hiệp hội 禁"
+        "han_viet": "MINH NGOẠI PHẨM",
+        "meaning": "hàng ngoài hiệp hội"
       }
     ]
   },
@@ -26822,7 +28900,7 @@
     "number": 332,
     "kanji": "禁",
     "han_viet": "CẤM",
-    "meaning_vi": "cấm cấm đoán, nghiêm cấm",
+    "meaning_vi": "cấm đoán, nghiêm cấm",
     "meaning_en": "Prohibition, Ban, Forbid",
     "onyomi": [
       "キン"
@@ -26832,7 +28910,7 @@
     "jlpt": "N2",
     "mnemonic": {
       "image_url": "/images/book2/b2_0332_禁.jpg",
-      "story": "Làm lễ tế để có thể đi vào khu rừng cấm 音: キン 1 禁 きん CẤM sự cấm 2 禁中 きんちゅう CẤM TRUNG sân nhà 3 禁令 きんれい CẤM LỆNH sự cấm 4 禁制 きんせい CẤM CHẾ cấm chế 5 禁則 きんそく CẤM TẮC sự cấm 6 厳禁 げんきん NGHIÊM CẤM sự nghiêm cấm; sự ngăn cấm; sự cấm chỉ; nghiêm cấm; ngăn cấm; cấm chỉ 7 禁句 きんく CẤM CÖ từ cấm kỵ; từ húy 8 禁固 きんこ CẤM CỐ cấm cố 9 国禁 こっきん QUỐC CẤM quốc cấm . 10 禁圧 きんあつ CẤM ÁP sự chặn 11 失禁 しっきん THẤT CẤM sự không kiềm chế được 12 禁忌 きんき CẤM KỊ cấm kỵ"
+      "story": "kin Làm lễ tế để có thể đi vào khu rừng cấm"
     },
     "examples": [
       {
@@ -26906,6 +28984,24 @@
         "reading": "きんき",
         "han_viet": "CẤM KỊ",
         "meaning": "cấm kỵ"
+      },
+      {
+        "word": "禁じる",
+        "reading": "きんじる",
+        "han_viet": "",
+        "meaning": "CẤM cấm chỉ; ngăn cấm; cấm; nghiêm cấm"
+      },
+      {
+        "word": "禁ずる",
+        "reading": "きんずる",
+        "han_viet": "",
+        "meaning": "CẤM cấm chỉ; ngăn cấm; cấm; nghiêm cấm"
+      },
+      {
+        "word": "禁慾",
+        "reading": "きんよく",
+        "han_viet": "CẤM DỤC",
+        "meaning": "sự kiêng"
       }
     ]
   },
@@ -26915,8 +29011,8 @@
     "lesson": 21,
     "number": 333,
     "kanji": "移",
-    "han_viet": "DỜI",
-    "meaning_vi": "di di chuyển, di động I",
+    "han_viet": "DI",
+    "meaning_vi": "di chuyển, di động",
     "meaning_en": "Shift, Move, Change",
     "onyomi": [
       "イ"
@@ -27000,8 +29096,8 @@
       {
         "word": "移民",
         "reading": "いみん",
-        "han_viet": "CHƯƠNG",
-        "meaning": "dân di cư; sự di dân 章"
+        "han_viet": "DI DÂN",
+        "meaning": "dân di cư; sự di dân"
       }
     ]
   },
@@ -27012,7 +29108,7 @@
     "number": 334,
     "kanji": "章",
     "han_viet": "CHƯƠNG",
-    "meaning_vi": "chương chương sách shoo",
+    "meaning_vi": "chương sách",
     "meaning_en": "Badge, Chapter, Composition",
     "onyomi": [
       "ショウ"
@@ -27022,7 +29118,7 @@
     "jlpt": "N2",
     "mnemonic": {
       "image_url": "/images/book2/b2_0334_章.jpg",
-      "story": "Mỗi ngày cậu bé viết mười chương sách về mặt trời 音: ショウ 1 章 しょう CHƯƠNG chương; hồi (sách) 2 勲章 くんしょう HUÂN CHƯƠNG huân chương 3 印章 いんしょう ẤN CHƯƠNG tem 4 章句 しょうく CHƯƠNG CÖ đoạn văn 5 周章 しゅうしょう CHU CHƯƠNG sự lay động 6 喪章 もしょう TANG CHƯƠNG dấu hiệu có tang 7 回章 かいしょう HỒI CHƯƠNG thông tư; thư phúc đáp 8 国章 こくしょう QUỐC CHƯƠNG quốc huy . 9 帹章 ぼうしょう MẠO CHƯƠNG việc thưởng huy chương 10 序章 じょしょう TỰ CHƯƠNG đoạn mở đầu 11 廻章 かいしょう HỒI CHƯƠNG tròn"
+      "story": "Mỗi ngày cậu bé viết mười chương sách về mặt trời"
     },
     "examples": [
       {
@@ -27090,6 +29186,18 @@
         "reading": "かいしょう",
         "han_viet": "",
         "meaning": "tròn"
+      },
+      {
+        "word": "徽章",
+        "reading": "きしょう",
+        "han_viet": "HUY CHƯƠNG",
+        "meaning": "huy hiệu"
+      },
+      {
+        "word": "憲章",
+        "reading": "けんしょう",
+        "han_viet": "",
+        "meaning": "hiến chương"
       }
     ]
   },
@@ -27100,7 +29208,7 @@
     "number": 335,
     "kanji": "舞",
     "han_viet": "VŨ",
-    "meaning_vi": "vũ vũ điệu, khiêu vũ bu",
+    "meaning_vi": "vũ điệu, khiêu vũ",
     "meaning_en": "Dance, Flit, Circle",
     "onyomi": [
       "ブ"
@@ -27178,8 +29286,8 @@
       {
         "word": "舞曲",
         "reading": "ぶきょく",
-        "han_viet": "ĐẠP",
-        "meaning": "VŨ KHÖC vũ khúc . 踏"
+        "han_viet": "",
+        "meaning": "VŨ KHÖC vũ khúc"
       }
     ]
   },
@@ -27190,7 +29298,7 @@
     "number": 336,
     "kanji": "踏",
     "han_viet": "ĐẠP",
-    "meaning_vi": "đạp dẫm lên too",
+    "meaning_vi": "dẫm lên",
     "meaning_en": "Step, Trample, Carry Through",
     "onyomi": [
       "トウ"

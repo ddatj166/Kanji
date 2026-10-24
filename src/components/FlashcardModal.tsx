@@ -65,7 +65,7 @@ export const FlashcardModal: React.FC<FlashcardModalProps> = ({
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (!isOpen) return;
+      if (!isOpen || currentIndex >= cards.length) return;
       if (e.code === 'Space') {
         e.preventDefault();
         setIsFlipped((prev) => !prev);
@@ -79,7 +79,7 @@ export const FlashcardModal: React.FC<FlashcardModalProps> = ({
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [isOpen, currentIndex, cards]);
+  }, [isOpen, currentIndex, cards.length]);
 
   if (!isOpen || cards.length === 0) return null;
 

@@ -82,6 +82,7 @@ export const AddKanjiModal: React.FC<AddKanjiModalProps> = ({
   const [examples, setExamples] = useState<ExampleWord[]>([]);
   const [isLookingUp, setIsLookingUp] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState('');
 
   // Example editing states
   const [editingExIdx, setEditingExIdx] = useState<number | null>(null);
@@ -159,6 +160,7 @@ export const AddKanjiModal: React.FC<AddKanjiModalProps> = ({
     setEditingExIdx(null);
     setShowUrlInput(false);
     setShowBulkEx(false);
+    setSubmitError('');
   }, [initialKanji, isOpen]);
 
   // Handle Ctrl+V paste of images anywhere in modal
@@ -330,6 +332,7 @@ export const AddKanjiModal: React.FC<AddKanjiModalProps> = ({
     if (!kanjiChar.trim()) return;
 
     setIsSubmitting(true);
+    setSubmitError('');
     try {
       let finalImageUrl = imageUrl;
 
@@ -339,20 +342,23 @@ export const AddKanjiModal: React.FC<AddKanjiModalProps> = ({
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ base64Data: imageUrl }),
         });
-        if (upRes.ok) {
-          const upData = await upRes.json();
-          finalImageUrl = upData.url;
+        if (!upRes.ok) {
+          throw new Error('Không thể tải ảnh lên máy chủ.');
         }
+        const upData = await upRes.json();
+        finalImageUrl = upData.url;
       }
 
       if (isEditMode && initialKanji) {
+        const isBookEntry =
+          initialKanji.id.startsWith('b1-') || initialKanji.id.startsWith('b2-');
         const updatedKanji: KanjiEntry = {
           ...initialKanji,
           kanji: kanjiChar.trim(),
           han_viet: hanViet.trim().toUpperCase(),
           meaning_vi: meaningVi.trim(),
-          onyomi: onyomi ? onyomi.split(',').map((s) => s.trim()) : [],
-          kunyomi: kunyomi ? kunyomi.split(',').map((s) => s.trim()) : [],
+          onyomi: onyomi ? onyomi.split(',').map((s) => s.trim()).filter(Boolean) : [],
+          kunyomi: kunyomi ? kunyomi.split(',').map((s) => s.trim()).filter(Boolean) : [],
           strokes: Number(strokes) || 0,
           jlpt,
           lesson: Number(lesson) || initialKanji.lesson || 1,
@@ -361,7 +367,8 @@ export const AddKanjiModal: React.FC<AddKanjiModalProps> = ({
             story: story.trim(),
           },
           examples,
-          custom: true,
+          custom: !isBookEntry,
+          isModified: isBookEntry ? true : undefined,
         };
 
         const res = await fetch('/api/kanji', {
@@ -370,17 +377,19 @@ export const AddKanjiModal: React.FC<AddKanjiModalProps> = ({
           body: JSON.stringify({ action: 'update', kanji: updatedKanji }),
         });
 
-        if (res.ok) {
-          if (onKanjiUpdated) onKanjiUpdated(updatedKanji);
-          onClose();
+        if (!res.ok) {
+          throw new Error('Không thể lưu chỉnh sửa vào từ điển.');
         }
+        const data = await res.json();
+        if (onKanjiUpdated) onKanjiUpdated(data.item || updatedKanji);
+        onClose();
       } else {
         const newKanji: Partial<KanjiEntry> = {
           kanji: kanjiChar.trim(),
           han_viet: hanViet.trim().toUpperCase(),
           meaning_vi: meaningVi.trim(),
-          onyomi: onyomi ? onyomi.split(',').map((s) => s.trim()) : [],
-          kunyomi: kunyomi ? kunyomi.split(',').map((s) => s.trim()) : [],
+          onyomi: onyomi ? onyomi.split(',').map((s) => s.trim()).filter(Boolean) : [],
+          kunyomi: kunyomi ? kunyomi.split(',').map((s) => s.trim()).filter(Boolean) : [],
           strokes: Number(strokes) || 0,
           jlpt,
           lesson: Number(lesson) || 1,
@@ -397,14 +406,16 @@ export const AddKanjiModal: React.FC<AddKanjiModalProps> = ({
           body: JSON.stringify({ action: 'add', kanji: newKanji }),
         });
 
-        if (res.ok) {
-          const data = await res.json();
-          onKanjiAdded(data.item);
-          onClose();
+        if (!res.ok) {
+          throw new Error('Không thể thêm chữ Kanji mới vào từ điển.');
         }
+        const data = await res.json();
+        onKanjiAdded(data.item);
+        onClose();
       }
-    } catch (err) {
+    } catch (err: any) {
       console.error('Submit error:', err);
+      setSubmitError(err?.message || 'Đã xảy ra lỗi khi lưu dữ liệu.');
     } finally {
       setIsSubmitting(false);
     }
@@ -854,6 +865,11 @@ export const AddKanjiModal: React.FC<AddKanjiModalProps> = ({
             </div>
 
             {/* Form Actions */}
+            {submitError && (
+              <div className="px-3.5 py-2 rounded-xl bg-red-50 border border-red-200 text-xs font-medium text-red-700">
+                {submitError}
+              </div>
+            )}
             <div className="flex items-center justify-end gap-2.5 pt-3 border-t border-slate-100">
               <button
                 type="button"
