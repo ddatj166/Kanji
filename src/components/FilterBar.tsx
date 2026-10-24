@@ -1,12 +1,10 @@
 'use client';
 
 import React from 'react';
-import { Search, X, BookOpen, Layers, Star, SlidersHorizontal, LayoutGrid, List } from 'lucide-react';
+import { Star, LayoutGrid, List, RotateCcw } from 'lucide-react';
 import { BookFilter } from '@/types/kanji';
 
 interface FilterBarProps {
-  searchQuery: string;
-  onSearchChange: (q: string) => void;
   activeTab: BookFilter;
   onTabChange: (tab: BookFilter) => void;
   selectedLesson: number | 'all';
@@ -23,11 +21,11 @@ interface FilterBarProps {
     bookmarked: number;
   };
   availableLessons: number[];
+  hasActiveFilters: boolean;
+  onResetFilters: () => void;
 }
 
 export const FilterBar: React.FC<FilterBarProps> = ({
-  searchQuery,
-  onSearchChange,
   activeTab,
   onTabChange,
   selectedLesson,
@@ -38,115 +36,82 @@ export const FilterBar: React.FC<FilterBarProps> = ({
   onViewModeChange,
   counts,
   availableLessons,
+  hasActiveFilters,
+  onResetFilters,
 }) => {
+  const tabs: {
+    id: BookFilter;
+    label: string;
+    count: number;
+    icon?: React.ReactNode;
+  }[] = [
+    { id: 'all', label: 'Tất cả', count: counts.total },
+    { id: 'book1', label: 'Quyển 1', count: counts.book1 },
+    { id: 'book2', label: 'Quyển 2', count: counts.book2 },
+    { id: 'custom', label: 'Tự thêm', count: counts.custom },
+    {
+      id: 'bookmarked',
+      label: 'Đã lưu',
+      count: counts.bookmarked,
+      icon: (
+        <Star
+          className={`w-3.5 h-3.5 ${
+            activeTab === 'bookmarked' ? 'fill-amber-400 text-amber-500' : 'text-amber-500'
+          }`}
+        />
+      ),
+    },
+  ];
+
   return (
-    <div className="bg-white border-b border-slate-200/80 shadow-sm sticky top-16 z-20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 space-y-3">
-        {/* Top row: Search Bar & View Mode */}
-        <div className="flex flex-col sm:flex-row items-center gap-3">
-          {/* Search Box */}
-          <div className="relative flex-1 w-full">
-            <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
-            <input
-              type="text"
-              value={searchQuery}
-              onChange={(e) => onSearchChange(e.target.value)}
-              placeholder="Tra từ: Gõ Kanji (日), Hán Việt (nhật, nhat), Nghĩa (mặt trời), hoặc On/Kun (nichi)..."
-              className="w-full pl-10 pr-9 py-2.5 bg-slate-50 hover:bg-slate-100/70 focus:bg-white text-slate-800 placeholder-slate-400 text-sm rounded-xl border border-slate-200 focus:border-red-500 focus:ring-2 focus:ring-red-500/20 outline-none transition-all"
-            />
-            {searchQuery && (
-              <button
-                onClick={() => onSearchChange('')}
-                className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 p-0.5"
-              >
-                <X className="w-4 h-4" />
-              </button>
-            )}
+    <div className="bg-white/90 backdrop-blur-sm border-b border-slate-200/70 sticky top-16 z-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          {/* Segmented Source Tabs */}
+          <div className="flex items-center gap-1 bg-slate-100/90 p-1 rounded-xl overflow-x-auto no-scrollbar max-w-full">
+            {tabs.map((tab) => {
+              const isActive = activeTab === tab.id;
+              return (
+                <button
+                  key={tab.id}
+                  type="button"
+                  onClick={() => onTabChange(tab.id)}
+                  className={`inline-flex items-center gap-1.5 px-3 py-1.5 text-xs rounded-lg whitespace-nowrap transition-all ${
+                    isActive
+                      ? 'bg-white text-slate-900 font-semibold shadow-sm'
+                      : 'text-slate-600 hover:text-slate-900 font-medium'
+                  }`}
+                >
+                  {tab.icon}
+                  <span>{tab.label}</span>
+                  <span
+                    className={`text-[11px] tabular-nums ${
+                      isActive ? 'text-red-600 font-bold' : 'text-slate-400'
+                    }`}
+                  >
+                    {tab.count}
+                  </span>
+                </button>
+              );
+            })}
           </div>
 
-          {/* View Mode Toggle */}
-          <div className="flex items-center gap-1 bg-slate-100 p-1 rounded-lg border border-slate-200 self-end sm:self-auto">
-            <button
-              onClick={() => onViewModeChange('grid')}
-              className={`p-1.5 rounded-md text-sm transition-all ${
-                viewMode === 'grid'
-                  ? 'bg-white text-slate-900 shadow-sm font-medium'
-                  : 'text-slate-500 hover:text-slate-800'
-              }`}
-              title="Chế độ lưới trực quan (có ảnh)"
-            >
-              <LayoutGrid className="w-4 h-4" />
-            </button>
-            <button
-              onClick={() => onViewModeChange('compact')}
-              className={`p-1.5 rounded-md text-sm transition-all ${
-                viewMode === 'compact'
-                  ? 'bg-white text-slate-900 shadow-sm font-medium'
-                  : 'text-slate-500 hover:text-slate-800'
-              }`}
-              title="Chế độ danh sách gọn"
-            >
-              <List className="w-4 h-4" />
-            </button>
-          </div>
-        </div>
-
-        {/* Bottom row: Book Tabs & Filters */}
-        <div className="flex flex-wrap items-center justify-between gap-2.5 pt-1">
-          {/* Source Tabs */}
-          <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-0.5">
-            <button
-              onClick={() => onTabChange('all')}
-              className={`px-3 py-1.5 text-xs font-semibold rounded-lg whitespace-nowrap transition-all ${
-                activeTab === 'all'
-                  ? 'bg-slate-900 text-white shadow-sm'
-                  : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
-              }`}
-            >
-              Tất cả ({counts.total})
-            </button>
-            <button
-              onClick={() => onTabChange('book1')}
-              className={`px-3 py-1.5 text-xs font-semibold rounded-lg whitespace-nowrap transition-all ${
-                activeTab === 'book1'
-                  ? 'bg-red-600 text-white shadow-sm'
-                  : 'bg-red-50 text-red-700 hover:bg-red-100'
-              }`}
-            >
-              Quyển 1 ({counts.book1})
-            </button>
-            <button
-              onClick={() => onTabChange('book2')}
-              className={`px-3 py-1.5 text-xs font-semibold rounded-lg whitespace-nowrap transition-all ${
-                activeTab === 'book2'
-                  ? 'bg-blue-600 text-white shadow-sm'
-                  : 'bg-blue-50 text-blue-700 hover:bg-blue-100'
-              }`}
-            >
-              Quyển 2 ({counts.book2})
-            </button>
-            <button
-              onClick={() => onTabChange('custom')}
-              className={`px-3 py-1.5 text-xs font-semibold rounded-lg whitespace-nowrap transition-all ${
-                activeTab === 'custom'
-                  ? 'bg-emerald-600 text-white shadow-sm'
-                  : 'bg-emerald-50 text-emerald-700 hover:bg-emerald-100'
-              }`}
-            >
-              Tự thêm ({counts.custom})
-            </button>
-          </div>
-
-          {/* Lesson & JLPT Selectors */}
-          <div className="flex items-center gap-2">
-            {/* Lesson Dropdown */}
+          {/* Right Controls: Lesson, JLPT, Reset, View Mode */}
+          <div className="flex items-center gap-2 ml-auto">
             {availableLessons.length > 0 && (
               <select
                 value={selectedLesson}
-                onChange={(e) => onLessonChange(e.target.value === 'all' ? 'all' : Number(e.target.value))}
-                className="text-xs bg-slate-50 border border-slate-200 text-slate-700 rounded-lg px-2.5 py-1.5 focus:ring-1 focus:ring-red-500 outline-none"
+                onChange={(e) =>
+                  onLessonChange(e.target.value === 'all' ? 'all' : Number(e.target.value))
+                }
+                aria-label="Lọc theo bài học"
+                className={`text-xs rounded-lg px-2.5 py-1.5 border outline-none transition-colors cursor-pointer ${
+                  selectedLesson !== 'all'
+                    ? 'bg-red-50/70 border-red-200 text-red-700 font-semibold'
+                    : 'bg-slate-50 hover:bg-slate-100/80 border-slate-200/80 text-slate-700 font-medium'
+                }`}
               >
-                <option value="all">Tất cả bài học</option>
+                <option value="all">Tất cả bài</option>
                 {availableLessons.map((l) => (
                   <option key={l} value={l}>
                     Bài {l}
@@ -155,19 +120,65 @@ export const FilterBar: React.FC<FilterBarProps> = ({
               </select>
             )}
 
-            {/* JLPT Filter */}
             <select
               value={selectedJlpt}
               onChange={(e) => onJlptChange(e.target.value)}
-              className="text-xs bg-slate-50 border border-slate-200 text-slate-700 rounded-lg px-2.5 py-1.5 focus:ring-1 focus:ring-red-500 outline-none"
+              aria-label="Lọc theo cấp độ JLPT"
+              className={`text-xs rounded-lg px-2.5 py-1.5 border outline-none transition-colors cursor-pointer ${
+                selectedJlpt !== 'all'
+                  ? 'bg-red-50/70 border-red-200 text-red-700 font-semibold'
+                  : 'bg-slate-50 hover:bg-slate-100/80 border-slate-200/80 text-slate-700 font-medium'
+              }`}
             >
-              <option value="all">Tất cả JLPT</option>
-              <option value="N5">N5</option>
-              <option value="N4">N4</option>
-              <option value="N3">N3</option>
-              <option value="N2">N2</option>
-              <option value="N1">N1</option>
+              <option value="all">Mọi JLPT</option>
+              <option value="N5">JLPT N5</option>
+              <option value="N4">JLPT N4</option>
+              <option value="N3">JLPT N3</option>
+              <option value="N2">JLPT N2</option>
+              <option value="N1">JLPT N1</option>
             </select>
+
+            {hasActiveFilters && (
+              <button
+                type="button"
+                onClick={onResetFilters}
+                className="inline-flex items-center gap-1 px-2 py-1.5 text-xs font-medium text-slate-500 hover:text-red-600 hover:bg-red-50 rounded-lg transition-colors"
+                title="Xóa bộ lọc đang chọn"
+              >
+                <RotateCcw className="w-3.5 h-3.5" />
+                <span className="hidden md:inline">Đặt lại</span>
+              </button>
+            )}
+
+            {/* View Mode Toggle */}
+            <div className="flex items-center bg-slate-100/90 p-0.5 rounded-lg border border-slate-200/60">
+              <button
+                type="button"
+                onClick={() => onViewModeChange('grid')}
+                className={`p-1.5 rounded-md transition-all ${
+                  viewMode === 'grid'
+                    ? 'bg-white text-slate-900 shadow-sm'
+                    : 'text-slate-400 hover:text-slate-700'
+                }`}
+                title="Chế độ lưới"
+                aria-label="Chế độ lưới"
+              >
+                <LayoutGrid className="w-3.5 h-3.5" />
+              </button>
+              <button
+                type="button"
+                onClick={() => onViewModeChange('compact')}
+                className={`p-1.5 rounded-md transition-all ${
+                  viewMode === 'compact'
+                    ? 'bg-white text-slate-900 shadow-sm'
+                    : 'text-slate-400 hover:text-slate-700'
+                }`}
+                title="Chế độ danh sách"
+                aria-label="Chế độ danh sách"
+              >
+                <List className="w-3.5 h-3.5" />
+              </button>
+            </div>
           </div>
         </div>
       </div>

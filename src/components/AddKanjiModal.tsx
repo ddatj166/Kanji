@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef, useId } from 'react';
 import {
   X,
   Sparkles,
@@ -14,6 +14,7 @@ import {
   FileText,
   Edit2,
   Save,
+  Link as LinkIcon,
 } from 'lucide-react';
 import { KanjiEntry, ExampleWord } from '@/types/kanji';
 import { parseAiResponse } from '@/lib/aiParser';
@@ -55,15 +56,15 @@ export const AddKanjiModal: React.FC<AddKanjiModalProps> = ({
   onKanjiUpdated,
   initialKanji,
 }) => {
+  const dialogRef = useRef<HTMLDialogElement>(null);
+  const titleId = useId();
   const isEditMode = !!initialKanji;
 
-  // Mode: 'quick_ai' or 'manual'
   const [activeMode, setActiveMode] = useState<'quick_ai' | 'manual'>('quick_ai');
 
   // AI Paste text
   const [aiRawText, setAiRawText] = useState('');
   const [copiedPrompt, setCopiedPrompt] = useState(false);
-  const [parseSuccessMsg, setParseSuccessMsg] = useState('');
 
   // Form states
   const [kanjiChar, setKanjiChar] = useState('');
@@ -77,6 +78,7 @@ export const AddKanjiModal: React.FC<AddKanjiModalProps> = ({
   const [story, setStory] = useState('');
   const [imageUrl, setImageUrl] = useState('');
   const [imagePreview, setImagePreview] = useState('');
+  const [showUrlInput, setShowUrlInput] = useState(false);
   const [examples, setExamples] = useState<ExampleWord[]>([]);
   const [isLookingUp, setIsLookingUp] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -91,6 +93,36 @@ export const AddKanjiModal: React.FC<AddKanjiModalProps> = ({
   // Bulk examples paste inside manual mode
   const [bulkExamplesText, setBulkExamplesText] = useState('');
   const [showBulkEx, setShowBulkEx] = useState(false);
+
+  // Open/close native <dialog> and bind light-dismiss fallback
+  useEffect(() => {
+    const dialog = dialogRef.current;
+    if (!dialog) return;
+
+    if (isOpen && !dialog.open) {
+      dialog.showModal();
+    } else if (!isOpen && dialog.open) {
+      dialog.close();
+    }
+
+    const handleLightDismissFallback = (event: MouseEvent) => {
+      if ('closedBy' in HTMLDialogElement.prototype) return;
+      if (event.target !== dialog) return;
+      const rect = dialog.getBoundingClientRect();
+      const isDialogContent =
+        rect.top <= event.clientY &&
+        event.clientY <= rect.top + rect.height &&
+        rect.left <= event.clientX &&
+        event.clientX <= rect.left + rect.width;
+      if (isDialogContent) return;
+      dialog.close();
+    };
+
+    dialog.addEventListener('click', handleLightDismissFallback);
+    return () => {
+      dialog.removeEventListener('click', handleLightDismissFallback);
+    };
+  }, [isOpen]);
 
   // Sync initialKanji on open
   useEffect(() => {
@@ -109,7 +141,6 @@ export const AddKanjiModal: React.FC<AddKanjiModalProps> = ({
       setExamples(initialKanji.examples || []);
       setActiveMode('manual');
     } else {
-      // Reset form for create
       setKanjiChar('');
       setHanViet('');
       setMeaningVi('');
@@ -122,9 +153,12 @@ export const AddKanjiModal: React.FC<AddKanjiModalProps> = ({
       setImageUrl('');
       setImagePreview('');
       setExamples([]);
+      setAiRawText('');
       setActiveMode('quick_ai');
     }
     setEditingExIdx(null);
+    setShowUrlInput(false);
+    setShowBulkEx(false);
   }, [initialKanji, isOpen]);
 
   // Handle Ctrl+V paste of images anywhere in modal
@@ -156,64 +190,30 @@ export const AddKanjiModal: React.FC<AddKanjiModalProps> = ({
 
   if (!isOpen) return null;
 
-  // Copy prompt template to clipboard
   const handleCopyPrompt = () => {
     navigator.clipboard.writeText(AI_PROMPT_TEMPLATE);
     setCopiedPrompt(true);
     setTimeout(() => setCopiedPrompt(false), 2500);
   };
 
-  // Parse text pasted from AI
+  // Parse text pasted from AI and switch to review/manual view
   const handleApplyAiText = () => {
     if (!aiRawText.trim()) return;
 
     const parsed = parseAiResponse(aiRawText);
-    let countFills = 0;
+    if (parsed.kanji) setKanjiChar(parsed.kanji);
+    if (parsed.han_viet) setHanViet(parsed.han_viet);
+    if (parsed.meaning_vi) setMeaningVi(parsed.meaning_vi);
+    if (parsed.onyomi && parsed.onyomi.length > 0) setOnyomi(parsed.onyomi.join(', '));
+    if (parsed.kunyomi && parsed.kunyomi.length > 0) setKunyomi(parsed.kunyomi.join(', '));
+    if (parsed.strokes) setStrokes(parsed.strokes);
+    if (parsed.jlpt) setJlpt(parsed.jlpt);
+    if (parsed.story) setStory(parsed.story);
+    if (parsed.examples && parsed.examples.length > 0) setExamples(parsed.examples);
 
-    if (parsed.kanji) {
-      setKanjiChar(parsed.kanji);
-      countFills++;
-    }
-    if (parsed.han_viet) {
-      setHanViet(parsed.han_viet);
-      countFills++;
-    }
-    if (parsed.meaning_vi) {
-      setMeaningVi(parsed.meaning_vi);
-      countFills++;
-    }
-    if (parsed.onyomi && parsed.onyomi.length > 0) {
-      setOnyomi(parsed.onyomi.join(', '));
-      countFills++;
-    }
-    if (parsed.kunyomi && parsed.kunyomi.length > 0) {
-      setKunyomi(parsed.kunyomi.join(', '));
-      countFills++;
-    }
-    if (parsed.strokes) {
-      setStrokes(parsed.strokes);
-      countFills++;
-    }
-    if (parsed.jlpt) {
-      setJlpt(parsed.jlpt);
-      countFills++;
-    }
-    if (parsed.story) {
-      setStory(parsed.story);
-      countFills++;
-    }
-    if (parsed.examples && parsed.examples.length > 0) {
-      setExamples(parsed.examples);
-      countFills++;
-    }
-
-    setParseSuccessMsg(
-      `Đã phân tích thành công! Đã tự động điền chữ ${parsed.kanji || ''} cùng ${parsed.examples?.length || 0} từ vựng ví dụ.`
-    );
-    setTimeout(() => setParseSuccessMsg(''), 4000);
+    setActiveMode('manual');
   };
 
-  // Parse bulk examples in manual mode
   const handleApplyBulkExamples = () => {
     if (!bulkExamplesText.trim()) return;
     const lines = bulkExamplesText.split('\n');
@@ -242,7 +242,6 @@ export const AddKanjiModal: React.FC<AddKanjiModalProps> = ({
     }
   };
 
-  // Auto lookup character info from local dictionary
   const handleAutoLookup = async () => {
     if (!kanjiChar.trim()) return;
     setIsLookingUp(true);
@@ -264,7 +263,6 @@ export const AddKanjiModal: React.FC<AddKanjiModalProps> = ({
     }
   };
 
-  // Add or update single example in list
   const handleSaveExample = () => {
     if (!exWord.trim() || !exMeaning.trim()) return;
 
@@ -276,13 +274,11 @@ export const AddKanjiModal: React.FC<AddKanjiModalProps> = ({
     };
 
     if (editingExIdx !== null) {
-      // Update existing example
       const updated = [...examples];
       updated[editingExIdx] = newEx;
       setExamples(updated);
       setEditingExIdx(null);
     } else {
-      // Add new example
       setExamples([...examples, newEx]);
     }
 
@@ -316,7 +312,6 @@ export const AddKanjiModal: React.FC<AddKanjiModalProps> = ({
     }
   };
 
-  // File upload handler
   const handleFileUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
     if (file) {
@@ -330,19 +325,14 @@ export const AddKanjiModal: React.FC<AddKanjiModalProps> = ({
     }
   };
 
-  // Submit complete kanji (Create or Update)
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!kanjiChar.trim()) {
-      alert('Vui lòng nhập chữ Kanji!');
-      return;
-    }
+    if (!kanjiChar.trim()) return;
 
     setIsSubmitting(true);
     try {
       let finalImageUrl = imageUrl;
 
-      // If user pasted base64 image, upload to server
       if (imageUrl && imageUrl.startsWith('data:image/')) {
         const upRes = await fetch('/api/upload', {
           method: 'POST',
@@ -356,7 +346,6 @@ export const AddKanjiModal: React.FC<AddKanjiModalProps> = ({
       }
 
       if (isEditMode && initialKanji) {
-        // Edit existing kanji
         const updatedKanji: KanjiEntry = {
           ...initialKanji,
           kanji: kanjiChar.trim(),
@@ -386,7 +375,6 @@ export const AddKanjiModal: React.FC<AddKanjiModalProps> = ({
           onClose();
         }
       } else {
-        // Create brand new kanji
         const newKanji: Partial<KanjiEntry> = {
           kanji: kanjiChar.trim(),
           han_viet: hanViet.trim().toUpperCase(),
@@ -422,75 +410,141 @@ export const AddKanjiModal: React.FC<AddKanjiModalProps> = ({
     }
   };
 
-  return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-slate-900/60 backdrop-blur-sm overflow-y-auto">
-      <div className="relative w-full max-w-3xl bg-white rounded-3xl shadow-2xl border border-slate-200 overflow-hidden my-auto max-h-[92vh] flex flex-col">
-        {/* Header */}
-        <div className="flex items-center justify-between px-6 py-4 border-b border-slate-100 bg-slate-50/70">
-          <div>
-            <h3 className="text-base font-bold text-slate-800">
-              {isEditMode ? `Chỉnh sửa chữ Kanji 「${initialKanji?.kanji}」` : 'Thêm chữ Kanji tùy thích'}
-            </h3>
-            <p className="text-xs text-slate-500">
-              {isEditMode
-                ? 'Cập nhật lại Hán Việt, câu chuyện nhớ, hình ảnh và các từ ví dụ'
-                : 'Mở rộng từ điển cá nhân với ảnh và câu chuyện Look & Learn'}
-            </p>
+  // Reusable Image Dropzone Block
+  const renderImageDropzone = () => (
+    <div className="flex items-center gap-3.5 p-3 rounded-xl bg-slate-50 border border-slate-200/80">
+      <label className="relative w-20 h-20 rounded-xl bg-white border-2 border-dashed border-slate-300 hover:border-red-400 flex items-center justify-center overflow-hidden shrink-0 cursor-pointer transition-colors group">
+        {imagePreview ? (
+          <img src={imagePreview} alt="Preview" className="w-full h-full object-contain p-1" />
+        ) : (
+          <div className="flex flex-col items-center text-slate-400 group-hover:text-red-500 p-1 text-center">
+            <ImageIcon className="w-5 h-5 mb-0.5" />
+            <span className="text-[10px] leading-tight">Chọn ảnh</span>
           </div>
+        )}
+        <input type="file" accept="image/*" onChange={handleFileUpload} className="hidden" />
+      </label>
+
+      <div className="flex-1 min-w-0 space-y-1.5">
+        <div className="flex items-center justify-between gap-2">
+          <span className="text-xs font-semibold text-slate-700">
+            Ảnh minh họa Look & Learn
+          </span>
+          {imagePreview && (
+            <button
+              type="button"
+              onClick={() => {
+                setImagePreview('');
+                setImageUrl('');
+              }}
+              className="text-[11px] text-red-600 hover:underline"
+            >
+              Xóa ảnh
+            </button>
+          )}
+        </div>
+        <p className="text-[11px] text-slate-500">
+          Nhấn <b>Ctrl+V</b> để dán ảnh trực tiếp từ Clipboard, hoặc bấm vào ô bên trái để tải lên.
+        </p>
+        <div>
+          {!showUrlInput ? (
+            <button
+              type="button"
+              onClick={() => setShowUrlInput(true)}
+              className="inline-flex items-center gap-1 text-[11px] text-slate-400 hover:text-slate-600"
+            >
+              <LinkIcon className="w-3 h-3" />
+              <span>Hoặc dán link URL ảnh</span>
+            </button>
+          ) : (
+            <input
+              type="text"
+              value={imageUrl.startsWith('data:') ? '' : imageUrl}
+              onChange={(e) => {
+                setImageUrl(e.target.value);
+                setImagePreview(e.target.value);
+              }}
+              placeholder="https://..."
+              className="w-full px-2.5 py-1 text-xs bg-white border border-slate-200 rounded-lg outline-none focus:border-red-500"
+            />
+          )}
+        </div>
+      </div>
+    </div>
+  );
+
+  return (
+    <dialog
+      ref={dialogRef}
+      {...({ closedby: 'any' } as any)}
+      aria-labelledby={titleId}
+      onClose={onClose}
+      className="m-auto p-0 w-[calc(100%-1.5rem)] max-w-2xl bg-white rounded-3xl shadow-2xl border border-slate-200/90 overflow-hidden max-h-[90vh] backdrop:bg-slate-900/50 backdrop:backdrop-blur-sm outline-none"
+    >
+      <div className="flex flex-col max-h-[90vh]">
+        {/* Header */}
+        <div className="flex items-center justify-between px-5 py-3.5 border-b border-slate-100 bg-white">
+          <div className="flex items-center gap-3">
+            <h3 id={titleId} className="text-sm font-bold text-slate-800">
+              {isEditMode
+                ? `Chỉnh sửa chữ 「${initialKanji?.kanji}」`
+                : 'Thêm chữ Kanji mới'}
+            </h3>
+
+            {/* Mode Switcher Pill (Only when creating new) */}
+            {!isEditMode && (
+              <div className="flex items-center bg-slate-100 p-0.5 rounded-lg">
+                <button
+                  type="button"
+                  onClick={() => setActiveMode('quick_ai')}
+                  className={`flex items-center gap-1 px-2.5 py-1 text-xs rounded-md transition-all ${
+                    activeMode === 'quick_ai'
+                      ? 'bg-white text-slate-900 font-semibold shadow-sm'
+                      : 'text-slate-500 hover:text-slate-800'
+                  }`}
+                >
+                  <Sparkles className="w-3.5 h-3.5 text-amber-500" />
+                  <span>Dán từ AI</span>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setActiveMode('manual')}
+                  className={`flex items-center gap-1 px-2.5 py-1 text-xs rounded-md transition-all ${
+                    activeMode === 'manual'
+                      ? 'bg-white text-slate-900 font-semibold shadow-sm'
+                      : 'text-slate-500 hover:text-slate-800'
+                  }`}
+                >
+                  <FileText className="w-3.5 h-3.5 text-slate-400" />
+                  <span>Chi tiết {kanjiChar ? `(${kanjiChar})` : ''}</span>
+                </button>
+              </div>
+            )}
+          </div>
+
           <button
+            type="button"
             onClick={onClose}
-            className="p-2 text-slate-400 hover:text-slate-700 hover:bg-slate-100 rounded-xl transition-colors"
+            className="p-1.5 text-slate-400 hover:text-slate-700 hover:bg-slate-100 rounded-lg transition-colors"
+            title="Đóng (Esc)"
           >
             <X className="w-5 h-5" />
           </button>
         </div>
 
-        {/* Mode Switcher Tabs (Only if creating new) */}
-        {!isEditMode && (
-          <div className="flex border-b border-slate-200 bg-slate-100/60 px-6 pt-2 gap-2">
-            <button
-              type="button"
-              onClick={() => setActiveMode('quick_ai')}
-              className={`flex items-center gap-2 px-4 py-2 text-xs font-bold rounded-t-xl transition-all border-b-2 ${
-                activeMode === 'quick_ai'
-                  ? 'bg-white text-red-600 border-red-600 shadow-sm'
-                  : 'text-slate-500 hover:text-slate-800 border-transparent'
-              }`}
-            >
-              <Sparkles className="w-4 h-4 text-amber-500" />
-              <span>Dán nhanh từ AI (Khuyên dùng ⚡)</span>
-            </button>
-            <button
-              type="button"
-              onClick={() => setActiveMode('manual')}
-              className={`flex items-center gap-2 px-4 py-2 text-xs font-bold rounded-t-xl transition-all border-b-2 ${
-                activeMode === 'manual'
-                  ? 'bg-white text-slate-900 border-slate-900 shadow-sm'
-                  : 'text-slate-500 hover:text-slate-800 border-transparent'
-              }`}
-            >
-              <FileText className="w-4 h-4 text-slate-400" />
-              <span>Nhập thủ công</span>
-            </button>
-          </div>
-        )}
-
-        {/* Scrollable Form */}
-        <form onSubmit={handleSubmit} className="p-6 overflow-y-auto space-y-5">
-          {/* AI Quick Paste Section */}
-          {!isEditMode && activeMode === 'quick_ai' && (
-            <div className="p-4 bg-gradient-to-br from-amber-50/60 to-rose-50/40 rounded-2xl border border-amber-200/80 space-y-3">
-              <div className="flex items-center justify-between">
-                <div className="flex items-center gap-2">
-                  <Sparkles className="w-4 h-4 text-amber-600" />
-                  <span className="text-xs font-bold text-amber-950 uppercase tracking-wide">
-                    Quy trình Dán kết quả từ AI
-                  </span>
-                </div>
+        {/* Body */}
+        {!isEditMode && activeMode === 'quick_ai' ? (
+          /* STEP 1: Focused AI Quick Paste View (Hides manual form clutter) */
+          <div className="p-5 sm:p-6 overflow-y-auto space-y-4">
+            <div className="p-4 bg-amber-50/50 rounded-2xl border border-amber-200/70 space-y-3">
+              <div className="flex items-center justify-between gap-2">
+                <span className="text-xs font-bold text-slate-800">
+                  Dán nhanh từ ChatGPT / Claude / Gemini
+                </span>
                 <button
                   type="button"
                   onClick={handleCopyPrompt}
-                  className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold text-red-700 bg-white hover:bg-red-50 border border-red-200 rounded-lg shadow-sm transition-all active:scale-95"
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold text-red-700 bg-white hover:bg-red-50 border border-red-200 rounded-lg shadow-sm transition-all active:scale-95"
                 >
                   {copiedPrompt ? (
                     <>
@@ -500,138 +554,152 @@ export const AddKanjiModal: React.FC<AddKanjiModalProps> = ({
                   ) : (
                     <>
                       <Copy className="w-3.5 h-3.5" />
-                      <span>1. Copy Prompt gửi AI</span>
+                      <span>1. Copy Prompt mẫu</span>
                     </>
                   )}
                 </button>
               </div>
 
               <p className="text-xs text-slate-600 leading-relaxed">
-                <b>Bước 1:</b> Bấm nút copy ở trên $\rightarrow$ Dán vào <b>ChatGPT / Claude / Gemini</b> và gõ chữ Kanji bạn cần tạo ảnh & ví dụ.<br />
-                <b>Bước 2:</b> Copy toàn bộ câu trả lời của AI và dán vào ô bên dưới $\rightarrow$ Bấm <b>"⚡ Tự động điền"</b>.
+                Copy Prompt ở trên → Gửi cho AI kèm chữ Kanji muốn học → Dán kết quả AI trả về vào ô dưới đây:
               </p>
 
-              <div className="space-y-2">
-                <textarea
-                  rows={4}
-                  value={aiRawText}
-                  onChange={(e) => setAiRawText(e.target.value)}
-                  placeholder="2. Dán đoạn văn bản hoặc JSON mà AI vừa trả về vào đây..."
-                  className="w-full px-3 py-2 text-xs bg-white border border-amber-200 rounded-xl outline-none focus:border-red-500 font-mono"
-                />
-
-                <div className="flex items-center justify-between">
-                  <button
-                    type="button"
-                    onClick={handleApplyAiText}
-                    disabled={!aiRawText.trim()}
-                    className="flex items-center gap-1.5 px-4 py-2 text-xs font-bold text-white bg-red-600 hover:bg-red-700 rounded-xl shadow-sm transition-all disabled:opacity-50"
-                  >
-                    <ClipboardPaste className="w-4 h-4" />
-                    <span>⚡ Phân tích & Tự động điền Form</span>
-                  </button>
-
-                  {parseSuccessMsg && (
-                    <span className="text-xs font-semibold text-emerald-700 animate-in fade-in">
-                      {parseSuccessMsg}
-                    </span>
-                  )}
-                </div>
-              </div>
-            </div>
-          )}
-
-          {/* Kanji character input with Auto-lookup */}
-          <div>
-            <label className="text-xs font-bold text-slate-700">Chữ Kanji (*)</label>
-            <div className="flex items-center gap-2 mt-1">
-              <input
-                type="text"
-                required
-                maxLength={4}
-                value={kanjiChar}
-                onChange={(e) => setKanjiChar(e.target.value)}
-                placeholder="Ví dụ: 桜, 猫, 鬱..."
-                className="w-28 text-center text-2xl font-bold font-serif py-2 px-3 bg-slate-50 border border-slate-200 rounded-xl focus:border-red-500 outline-none"
+              <textarea
+                rows={6}
+                value={aiRawText}
+                onChange={(e) => setAiRawText(e.target.value)}
+                placeholder="2. Dán nội dung văn bản mà AI trả về vào đây..."
+                className="w-full px-3 py-2.5 text-xs bg-white border border-slate-200 rounded-xl outline-none focus:border-red-500 font-mono"
               />
+            </div>
+
+            {/* Image Paste Dropzone right in Quick AI view */}
+            {renderImageDropzone()}
+
+            <div className="flex items-center justify-end gap-2 pt-2">
               <button
                 type="button"
-                onClick={handleAutoLookup}
-                disabled={isLookingUp || !kanjiChar.trim()}
-                className="flex items-center gap-1.5 px-3.5 py-2.5 text-xs font-semibold text-slate-700 bg-slate-100 hover:bg-slate-200 border border-slate-200 rounded-xl transition-all"
+                onClick={() => setActiveMode('manual')}
+                className="px-3.5 py-2 text-xs font-medium text-slate-600 hover:bg-slate-100 rounded-xl"
               >
-                <Sparkles className="w-4 h-4 text-red-600" />
-                <span>{isLookingUp ? 'Đang tra...' : 'Tra cứu Hán Việt'}</span>
+                Tự nhập thủ công
               </button>
-              <span className="text-[11px] text-slate-400 italic">
-                (Tự động điền Hán Việt, On/Kun, số nét từ từ điển)
-              </span>
+              <button
+                type="button"
+                onClick={handleApplyAiText}
+                disabled={!aiRawText.trim()}
+                className="inline-flex items-center gap-1.5 px-4 py-2 text-xs font-bold text-white bg-red-600 hover:bg-red-700 rounded-xl shadow-sm transition-all disabled:opacity-40"
+              >
+                <ClipboardPaste className="w-4 h-4" />
+                <span>Tiếp tục: Phân tích & Kiểm tra →</span>
+              </button>
             </div>
           </div>
+        ) : (
+          /* STEP 2 / MANUAL: Clean Structured Form */
+          <form onSubmit={handleSubmit} className="p-5 sm:p-6 overflow-y-auto space-y-4">
+            {/* Row 1: Kanji + Han Viet + Meaning */}
+            <div className="grid grid-cols-1 sm:grid-cols-12 gap-3">
+              <div className="sm:col-span-4">
+                <label className="text-[11px] font-semibold text-slate-600">
+                  Chữ Kanji *
+                </label>
+                <div className="flex items-center gap-1.5 mt-1">
+                  <input
+                    type="text"
+                    required
+                    maxLength={4}
+                    value={kanjiChar}
+                    onChange={(e) => setKanjiChar(e.target.value)}
+                    placeholder="桜"
+                    className="w-16 text-center text-xl font-bold font-serif py-1.5 px-2 bg-slate-50 border border-slate-200 rounded-xl focus:border-red-500 focus:bg-white outline-none"
+                  />
+                  <button
+                    type="button"
+                    onClick={handleAutoLookup}
+                    disabled={isLookingUp || !kanjiChar.trim()}
+                    className="flex-1 flex items-center justify-center gap-1 py-2 px-2.5 text-xs font-medium text-slate-700 bg-slate-100 hover:bg-slate-200/80 rounded-xl transition-colors disabled:opacity-40"
+                    title="Tự động điền Hán Việt, On/Kun, số nét từ từ điển"
+                  >
+                    <Sparkles className="w-3.5 h-3.5 text-red-600 shrink-0" />
+                    <span className="truncate">{isLookingUp ? 'Đang tra...' : 'Tra tự động'}</span>
+                  </button>
+                </div>
+              </div>
 
-          {/* Details Row: Han Viet & Meaning */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div>
-              <label className="text-xs font-semibold text-slate-700">Âm Hán Việt</label>
-              <input
-                type="text"
-                value={hanViet}
-                onChange={(e) => setHanViet(e.target.value)}
-                placeholder="Ví dụ: ANH, MIÊU..."
-                className="w-full mt-1 px-3 py-2 text-sm bg-slate-50 border border-slate-200 rounded-xl outline-none focus:border-red-500 uppercase font-semibold"
-              />
-            </div>
-            <div>
-              <label className="text-xs font-semibold text-slate-700">Nghĩa tiếng Việt</label>
-              <input
-                type="text"
-                value={meaningVi}
-                onChange={(e) => setMeaningVi(e.target.value)}
-                placeholder="Ví dụ: Hoa anh đào, con mèo..."
-                className="w-full mt-1 px-3 py-2 text-sm bg-slate-50 border border-slate-200 rounded-xl outline-none focus:border-red-500"
-              />
-            </div>
-          </div>
+              <div className="sm:col-span-3">
+                <label className="text-[11px] font-semibold text-slate-600">
+                  Âm Hán Việt
+                </label>
+                <input
+                  type="text"
+                  value={hanViet}
+                  onChange={(e) => setHanViet(e.target.value)}
+                  placeholder="ANH"
+                  className="w-full mt-1 px-3 py-2 text-xs bg-slate-50 border border-slate-200 rounded-xl outline-none focus:border-red-500 focus:bg-white uppercase font-bold"
+                />
+              </div>
 
-          {/* On/Kun & Strokes */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-            <div>
-              <label className="text-xs font-semibold text-slate-700">Âm On (Katakana)</label>
-              <input
-                type="text"
-                value={onyomi}
-                onChange={(e) => setOnyomi(e.target.value)}
-                placeholder="Ví dụ: オウ, ビョウ"
-                className="w-full mt-1 px-3 py-2 text-xs bg-slate-50 border border-slate-200 rounded-xl outline-none focus:border-red-500"
-              />
+              <div className="sm:col-span-5">
+                <label className="text-[11px] font-semibold text-slate-600">
+                  Nghĩa tiếng Việt
+                </label>
+                <input
+                  type="text"
+                  value={meaningVi}
+                  onChange={(e) => setMeaningVi(e.target.value)}
+                  placeholder="Hoa anh đào..."
+                  className="w-full mt-1 px-3 py-2 text-xs bg-slate-50 border border-slate-200 rounded-xl outline-none focus:border-red-500 focus:bg-white"
+                />
+              </div>
             </div>
-            <div>
-              <label className="text-xs font-semibold text-slate-700">Âm Kun (Hiragana)</label>
-              <input
-                type="text"
-                value={kunyomi}
-                onChange={(e) => setKunyomi(e.target.value)}
-                placeholder="Ví dụ: さくら, ねこ"
-                className="w-full mt-1 px-3 py-2 text-xs bg-slate-50 border border-slate-200 rounded-xl outline-none focus:border-red-500"
-              />
-            </div>
-            <div className="grid grid-cols-2 gap-2">
-              <div>
-                <label className="text-xs font-semibold text-slate-700">Số nét</label>
+
+            {/* Row 2: On / Kun / Strokes / JLPT */}
+            <div className="grid grid-cols-2 sm:grid-cols-12 gap-3">
+              <div className="col-span-1 sm:col-span-4">
+                <label className="text-[11px] font-semibold text-slate-600">
+                  Âm On (Katakana)
+                </label>
+                <input
+                  type="text"
+                  value={onyomi}
+                  onChange={(e) => setOnyomi(e.target.value)}
+                  placeholder="オウ, ヨウ"
+                  className="w-full mt-1 px-3 py-1.5 text-xs bg-slate-50 border border-slate-200 rounded-xl outline-none focus:border-red-500 focus:bg-white"
+                />
+              </div>
+              <div className="col-span-1 sm:col-span-4">
+                <label className="text-[11px] font-semibold text-slate-600">
+                  Âm Kun (Hiragana)
+                </label>
+                <input
+                  type="text"
+                  value={kunyomi}
+                  onChange={(e) => setKunyomi(e.target.value)}
+                  placeholder="さくら"
+                  className="w-full mt-1 px-3 py-1.5 text-xs bg-slate-50 border border-slate-200 rounded-xl outline-none focus:border-red-500 focus:bg-white"
+                />
+              </div>
+              <div className="col-span-1 sm:col-span-2">
+                <label className="text-[11px] font-semibold text-slate-600">
+                  Số nét
+                </label>
                 <input
                   type="number"
                   min={1}
                   value={strokes || ''}
                   onChange={(e) => setStrokes(Number(e.target.value))}
-                  className="w-full mt-1 px-3 py-2 text-xs bg-slate-50 border border-slate-200 rounded-xl outline-none focus:border-red-500"
+                  className="w-full mt-1 px-2.5 py-1.5 text-xs bg-slate-50 border border-slate-200 rounded-xl outline-none focus:border-red-500 focus:bg-white"
                 />
               </div>
-              <div>
-                <label className="text-xs font-semibold text-slate-700">JLPT</label>
+              <div className="col-span-1 sm:col-span-2">
+                <label className="text-[11px] font-semibold text-slate-600">
+                  JLPT
+                </label>
                 <select
                   value={jlpt}
                   onChange={(e) => setJlpt(e.target.value)}
-                  className="w-full mt-1 px-2 py-2 text-xs bg-slate-50 border border-slate-200 rounded-xl outline-none focus:border-red-500"
+                  className="w-full mt-1 px-2 py-1.5 text-xs bg-slate-50 border border-slate-200 rounded-xl outline-none focus:border-red-500 focus:bg-white"
                 >
                   <option value="N5">N5</option>
                   <option value="N4">N4</option>
@@ -641,253 +709,174 @@ export const AddKanjiModal: React.FC<AddKanjiModalProps> = ({
                 </select>
               </div>
             </div>
-          </div>
 
-          {/* Mnemonic Story */}
-          <div>
-            <label className="text-xs font-semibold text-slate-700">
-              Câu chuyện / Mẹo liên tưởng để nhớ (Look & Learn)
-            </label>
-            <textarea
-              rows={2}
-              value={story}
-              onChange={(e) => setStory(e.target.value)}
-              placeholder="Ví dụ: Hình ảnh cái cây có người đứng ngắm hoa..."
-              className="w-full mt-1 px-3 py-2 text-sm bg-slate-50 border border-slate-200 rounded-xl outline-none focus:border-red-500"
-            />
-          </div>
+            {/* Row 3: Image Dropzone & Mnemonic Story */}
+            <div className="space-y-3">
+              {renderImageDropzone()}
 
-          {/* Mnemonic Image Upload & Paste */}
-          <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200 space-y-3">
-            <div className="flex items-center justify-between">
-              <label className="text-xs font-bold text-slate-700">Hình ảnh minh họa dễ nhớ (Look & Learn)</label>
-              <span className="text-[11px] font-bold text-red-600 bg-red-50 px-2 py-0.5 rounded border border-red-200">
-                ⚡ Mẹo: Nhấn Ctrl+V để dán ảnh trực tiếp từ AI / Clipboard!
-              </span>
-            </div>
-
-            <div className="flex flex-col sm:flex-row items-center gap-4">
-              {/* Preview Box */}
-              <div className="w-28 h-28 rounded-xl bg-white border-2 border-dashed border-slate-300 flex items-center justify-center overflow-hidden shrink-0">
-                {imagePreview ? (
-                  <img src={imagePreview} alt="Preview" className="w-full h-full object-contain p-1" />
-                ) : (
-                  <div className="flex flex-col items-center text-slate-400 p-2 text-center">
-                    <ImageIcon className="w-6 h-6 mb-1 text-slate-300" />
-                    <span className="text-[10px]">Chưa có ảnh</span>
-                  </div>
-                )}
-              </div>
-
-              {/* Upload Controls */}
-              <div className="flex-1 w-full space-y-2">
-                <div className="flex items-center gap-2">
-                  <label className="cursor-pointer inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium bg-white hover:bg-slate-100 text-slate-700 border border-slate-200 rounded-lg shadow-sm">
-                    <Upload className="w-3.5 h-3.5 text-slate-500" />
-                    <span>Chọn file từ máy</span>
-                    <input type="file" accept="image/*" onChange={handleFileUpload} className="hidden" />
-                  </label>
-                  <span className="text-[11px] text-slate-500 font-medium">hoặc sao chép ảnh rồi bấm <b>Ctrl+V</b></span>
-                  {imagePreview && (
-                    <button
-                      type="button"
-                      onClick={() => {
-                        setImagePreview('');
-                        setImageUrl('');
-                      }}
-                      className="text-xs text-red-600 hover:underline ml-auto"
-                    >
-                      Xóa ảnh
-                    </button>
-                  )}
-                </div>
-                <input
-                  type="text"
-                  value={imageUrl.startsWith('data:') ? '' : imageUrl}
-                  onChange={(e) => {
-                    setImageUrl(e.target.value);
-                    setImagePreview(e.target.value);
-                  }}
-                  placeholder="Hoặc dán đường link URL hình ảnh..."
-                  className="w-full px-3 py-1.5 text-xs bg-white border border-slate-200 rounded-lg outline-none focus:border-red-500"
+              <div>
+                <label className="text-[11px] font-semibold text-slate-600">
+                  Mẹo ghi nhớ / Câu chuyện liên tưởng
+                </label>
+                <textarea
+                  rows={2}
+                  value={story}
+                  onChange={(e) => setStory(e.target.value)}
+                  placeholder="Câu chuyện giúp nhớ hình dáng chữ..."
+                  className="w-full mt-1 px-3 py-2 text-xs bg-slate-50 border border-slate-200 rounded-xl outline-none focus:border-red-500 focus:bg-white"
                 />
               </div>
             </div>
-          </div>
 
-          {/* Examples list */}
-          <div className="space-y-3">
-            <div className="flex items-center justify-between">
-              <label className="text-xs font-bold text-slate-700">
-                Danh sách từ vựng ví dụ ({examples.length})
-              </label>
-              {!isEditMode && (
+            {/* Row 4: Examples */}
+            <div className="space-y-2">
+              <div className="flex items-center justify-between">
+                <label className="text-[11px] font-semibold text-slate-600">
+                  Từ vựng ví dụ ({examples.length})
+                </label>
                 <button
                   type="button"
                   onClick={() => setShowBulkEx(!showBulkEx)}
-                  className="text-xs font-semibold text-blue-600 hover:text-blue-700 underline"
+                  className="text-[11px] font-medium text-red-600 hover:underline"
                 >
-                  {showBulkEx ? 'Ẩn dán hàng loạt' : '+ Dán nhiều ví dụ dạng text (|)'}
-                </button>
-              )}
-            </div>
-
-            {/* Bulk Example Input Box */}
-            {showBulkEx && (
-              <div className="p-3 bg-blue-50/60 rounded-xl border border-blue-200 space-y-2 animate-in fade-in">
-                <p className="text-[11px] text-blue-900">
-                  Dán mỗi dòng một từ theo định dạng: <b>Kanji | Hiragana | Hán Việt | Nghĩa</b>
-                </p>
-                <textarea
-                  rows={3}
-                  value={bulkExamplesText}
-                  onChange={(e) => setBulkExamplesText(e.target.value)}
-                  placeholder={`1. 桜 | さくら | ANH | hoa anh đào\n2. 桜花 | おうか | ANH HOA | hoa anh đào`}
-                  className="w-full px-2.5 py-1.5 text-xs bg-white border border-blue-200 rounded-lg font-mono outline-none"
-                />
-                <button
-                  type="button"
-                  onClick={handleApplyBulkExamples}
-                  className="px-3 py-1 text-xs font-bold text-white bg-blue-600 hover:bg-blue-700 rounded-lg"
-                >
-                  Thêm danh sách này
+                  {showBulkEx ? 'Ẩn dán hàng loạt' : '+ Dán nhiều dòng (|)'}
                 </button>
               </div>
-            )}
 
-            {/* Existing added examples */}
-            {examples.length > 0 && (
-              <div className="divide-y divide-slate-100 border border-slate-200 rounded-xl overflow-hidden bg-slate-50">
-                {examples.map((ex, i) => (
-                  <div
-                    key={i}
-                    className={`flex items-center justify-between p-2.5 text-xs ${
-                      editingExIdx === i ? 'bg-amber-50 border-l-4 border-amber-500' : ''
-                    }`}
-                  >
-                    <div>
-                      <span className="font-bold text-slate-800">{ex.word}</span>
-                      {ex.reading && <span className="text-slate-500 ml-1">({ex.reading})</span>}
-                      {ex.han_viet && <span className="text-red-700 font-bold ml-1">[{ex.han_viet}]</span>}:{' '}
-                      <span className="text-slate-700">{ex.meaning}</span>
-                    </div>
-                    <div className="flex items-center gap-1">
-                      <button
-                        type="button"
-                        onClick={() => handleStartEditExample(i)}
-                        className="p-1 text-slate-400 hover:text-blue-600 rounded"
-                        title="Sửa từ ví dụ này"
-                      >
-                        <Edit2 className="w-3.5 h-3.5" />
-                      </button>
-                      <button
-                        type="button"
-                        onClick={() => handleRemoveExample(i)}
-                        className="p-1 text-slate-400 hover:text-red-600 rounded"
-                        title="Xóa ví dụ này"
-                      >
-                        <Trash2 className="w-3.5 h-3.5" />
-                      </button>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            )}
-
-            {/* Add or edit single example sub-form */}
-            <div className="p-3 bg-slate-50 rounded-xl border border-slate-200 space-y-2">
-              <div className="flex items-center justify-between">
-                <span className="text-[11px] font-bold text-slate-700">
-                  {editingExIdx !== null ? `Đang chỉnh sửa từ ví dụ #${editingExIdx + 1}` : 'Thêm từ ví dụ:'}
-                </span>
-                {editingExIdx !== null && (
+              {showBulkEx && (
+                <div className="p-3 bg-slate-50 rounded-xl border border-slate-200 space-y-2">
+                  <textarea
+                    rows={3}
+                    value={bulkExamplesText}
+                    onChange={(e) => setBulkExamplesText(e.target.value)}
+                    placeholder={`桜 | さくら | ANH | hoa anh đào\n桜花 | おうか | ANH HOA | hoa anh đào`}
+                    className="w-full px-2.5 py-1.5 text-xs bg-white border border-slate-200 rounded-lg font-mono outline-none"
+                  />
                   <button
                     type="button"
-                    onClick={handleCancelEditExample}
-                    className="text-[11px] text-slate-500 hover:underline"
+                    onClick={handleApplyBulkExamples}
+                    className="px-3 py-1 text-xs font-semibold text-white bg-slate-800 hover:bg-slate-900 rounded-lg"
                   >
-                    Hủy sửa
+                    Thêm vào danh sách
                   </button>
-                )}
-              </div>
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+                </div>
+              )}
+
+              {examples.length > 0 && (
+                <div className="divide-y divide-slate-100 border border-slate-200 rounded-xl overflow-hidden bg-white max-h-36 overflow-y-auto">
+                  {examples.map((ex, i) => (
+                    <div
+                      key={i}
+                      className={`flex items-center justify-between px-3 py-2 text-xs ${
+                        editingExIdx === i ? 'bg-amber-50' : ''
+                      }`}
+                    >
+                      <div className="truncate pr-2">
+                        <span className="font-bold text-slate-800">{ex.word}</span>
+                        {ex.reading && (
+                          <span className="text-slate-500 ml-1">({ex.reading})</span>
+                        )}
+                        {ex.han_viet && (
+                          <span className="text-red-700 font-semibold ml-1">
+                            [{ex.han_viet}]
+                          </span>
+                        )}
+                        <span className="text-slate-600 ml-1.5">— {ex.meaning}</span>
+                      </div>
+                      <div className="flex items-center gap-1 shrink-0">
+                        <button
+                          type="button"
+                          onClick={() => handleStartEditExample(i)}
+                          className="p-1 text-slate-400 hover:text-slate-700 rounded"
+                          title="Sửa"
+                        >
+                          <Edit2 className="w-3.5 h-3.5" />
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => handleRemoveExample(i)}
+                          className="p-1 text-slate-400 hover:text-red-600 rounded"
+                          title="Xóa"
+                        >
+                          <Trash2 className="w-3.5 h-3.5" />
+                        </button>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+
+              {/* Compact 1-row Example Input */}
+              <div className="flex flex-wrap sm:flex-nowrap items-center gap-1.5 pt-1">
                 <input
                   type="text"
                   placeholder="Từ Kanji"
                   value={exWord}
                   onChange={(e) => setExWord(e.target.value)}
-                  className="px-2.5 py-1.5 text-xs bg-white border border-slate-200 rounded-lg outline-none focus:border-red-500"
+                  className="w-[calc(50%-0.2rem)] sm:w-28 px-2.5 py-1.5 text-xs bg-slate-50 border border-slate-200 rounded-lg outline-none focus:border-red-500 focus:bg-white"
                 />
                 <input
                   type="text"
                   placeholder="Hiragana"
                   value={exReading}
                   onChange={(e) => setExReading(e.target.value)}
-                  className="px-2.5 py-1.5 text-xs bg-white border border-slate-200 rounded-lg outline-none focus:border-red-500"
+                  className="w-[calc(50%-0.2rem)] sm:w-28 px-2.5 py-1.5 text-xs bg-slate-50 border border-slate-200 rounded-lg outline-none focus:border-red-500 focus:bg-white"
                 />
                 <input
                   type="text"
-                  placeholder="Hán Việt"
+                  placeholder="HÁN VIỆT"
                   value={exHanViet}
                   onChange={(e) => setExHanViet(e.target.value)}
-                  className="px-2.5 py-1.5 text-xs bg-white border border-slate-200 rounded-lg uppercase outline-none focus:border-red-500"
+                  className="w-[calc(45%-0.2rem)] sm:w-28 px-2.5 py-1.5 text-xs bg-slate-50 border border-slate-200 rounded-lg uppercase outline-none focus:border-red-500 focus:bg-white"
                 />
                 <input
                   type="text"
                   placeholder="Nghĩa tiếng Việt"
                   value={exMeaning}
                   onChange={(e) => setExMeaning(e.target.value)}
-                  className="px-2.5 py-1.5 text-xs bg-white border border-slate-200 rounded-lg outline-none focus:border-red-500"
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter') {
+                      e.preventDefault();
+                      handleSaveExample();
+                    }
+                  }}
+                  className="flex-1 min-w-[120px] px-2.5 py-1.5 text-xs bg-slate-50 border border-slate-200 rounded-lg outline-none focus:border-red-500 focus:bg-white"
                 />
+                <button
+                  type="button"
+                  onClick={handleSaveExample}
+                  disabled={!exWord.trim() || !exMeaning.trim()}
+                  className="px-3 py-1.5 text-xs font-semibold text-slate-700 bg-slate-100 hover:bg-slate-200 rounded-lg transition-colors disabled:opacity-40 shrink-0"
+                >
+                  {editingExIdx !== null ? 'Cập nhật' : '+ Thêm'}
+                </button>
               </div>
+            </div>
+
+            {/* Form Actions */}
+            <div className="flex items-center justify-end gap-2.5 pt-3 border-t border-slate-100">
               <button
                 type="button"
-                onClick={handleSaveExample}
-                disabled={!exWord.trim() || !exMeaning.trim()}
-                className={`inline-flex items-center gap-1 px-3.5 py-1.5 text-xs font-bold rounded-lg shadow-sm transition-all disabled:opacity-50 ${
-                  editingExIdx !== null
-                    ? 'text-white bg-blue-600 hover:bg-blue-700'
-                    : 'text-slate-800 bg-white hover:bg-slate-100 border border-slate-200'
-                }`}
+                onClick={onClose}
+                className="px-4 py-2 text-xs font-medium text-slate-600 hover:bg-slate-100 rounded-xl"
               >
-                {editingExIdx !== null ? (
-                  <>
-                    <Save className="w-3.5 h-3.5" />
-                    <span>Cập nhật từ ví dụ này</span>
-                  </>
-                ) : (
-                  <>
-                    <Plus className="w-3.5 h-3.5" />
-                    <span>Thêm từ này vào danh sách</span>
-                  </>
-                )}
+                Hủy
+              </button>
+              <button
+                type="submit"
+                disabled={isSubmitting || !kanjiChar.trim()}
+                className="px-5 py-2 text-xs font-bold text-white bg-red-600 hover:bg-red-700 rounded-xl shadow-sm disabled:opacity-40"
+              >
+                {isSubmitting
+                  ? 'Đang lưu...'
+                  : isEditMode
+                  ? 'Lưu thay đổi'
+                  : 'Lưu vào từ điển'}
               </button>
             </div>
-          </div>
-
-          {/* Form Actions */}
-          <div className="flex items-center justify-end gap-3 pt-3 border-t border-slate-100">
-            <button
-              type="button"
-              onClick={onClose}
-              className="px-4 py-2 text-xs font-medium text-slate-600 hover:bg-slate-100 rounded-xl"
-            >
-              Hủy
-            </button>
-            <button
-              type="submit"
-              disabled={isSubmitting || !kanjiChar.trim()}
-              className="px-5 py-2 text-xs font-bold text-white bg-red-600 hover:bg-red-700 rounded-xl shadow-md shadow-red-600/20 disabled:opacity-50"
-            >
-              {isSubmitting
-                ? 'Đang lưu...'
-                : isEditMode
-                ? 'Lưu thay đổi'
-                : 'Lưu chữ Kanji vào từ điển'}
-            </button>
-          </div>
-        </form>
+          </form>
+        )}
       </div>
-    </div>
+    </dialog>
   );
 };

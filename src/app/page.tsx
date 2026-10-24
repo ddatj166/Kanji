@@ -9,7 +9,7 @@ import { KanjiModal } from '@/components/KanjiModal';
 import { AddKanjiModal } from '@/components/AddKanjiModal';
 import { FlashcardModal } from '@/components/FlashcardModal';
 import { KanjiEntry, BookFilter } from '@/types/kanji';
-import { Loader2, SearchX, Undo2, X, Check } from 'lucide-react';
+import { Loader2, SearchX, Undo2, X } from 'lucide-react';
 
 function removeVietnameseTones(str: string): string {
   return str
@@ -38,7 +38,7 @@ export default function HomePage() {
   const [selectedLesson, setSelectedLesson] = useState<number | 'all'>('all');
   const [selectedJlpt, setSelectedJlpt] = useState<string | 'all'>('all');
   const [viewMode, setViewMode] = useState<'grid' | 'compact'>('grid');
-  const [displayCount, setDisplayCount] = useState(48);
+  const [displayCount, setDisplayCount] = useState(50);
 
   // Modals
   const [activeKanji, setActiveKanji] = useState<KanjiEntry | null>(null);
@@ -102,7 +102,7 @@ export default function HomePage() {
     setAllKanji((prev) => prev.map((k) => (k.id === updated.id ? updated : k)));
     setActiveKanji(updated);
     setToastMessage({
-      text: `Đã cập nhật chữ 「${updated.kanji}」 thành công!`,
+      text: `Đã cập nhật chữ 「${updated.kanji}」`,
     });
     setTimeout(() => setToastMessage(null), 3000);
   };
@@ -119,7 +119,7 @@ export default function HomePage() {
     setAllKanji((prev) => [newKanji, ...prev]);
     setActiveKanji(newKanji);
     setToastMessage({
-      text: `Đã thêm chữ 「${newKanji.kanji}」 vào từ điển!`,
+      text: `Đã thêm chữ 「${newKanji.kanji}」 vào từ điển`,
     });
     setTimeout(() => setToastMessage(null), 3000);
   };
@@ -128,20 +128,17 @@ export default function HomePage() {
   const handleDeleteKanji = async (target: KanjiEntry, e?: React.MouseEvent) => {
     if (e) e.stopPropagation();
 
-    // Remove from UI immediately
     setAllKanji((prev) => prev.filter((k) => k.id !== target.id));
     if (activeKanji?.id === target.id) {
       setActiveKanji(null);
     }
 
-    // Add to undo stack
     setRecentlyDeleted((prev) => [target, ...prev]);
     setToastMessage({
-      text: `Đã xóa chữ 「${target.kanji}」 (${target.han_viet || ''})`,
+      text: `Đã xóa chữ 「${target.kanji}」`,
       item: target,
     });
 
-    // Call API to remove from data/custom_kanji.json
     try {
       await fetch('/api/kanji', {
         method: 'POST',
@@ -161,14 +158,12 @@ export default function HomePage() {
     const remaining = recentlyDeleted.slice(1);
     setRecentlyDeleted(remaining);
 
-    // Add back to UI
     setAllKanji((prev) => [itemToRestore, ...prev]);
     setToastMessage({
-      text: `Đã khôi phục chữ 「${itemToRestore.kanji}」 thành công!`,
+      text: `Đã khôi phục chữ 「${itemToRestore.kanji}」`,
     });
     setTimeout(() => setToastMessage(null), 3000);
 
-    // Call API to restore in data/custom_kanji.json
     try {
       await fetch('/api/kanji', {
         method: 'POST',
@@ -184,7 +179,19 @@ export default function HomePage() {
   const handleTabChange = (tab: BookFilter) => {
     setActiveTab(tab);
     setSelectedLesson('all');
-    setDisplayCount(48);
+    setDisplayCount(50);
+  };
+
+  const handleResetFilters = () => {
+    setSearchQuery('');
+    setSelectedLesson('all');
+    setSelectedJlpt('all');
+    setDisplayCount(50);
+  };
+
+  const handleResetAll = () => {
+    setActiveTab('all');
+    handleResetFilters();
   };
 
   // Available lessons based on active tab
@@ -194,8 +201,7 @@ export default function HomePage() {
     else if (activeTab === 'book2') target = allKanji.filter((k) => k.book === 2);
     else if (activeTab === 'custom') target = allKanji.filter((k) => k.book === 3);
 
-    const lessons = Array.from(new Set(target.map((k) => k.lesson))).sort((a, b) => a - b);
-    return lessons;
+    return Array.from(new Set(target.map((k) => k.lesson))).sort((a, b) => a - b);
   }, [allKanji, activeTab]);
 
   // Counts
@@ -231,13 +237,11 @@ export default function HomePage() {
   const filteredKanji = useMemo(() => {
     let result = allKanji;
 
-    // 1. Search Query
     const query = searchQuery.trim();
     if (query) {
       const qNormalized = removeVietnameseTones(query);
       const isNum = !isNaN(Number(query.replace('#', '')));
 
-      // Direct exact match filter first
       const directMatches = allKanji.filter((k) => {
         if (isNum && k.number === Number(query.replace('#', ''))) return true;
         if (k.kanji === query) return true;
@@ -256,7 +260,6 @@ export default function HomePage() {
       }
     }
 
-    // 2. Book Tab Filter
     if (activeTab === 'book1') {
       result = result.filter((k) => k.book === 1);
     } else if (activeTab === 'book2') {
@@ -267,12 +270,10 @@ export default function HomePage() {
       result = result.filter((k) => bookmarkedIds.has(k.id));
     }
 
-    // 3. Lesson Filter
     if (selectedLesson !== 'all') {
       result = result.filter((k) => k.lesson === selectedLesson);
     }
 
-    // 4. JLPT Filter
     if (selectedJlpt !== 'all') {
       result = result.filter((k) => k.jlpt === selectedJlpt);
     }
@@ -280,111 +281,116 @@ export default function HomePage() {
     return result;
   }, [allKanji, searchQuery, activeTab, selectedLesson, selectedJlpt, bookmarkedIds, fuse]);
 
-  // Display items
   const displayedItems = useMemo(() => {
     return filteredKanji.slice(0, displayCount);
   }, [filteredKanji, displayCount]);
 
+  // Active Kanji Index for Prev/Next navigation inside KanjiModal
+  const activeKanjiIndex = useMemo(() => {
+    if (!activeKanji) return -1;
+    return filteredKanji.findIndex((k) => k.id === activeKanji.id);
+  }, [activeKanji, filteredKanji]);
+
+  const hasActiveFilters =
+    searchQuery.trim() !== '' || selectedLesson !== 'all' || selectedJlpt !== 'all';
+
   return (
-    <div className="min-h-screen flex flex-col bg-slate-50 text-slate-800">
-      {/* Header */}
+    <div className="min-h-screen flex flex-col bg-slate-50/70 text-slate-800">
+      {/* Unified Header with Centered Search */}
       <Navbar
-        activeTab={activeTab}
-        onTabChange={handleTabChange}
+        searchQuery={searchQuery}
+        onSearchChange={(q) => {
+          setSearchQuery(q);
+          setDisplayCount(50);
+        }}
+        onResetAll={handleResetAll}
         onOpenAddModal={() => {
           setEditingKanji(null);
           setIsAddModalOpen(true);
         }}
         onOpenFlashcards={() => setIsFlashcardOpen(true)}
-        counts={counts}
+        filteredCount={filteredKanji.length}
       />
 
-      {/* Filter & Search Bar */}
+      {/* Single-Row Segmented Toolbar */}
       <FilterBar
-        searchQuery={searchQuery}
-        onSearchChange={(q) => {
-          setSearchQuery(q);
-          setDisplayCount(48);
-        }}
         activeTab={activeTab}
         onTabChange={handleTabChange}
         selectedLesson={selectedLesson}
         onLessonChange={(l) => {
           setSelectedLesson(l);
-          setDisplayCount(48);
+          setDisplayCount(50);
         }}
         selectedJlpt={selectedJlpt}
         onJlptChange={(j) => {
           setSelectedJlpt(j);
-          setDisplayCount(48);
+          setDisplayCount(50);
         }}
         viewMode={viewMode}
         onViewModeChange={setViewMode}
         counts={counts}
         availableLessons={availableLessons}
+        hasActiveFilters={hasActiveFilters}
+        onResetFilters={handleResetFilters}
       />
 
       {/* Main Content Area */}
-      <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6">
+      <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-5">
         {isLoading ? (
           <div className="flex flex-col items-center justify-center py-24 space-y-3">
-            <Loader2 className="w-8 h-8 text-red-600 animate-spin" />
-            <p className="text-sm text-slate-500 font-medium">Đang nạp từ điển Kanji...</p>
+            <Loader2 className="w-7 h-7 text-red-600 animate-spin" />
+            <p className="text-xs text-slate-400 font-medium">Đang tải dữ liệu Kanji...</p>
           </div>
         ) : filteredKanji.length === 0 ? (
           <div className="flex flex-col items-center justify-center py-20 text-center space-y-3">
-            <div className="w-14 h-14 rounded-2xl bg-slate-100 flex items-center justify-center text-slate-400">
-              <SearchX className="w-7 h-7" />
+            <div className="w-12 h-12 rounded-2xl bg-slate-100 flex items-center justify-center text-slate-400">
+              <SearchX className="w-6 h-6" />
             </div>
-            <h3 className="text-base font-bold text-slate-700">Không tìm thấy chữ Kanji nào</h3>
-            <p className="text-xs text-slate-400 max-w-sm">
-              Thử tìm kiếm với từ khóa khác, hoặc bấm nút "+ Thêm từ" ở góc phải để bổ sung chữ mới vào từ điển!
+            <h3 className="text-sm font-bold text-slate-700">Không tìm thấy chữ Kanji phù hợp</h3>
+            <p className="text-xs text-slate-400 max-w-xs">
+              Thử đổi từ khóa tìm kiếm, đặt lại bộ lọc, hoặc bấm nút <b>+ Thêm từ</b> để bổ sung chữ mới.
             </p>
+            {hasActiveFilters && (
+              <button
+                type="button"
+                onClick={handleResetFilters}
+                className="px-3.5 py-1.5 text-xs font-semibold text-red-600 bg-red-50 hover:bg-red-100 rounded-xl transition-colors"
+              >
+                Xóa bộ lọc tìm kiếm
+              </button>
+            )}
           </div>
         ) : (
-          <div className="space-y-6">
-            {/* Results count text */}
-            <div className="flex items-center justify-between text-xs text-slate-500">
-              <span>
-                Hiển thị <b>{Math.min(displayCount, filteredKanji.length)}</b> trong số <b>{filteredKanji.length}</b> kết quả
-              </span>
-              {recentlyDeleted.length > 0 && (
-                <button
-                  onClick={handleUndoDelete}
-                  className="inline-flex items-center gap-1 text-red-600 hover:text-red-700 font-semibold"
-                >
-                  <Undo2 className="w-3.5 h-3.5" />
-                  <span>Hoàn tác chữ vừa xóa ({recentlyDeleted.length})</span>
-                </button>
-              )}
-            </div>
+          <div className="space-y-4">
+            {/* Show subtle filter count ONLY when actively searching or filtering */}
+            {hasActiveFilters && (
+              <div className="text-xs text-slate-500">
+                Tìm thấy <b>{filteredKanji.length}</b> chữ Kanji phù hợp
+              </div>
+            )}
 
             {/* Grid or Compact List */}
             {viewMode === 'grid' ? (
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3.5 sm:gap-4">
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-3.5 sm:gap-4">
                 {displayedItems.map((kanji) => (
                   <KanjiCard
                     key={kanji.id}
                     kanji={kanji}
                     isBookmarked={bookmarkedIds.has(kanji.id)}
                     onToggleBookmark={handleToggleBookmark}
-                    onDeleteKanji={handleDeleteKanji}
-                    onEditKanji={handleOpenEditModal}
                     onClick={() => setActiveKanji(kanji)}
                     viewMode="grid"
                   />
                 ))}
               </div>
             ) : (
-              <div className="space-y-2">
+              <div className="space-y-1.5">
                 {displayedItems.map((kanji) => (
                   <KanjiCard
                     key={kanji.id}
                     kanji={kanji}
                     isBookmarked={bookmarkedIds.has(kanji.id)}
                     onToggleBookmark={handleToggleBookmark}
-                    onDeleteKanji={handleDeleteKanji}
-                    onEditKanji={handleOpenEditModal}
                     onClick={() => setActiveKanji(kanji)}
                     viewMode="compact"
                   />
@@ -394,12 +400,13 @@ export default function HomePage() {
 
             {/* Load More Button */}
             {displayCount < filteredKanji.length && (
-              <div className="flex justify-center pt-6 pb-12">
+              <div className="flex justify-center pt-5 pb-10">
                 <button
-                  onClick={() => setDisplayCount((prev) => prev + 48)}
-                  className="px-6 py-2.5 text-xs font-bold text-slate-700 bg-white hover:bg-slate-100 border border-slate-200 rounded-xl shadow-sm transition-all"
+                  type="button"
+                  onClick={() => setDisplayCount((prev) => prev + 50)}
+                  className="px-5 py-2 text-xs font-semibold text-slate-600 bg-white hover:bg-slate-100 border border-slate-200/90 rounded-xl shadow-sm transition-all"
                 >
-                  Xem thêm ({filteredKanji.length - displayCount} chữ còn lại)
+                  Xem thêm ({filteredKanji.length - displayCount} chữ)
                 </button>
               </div>
             )}
@@ -409,20 +416,22 @@ export default function HomePage() {
 
       {/* Floating Toast Notification with Undo Button */}
       {toastMessage && (
-        <div className="fixed bottom-6 right-6 z-50 flex items-center gap-3 px-4 py-3 bg-slate-900 text-white rounded-2xl shadow-2xl border border-slate-700 animate-in slide-in-from-bottom duration-200">
+        <div className="fixed bottom-5 right-5 z-50 flex items-center gap-3 px-4 py-2.5 bg-slate-900 text-white rounded-2xl shadow-xl border border-slate-700/80">
           <span className="text-xs font-medium">{toastMessage.text}</span>
           {toastMessage.item && (
             <button
+              type="button"
               onClick={handleUndoDelete}
-              className="flex items-center gap-1 px-3 py-1 text-xs font-bold text-slate-900 bg-amber-400 hover:bg-amber-300 rounded-lg transition-all shadow-sm active:scale-95"
+              className="flex items-center gap-1 px-2.5 py-1 text-xs font-bold text-slate-900 bg-amber-400 hover:bg-amber-300 rounded-lg transition-all"
             >
               <Undo2 className="w-3.5 h-3.5" />
               <span>Hoàn tác</span>
             </button>
           )}
           <button
+            type="button"
             onClick={() => setToastMessage(null)}
-            className="p-1 text-slate-400 hover:text-white rounded-lg"
+            className="p-0.5 text-slate-400 hover:text-white rounded-lg"
           >
             <X className="w-4 h-4" />
           </button>
@@ -438,6 +447,18 @@ export default function HomePage() {
         onUpdateKanji={handleUpdateKanji}
         onDeleteKanji={handleDeleteKanji}
         onEditKanji={handleOpenEditModal}
+        hasPrev={activeKanjiIndex > 0}
+        hasNext={activeKanjiIndex >= 0 && activeKanjiIndex < filteredKanji.length - 1}
+        onPrev={() => {
+          if (activeKanjiIndex > 0) {
+            setActiveKanji(filteredKanji[activeKanjiIndex - 1]);
+          }
+        }}
+        onNext={() => {
+          if (activeKanjiIndex >= 0 && activeKanjiIndex < filteredKanji.length - 1) {
+            setActiveKanji(filteredKanji[activeKanjiIndex + 1]);
+          }
+        }}
       />
 
       {/* Add / Edit Custom Kanji Modal */}

@@ -1,89 +1,125 @@
 'use client';
 
-import React from 'react';
-import { BookOpen, Layers, PlusCircle, Star, Sparkles } from 'lucide-react';
+import React, { useEffect, useRef } from 'react';
+import { Plus, Sparkles, Search, X } from 'lucide-react';
 import { BookFilter } from '@/types/kanji';
 
 interface NavbarProps {
-  activeTab: BookFilter;
-  onTabChange: (tab: BookFilter) => void;
+  searchQuery: string;
+  onSearchChange: (q: string) => void;
+  onResetAll: () => void;
   onOpenAddModal: () => void;
   onOpenFlashcards: () => void;
-  counts: {
-    total: number;
-    book1: number;
-    book2: number;
-    custom: number;
-    bookmarked: number;
-  };
+  filteredCount: number;
 }
 
 export const Navbar: React.FC<NavbarProps> = ({
-  activeTab,
-  onTabChange,
+  searchQuery,
+  onSearchChange,
+  onResetAll,
   onOpenAddModal,
   onOpenFlashcards,
-  counts,
+  filteredCount,
 }) => {
+  const searchInputRef = useRef<HTMLInputElement>(null);
+
+  // Press '/' or Ctrl+K / Cmd+K to focus search bar
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+        e.preventDefault();
+        searchInputRef.current?.focus();
+        return;
+      }
+      if (
+        e.key === '/' &&
+        document.activeElement?.tagName !== 'INPUT' &&
+        document.activeElement?.tagName !== 'TEXTAREA' &&
+        document.activeElement?.tagName !== 'SELECT'
+      ) {
+        e.preventDefault();
+        searchInputRef.current?.focus();
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, []);
+
   return (
-    <header className="sticky top-0 z-30 bg-white/95 backdrop-blur border-b border-slate-200 shadow-sm">
+    <header className="sticky top-0 z-30 bg-white/95 backdrop-blur-md border-b border-slate-200/80">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          {/* Logo & App Title */}
-          <div className="flex items-center gap-3 cursor-pointer" onClick={() => onTabChange('all')}>
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-red-600 to-rose-500 flex items-center justify-center text-white shadow-md shadow-red-500/20">
-              <span className="text-xl font-bold font-serif">漢</span>
+        <div className="flex items-center justify-between gap-3 h-16">
+          {/* Brand Logo */}
+          <button
+            type="button"
+            onClick={onResetAll}
+            className="flex items-center gap-2.5 text-left group shrink-0 focus:outline-none"
+          >
+            <div className="w-9 h-9 rounded-xl bg-red-600 group-hover:bg-red-700 flex items-center justify-center text-white shadow-sm transition-colors">
+              <span className="text-lg font-bold font-serif leading-none">漢</span>
             </div>
-            <div>
-              <div className="flex items-center gap-2">
-                <h1 className="text-lg font-bold text-slate-800 tracking-tight">Kanji Look & Learn</h1>
-                <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-red-100 text-red-700">
-                  {counts.total} chữ
-                </span>
-              </div>
-              <p className="text-xs text-slate-500 hidden sm:block">Từ điển & Ghi nhớ chữ Hán qua hình ảnh</p>
+            <div className="hidden sm:block">
+              <h1 className="text-base font-bold text-slate-900 tracking-tight leading-tight">
+                Kanji Look & Learn
+              </h1>
             </div>
+          </button>
+
+          {/* Centered Search Bar */}
+          <div className="relative flex-1 max-w-xl">
+            <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400 pointer-events-none" />
+            <input
+              ref={searchInputRef}
+              type="text"
+              value={searchQuery}
+              onChange={(e) => onSearchChange(e.target.value)}
+              onKeyDown={(e) => {
+                if (e.key === 'Escape') {
+                  if (searchQuery) onSearchChange('');
+                  else searchInputRef.current?.blur();
+                }
+              }}
+              placeholder="Tìm Kanji, Hán Việt, nghĩa, âm đọc..."
+              className="w-full pl-9 pr-14 py-2 bg-slate-100/80 hover:bg-slate-100 focus:bg-white text-slate-800 placeholder-slate-400 text-sm rounded-xl border border-transparent focus:border-red-500 focus:ring-2 focus:ring-red-500/15 outline-none transition-all"
+            />
+            {searchQuery ? (
+              <button
+                type="button"
+                onClick={() => {
+                  onSearchChange('');
+                  searchInputRef.current?.focus();
+                }}
+                className="absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-600 p-1 rounded-md"
+                title="Xóa tìm kiếm"
+              >
+                <X className="w-3.5 h-3.5" />
+              </button>
+            ) : (
+              <kbd className="hidden md:inline-flex items-center px-1.5 py-0.5 text-[10px] font-mono font-medium text-slate-400 bg-white border border-slate-200 rounded-md absolute right-2.5 top-1/2 -translate-y-1/2 pointer-events-none">
+                /
+              </kbd>
+            )}
           </div>
 
-          {/* Action Buttons */}
-          <div className="flex items-center gap-2 sm:gap-3">
-            {/* Flashcard Button */}
+          {/* Primary Actions */}
+          <div className="flex items-center gap-2 shrink-0">
             <button
+              type="button"
               onClick={onOpenFlashcards}
-              className="flex items-center gap-1.5 px-3 py-2 text-sm font-medium rounded-lg text-amber-700 bg-amber-50 hover:bg-amber-100 border border-amber-200/80 transition-all shadow-sm"
-              title="Luyện tập Flashcard"
+              disabled={filteredCount === 0}
+              className="flex items-center gap-1.5 px-3 py-2 text-xs sm:text-sm font-medium rounded-xl text-slate-700 bg-white hover:bg-slate-50 border border-slate-200/90 transition-all disabled:opacity-40"
+              title="Ôn tập Flashcard với danh sách đang hiển thị"
             >
-              <Sparkles className="w-4 h-4 text-amber-600" />
+              <Sparkles className="w-4 h-4 text-amber-500" />
               <span className="hidden sm:inline">Flashcard</span>
             </button>
 
-            {/* Bookmark Filter Button */}
             <button
-              onClick={() => onTabChange(activeTab === 'bookmarked' ? 'all' : 'bookmarked')}
-              className={`flex items-center gap-1.5 px-3 py-2 text-sm font-medium rounded-lg transition-all border ${
-                activeTab === 'bookmarked'
-                  ? 'bg-amber-500 text-white border-amber-600 shadow-sm'
-                  : 'text-slate-600 bg-white hover:bg-slate-50 border-slate-200'
-              }`}
-              title="Xem các từ đã lưu"
-            >
-              <Star className={`w-4 h-4 ${activeTab === 'bookmarked' ? 'fill-white text-white' : 'text-amber-500'}`} />
-              <span className="hidden sm:inline">Đã lưu</span>
-              {counts.bookmarked > 0 && (
-                <span className={`text-xs px-1.5 py-0.2 rounded-full ${
-                  activeTab === 'bookmarked' ? 'bg-amber-600 text-white' : 'bg-slate-100 text-slate-700'
-                }`}>
-                  {counts.bookmarked}
-                </span>
-              )}
-            </button>
-
-            {/* Add Custom Kanji Button */}
-            <button
+              type="button"
               onClick={onOpenAddModal}
-              className="flex items-center gap-1.5 px-3.5 py-2 text-sm font-medium rounded-lg text-white bg-red-600 hover:bg-red-700 transition-all shadow-md shadow-red-600/20 active:scale-95"
+              className="flex items-center gap-1.5 px-3.5 py-2 text-xs sm:text-sm font-semibold rounded-xl text-white bg-red-600 hover:bg-red-700 transition-all shadow-sm active:scale-95"
             >
-              <PlusCircle className="w-4 h-4" />
+              <Plus className="w-4 h-4" />
               <span>Thêm từ</span>
             </button>
           </div>
